@@ -10,7 +10,7 @@ We asked ChatGPT, Claude and Gemini for 10 "standout" project ideas for the spri
 | --- | --- |
 | `prompts.md` | Both prompts (neutral and novice) |
 | `brief.txt` | Sprint brief text pasted into every prompt (from the public sprint page) |
-| `responses/` | 14 raw model replies: 12 analysed, 2 marked `EXCLUDED` (see report, Appendix A.2). Author's first name redacted as `[NAME]` |
+| `<model>_<framing>_<run>.txt`| 14 raw model replies: 12 analysed, 2 marked `EXCLUDED` (see report, Appendix A.2). Author's first name redacted as `[NAME]` |
 | `ideas.csv` | 120 ideas: model, framing, run, title, one-line summary, novelty score, top pick |
 | `pool.csv` | 97 comparison projects: 18 sprint-brief examples (`S`), 70 AI Manipulation Hackathon entries (`M`), 9 AI for Epistemics hackathon projects (`E`) |
 | `matches.csv` | Top-3 TF-IDF candidates per idea |
