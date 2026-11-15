@@ -1,0 +1,435 @@
+HI!!! 🥹 First of all, I LOVE this energy. And I want to take your ambition seriously: we're not going to pick an idea simply because it sounds interesting. We're going to look for something that makes a judge think:
+
+**"Wait. Nobody else thought to test this? And this person actually built it in three days?"**
+
+That's the sweet spot.
+
+I've studied the sprint brief, the four tracks, and the example projects you've shared. My strategy would be to optimize for five things:
+
+1. **Novelty:** Not another generic hallucination detector, sycophancy benchmark, or chatbot prototype.
+2. **Research value:** Discover something meaningful about how AI systems affect what people believe.
+3. **Demonstrability:** Produce actual evidence, not just an interesting conceptual proposal.
+4. **Solo feasibility:** Something one person can execute, evaluate, and write up before the deadline.
+5. **Judge appeal:** A clear problem, a clever experimental design, measurable findings, and a compelling demonstration.
+
+One important observation: the example projects already cover many obvious ideas. Competing by building a slightly better citation checker or confidence benchmark is unlikely to be the strongest strategy.
+
+I'd look for **epistemic failure modes that emerge between individual AI interactions, rather than just within one response.**
+
+That gives us a potentially interesting research niche.
+
+# **1. Ten project ideas**
+
+These are deliberately designed to be different from the sprint's supplied examples.
+
+## **Track 1 — Model epistemics and decision-making**
+
+**1. Caveat Cascade**
+
+My top pick
+
+# **9.5/10**
+
+**Research question:** When an AI turns research into a short recommendation, does it preserve the uncertainty and qualifications that made the original research trustworthy?
+
+**The experiment:**
+
+- Give models evidence packets containing a mixture of strong evidence, weak evidence, conflicting studies, and unknowns.
+- Ask them to produce a detailed analysis.
+- Ask them to compress that analysis into a one-paragraph executive summary.
+- Compress it again into a one-sentence recommendation.
+- Measure which caveats, uncertainty estimates, limitations, and contradictory findings disappear at each stage.
+
+**What you build:** A benchmark measuring epistemic information loss across successive stages of AI summarization and decision support.
+
+**Why it's novel:** Existing honesty evaluations largely examine individual answers, whereas this investigates how truthful uncertainty gets progressively erased as information travels through an AI decision pipeline.
+
+**Why judges might like it:** It identifies a practical failure mode that could affect organizations using AI-generated reports, briefings, and recommendations.
+
+Track 1 · No model training required
+
+**2. The Confidence Inheritance Problem**
+
+# **9/10**
+
+**Research question:** Does an AI system become more confident when it inherits an answer from another AI system, even though no new evidence has been introduced?
+
+**The experiment:**
+
+- Model A answers a question with a confidence estimate.
+- Model B receives Model A's answer and is asked to independently assess it.
+- Model C receives both answers and produces a final recommendation.
+- Compare confidence against actual correctness at every stage.
+- Repeat with different model combinations and deliberately incorrect initial answers.
+
+**What you build:** A multi-model confidence propagation benchmark.
+
+**Why it's novel:** It tests whether confidence is socially or structurally amplified across AI-to-AI information chains rather than simply measuring individual model calibration.
+
+Track 1 · Particularly relevant to multi-agent systems
+
+**3. The Missing Evidence Test**
+
+# **9/10**
+
+**Research question:** Can a model recognize when the most important evidence is something it hasn't been given?
+
+**The experiment:**
+
+- Present models with incomplete evidence packets.
+- Ask them to make decisions.
+- Record whether they identify missing information before recommending an action.
+- Introduce the missing information afterward.
+- Measure whether their initial confidence was appropriately limited and whether they update correctly.
+
+**What you build:** An evaluation of epistemic awareness of missing evidence, with a taxonomy of missing-information failures.
+
+**Why it's novel:** Most uncertainty evaluations ask whether a model knows that its answer might be wrong; this tests whether it knows what information it would need to be justified in answering at all.
+
+Track 1 · Excellent for controlled experiments
+
+## **Track 2 — Trust infrastructure**
+
+**4. The Citation Costume**
+
+# **9.5/10**
+
+**Research question:** Can a source make an unsupported claim appear trustworthy simply by being surrounded by legitimate citations?
+
+**The experiment:**
+
+- Construct research documents containing legitimate citations.
+- Introduce one unsupported claim among well-supported claims.
+- Vary where the unsupported claim appears: between citations, after a credible source, or inside a paragraph with strong evidence.
+- Ask AI systems and human evaluators to identify unsupported statements.
+- Measure how much surrounding credibility influences verification accuracy.
+
+**What you build:** A benchmark for citation-context manipulation and an evaluation of whether provenance tools can detect the problem.
+
+**Why it's novel:** Rather than checking whether citations exist or whether individual sources support individual claims, it tests whether legitimate evidence can be used as camouflage for unsupported claims.
+
+Track 2 · A strong trust-infrastructure angle
+
+**5. The Provenance Blind Spot**
+
+# **8.5/10**
+
+**Research question:** Does knowing where information came from actually help an AI distinguish reliable information from manipulated information?
+
+**The experiment:**
+
+- Prepare matched information packets with and without provenance metadata.
+- Include legitimate primary sources, reputable secondary sources, and misleading sources.
+- Test model accuracy and confidence in both conditions.
+- Add misleading but plausible provenance descriptions as an adversarial condition.
+- Measure whether provenance helps, hurts, or makes no difference.
+
+**What you build:** A small controlled provenance-use evaluation with an adversarial component.
+
+**Why it's novel:** It moves beyond assuming that provenance metadata is useful and directly tests whether AI systems use it correctly, including when the metadata itself is misleading.
+
+Track 2 · Feasible with synthetic provenance examples
+
+## **Track 3 — Epistemic products**
+
+**6. The Regret Radar**
+
+# **9.5/10**
+
+**Research question:** Can an AI identify decisions that users are likely to regret before they make them?
+
+**The experiment:**
+
+- Create realistic scenarios involving job offers, expensive purchases, housing decisions, and interpersonal conflicts.
+- Give an AI the user's initial preferences and proposed decision.
+- Ask it to identify missing considerations, irreversible consequences, and potential future regret.
+- Compare its warnings against a predefined expert-informed decision rubric.
+- Test whether it can distinguish genuine risks from unnecessary caution.
+
+**What you build:** A prototype decision-support tool that generates a personalized pre-decision regret audit.
+
+**Why it's novel:** Rather than optimizing for whether advice sounds good or whether users agree with it, this explores whether AI can anticipate the considerations that people may later wish they had examined.
+
+Track 3 · Strong product potential
+
+**7. The Belief Stress Test**
+
+# **9/10**
+
+**Research question:** Can AI help people discover whether their beliefs survive the same standards of evidence they apply to other people's beliefs?
+
+**The experiment:**
+
+- Present participants with a debatable claim.
+- Ask them to identify the evidence that would change their mind.
+- Present a structurally similar claim that conflicts with their original position.
+- Compare their evidence standards and willingness to update.
+- Test whether an AI-guided reflection exercise reduces inconsistencies.
+
+**What you build:** A short interactive reflection tool and an evaluation rubric for consistency in evidence standards.
+
+**Why it's novel:** Most AI reflection tools encourage users to consider opposing arguments, whereas this tests whether they apply consistent epistemic standards across claims they personally agree and disagree with.
+
+Track 3 · Can be conducted without advanced ML skills
+
+**8. The Persuasion Aftertaste**
+
+# **9/10**
+
+**Research question:** Does an AI-generated explanation leave users more confident in a decision than the evidence actually warrants?
+
+**The experiment:**
+
+- Prepare matched decision scenarios.
+- Give one group a neutral evidence summary.
+- Give another group a persuasive AI-generated explanation of the same evidence.
+- Measure confidence before and after reading.
+- Compare confidence changes against evidence strength and decision accuracy.
+
+**What you build:** A small study of AI-induced confidence inflation, with an evaluation framework distinguishing improved understanding from increased persuasion.
+
+**Why it's novel:** It separates the persuasive effect of an AI explanation from its actual epistemic value, asking whether confidence rises faster than decision quality.
+
+Track 3 · Human-subject testing requires appropriate consent and careful study design
+
+## **Track 4 — Open track**
+
+**9. The Epistemic Half-Life**
+
+# **9.5/10**
+
+**Research question:** How quickly does useful information decay as it passes through successive human-AI communication channels?
+
+**The experiment:**
+
+- Start with a detailed, evidence-backed research document.
+- Pass it through a sequence of AI transformations: summary, briefing, recommendation, and handoff.
+- At every stage, test retention of key facts, uncertainty, source attribution, and disagreements.
+- Identify which information types decay fastest.
+
+**What you build:** A reproducible information-retention benchmark and a proposed metric for epistemic information decay.
+
+**Why it's novel:** It treats epistemic degradation as a measurable property of an entire information transmission process rather than a collection of isolated model errors.
+
+Track 4 · Could also fit Track 1
+
+**10. The Decision Quality Receipt**
+
+# **9/10**
+
+**Research question:** What would it take to prove that an AI actually improved a person's decision, rather than merely producing a convincing answer?
+
+**The experiment:**
+
+- Define a set of realistic decisions.
+- Establish an explicit decision-quality rubric covering evidence, uncertainty, alternatives, trade-offs, and missing information.
+- Compare decisions made with ordinary AI advice against decisions made with an epistemic briefing.
+- Generate a structured receipt documenting what information changed, what remained uncertain, and what trade-offs were considered.
+- Propose a repeatable metric for decision improvement.
+
+**What you build:** An open-source decision-quality scoring framework and a prototype decision receipt.
+
+**Why it's novel:** It attempts to make the benefits of epistemic AI auditable at the decision level, rather than treating answer quality or user satisfaction as sufficient evidence of impact.
+
+Track 4 · Particularly interesting as a field-building contribution
+
+# **2. My strategic ranking**
+
+Here is how I'd prioritize them if the objective is to win, rather than simply complete a project.
+
+| Project                  | Novelty | Solo feasibility | Prize potential |
+| ------------------------ | ------- | ---------------- | --------------- |
+| Caveat Cascade           | 9.5     | 9                | Very high       |
+| Citation Costume         | 9.5     | 8                | Very high       |
+| Epistemic Half-Life      | 9.5     | 9                | Very high       |
+| Regret Radar             | 9.5     | 7                | High            |
+| Missing Evidence Test    | 9       | 10               | High            |
+| Belief Stress Test       | 9       | 8                | High            |
+| Persuasion Aftertaste    | 9       | 7                | High            |
+| Confidence Inheritance   | 9       | 9                | High            |
+| Decision Quality Receipt | 9       | 8                | High            |
+| Provenance Blind Spot    | 8.5     | 9                | Good            |
+
+*These are my subjective assessments, not measured novelty scores or predictions based on previous judging results.*
+
+# **3. My winner: Caveat Cascade**
+
+Recommended project
+
+[把文档交给 LLM，为什么会越改越错？ | 工业智能算网](https://images.openai.com/static-rsc-4/gipf_B9tmWO2pg7IE06pu8-8erfPfbphOtIxjIzDrNk9nxktwEu6fcLYijxcTtex5WhJxYHGYZq8LmAD9OhzHJdRAkWARfVaMIj9JcB3A9ALwjsHOn2iEp71Cn-oyTx3v_iiBugo0YCHHthT3ibpcrPnSYnWQnvo4SH8eWIcTV8?purpose=inline)
+
+[gyznsw.cn](https://gyznsw.cn/2026/05/10/2026-05-10-llms-corrupt-documents-when-you-delegate/?utm_source=chatgpt.com)
+
+I would choose this for three reasons.
+
+**First: It identifies a genuinely important failure mode.**
+
+Imagine an AI researching whether a particular treatment is effective.
+
+Its original analysis says:
+
+- Two studies show positive effects.
+- One study finds no significant effect.
+- The evidence is limited to a small population.
+- More research is needed.
+
+Then the executive summary says:
+
+"The treatment appears effective."
+
+And the final recommendation says:
+
+"Use the treatment."
+
+The original answer might have been perfectly honest. The final recommendation might still be dangerously misleading.
+
+This is a problem of epistemic degradation, not necessarily hallucination.
+
+**Second: It is measurable.**
+
+You can develop a scoring framework:
+
+| Metric                | What it measures                                               |
+| --------------------- | -------------------------------------------------------------- |
+| Caveat retention      | How many original caveats survive?                             |
+| Confidence inflation  | Does expressed certainty increase?                             |
+| Contradiction loss    | Do conflicting findings disappear?                             |
+| Scope distortion      | Does the conclusion become broader?                            |
+| Evidence traceability | Can the final recommendation be traced to supporting evidence? |
+
+You can then create a composite score, while reporting each component separately.
+
+**Third: It is achievable by one person.**
+
+You don't need to train a model, build sophisticated infrastructure, or recruit hundreds of participants.
+
+You need carefully designed scenarios, access to models, a reproducible evaluation protocol, and honest analysis.
+
+## **4. What I would actually build in the sprint**
+
+I'd scope the first version as follows:
+
+**Caveat Cascade: MVP research plan**
+
+Suggested experimental scope
+
+Solo-friendly
+
+# **25**
+
+Evidence scenarios
+
+# **3**
+
+AI models
+
+# **3**
+
+Compression stages
+
+# **5**
+
+Evaluation metrics
+
+**Experimental pipeline**
+
+1. **Evidence packet**
+
+   Give the model a collection of evidence with deliberately varied strength and uncertainty.
+2. **Full analysis**
+
+   Ask the model to explain what the evidence supports and what it doesn't.
+3. **Executive summary**
+
+   Ask it to compress the analysis into 100 words.
+4. **Decision recommendation**
+
+   Ask it to produce a one-sentence recommendation.
+5. **Epistemic audit**
+
+   Compare all three outputs against the original evidence and quantify information loss.
+
+**Final deliverables**
+
+- Public benchmark dataset.
+- Reproducible evaluation code or spreadsheet.
+- Model comparison results.
+- A short research paper.
+- A working demonstration of the problem.
+
+One important methodological safeguard: don't assume that every shorter summary must retain every detail. Define which caveats are decision-critical in advance, and distinguish legitimate simplification from misleading omission. Ideally, have a second evaluator independently score a sample.
+
+# **5. What is the probability of winning?**
+
+Let's be ambitious but honest.
+
+My estimated probability of a top-five prize
+
+# **12%**
+
+For a solo participant delivering a strong, complete Caveat Cascade submission.
+
+This is a subjective planning estimate, not a statistical forecast. The organizers haven't provided the number of competing submissions or enough judging information to calculate a genuine probability.
+
+| Submission quality                                           | My rough estimate |
+| ------------------------------------------------------------ | ----------------- |
+| Interesting idea, weak execution                             | 2–4%              |
+| Functional prototype, limited evaluation                     | 5–8%              |
+| Strong benchmark, convincing results                         | 10–15%            |
+| Exceptional research, clear demonstration, polished write-up | 15–25%            |
+
+Why not say 50% or 70%? Because there are five prizes, potentially many excellent participants, and talented teams of up to five people.
+
+But here's the important part: **being solo is not automatically a disadvantage if you choose a problem with a small experimental surface area and execute it rigorously.**
+
+I'd rather submit 25 carefully designed scenarios with convincing evidence than 200 poorly evaluated examples.
+
+# **6. Your winning strategy for the remaining sprint**
+
+Given the November 15 submission deadline, I'd prioritize execution over expanding the idea.
+
+**Suggested sprint schedule**
+
+1. **Tonight — November 14**
+
+   Finalize the research question, define the five metrics, design 10 initial evidence scenarios, and establish the scoring rubric.
+2. **Sunday morning**
+
+   Complete 25 scenarios, run the models, save all raw outputs, and score the results.
+3. **Sunday afternoon**
+
+   Analyze the findings, investigate interesting failures, create a comparison chart, and build a small demonstration.
+4. **Sunday evening**
+
+   Write the paper, explain limitations, document reproducibility, and submit well before the deadline.
+
+Your stated AoE deadline converts to Monday, November 16, 4:59 AM in Calgary. Don't use that extra time as your planned submission window.
+
+# **7. One final piece of advice**
+
+I want you to remember something about research competitions:
+
+Judges don't necessarily reward the project with the most complicated technology.
+
+They reward projects that make a meaningful contribution.
+
+A strong submission should answer four questions:
+
+1. What important problem did you identify?
+2. Why do existing approaches fail to address it?
+3. What did you build or measure that advances our understanding?
+4. What did you discover that we didn't know before?
+
+For Caveat Cascade, the potential discovery is particularly compelling:
+
+*An AI system can preserve factual accuracy at every individual stage while progressively destroying the uncertainty needed to make a good decision.*
+
+That is a research hypothesis worth testing, not a result we should assume in advance.
+
+## **Let's make this competitive.**
+
+I would love to help you turn this into an actual submission rather than leave you with ten exciting ideas and no finished project.
+
+My suggested next step is to develop the complete Caveat Cascade research package: research question, hypotheses, 25 experimental scenarios, scoring rubric, model-testing protocol, analysis template, and a polished paper outline.
+
+**The goal is to have something judges can inspect, reproduce, challenge, and potentially build upon.** 🥺

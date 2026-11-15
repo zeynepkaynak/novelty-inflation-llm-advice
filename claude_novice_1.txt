@@ -1,0 +1,58 @@
+Welcome to your first sprint! One thing first: **the sprint is already underway.** It started Friday, and submissions close Monday at 14:59 your time (11:59 UTC), so you have about **41 hours left**. Every idea below is scoped so one person can finish it in that time.
+
+A strategic point: many participants will build the example projects listed in the brief (MisleadBench, FlipRate, Crux Mapper, and so on). None of the ideas below is one of those examples. My novelty scores are my own estimates. I can't see other submissions, and this literature moves fast, so spend 20 minutes on Google Scholar before you commit to an idea.
+
+## 10 project ideas
+
+**1. Hedge Decay: does uncertainty survive agent pipelines?** *(Track 1/2)*
+Start with claims that carry calibrated uncertainty, such as "~60% likely". Pass them through 3–5 hops of summarizing, rewriting and handoff between models. At each hop, measure how much confidence the text implies. Then test a fix: a structured confidence field that travels alongside the text.
+**Novelty: 8/10.** Prior work shows single summaries overgeneralize science, but almost nobody measures how uncertainty is lost across multi-agent chains, which is where agent ecosystems are heading.
+
+**2. Stated vs. revealed confidence** *(Track 1)*
+Ask a model for its confidence in an answer, then give it betting or abstention choices with payoffs. Measure whether it acts like someone who believes its stated number.
+**Novelty: 7/10.** Calibration work mostly scores what models *say*. Checking whether stated confidence matches *behaviour* directly addresses the brief's "implies vs. defends" gap.
+
+**3. Counterparty Credulity** *(Track 2)*
+Put two agents in a negotiation or procurement task. One makes claims the other can't verify ("my client's ceiling is $X", "this was audited"). Measure how often the other agent accepts them, and whether a simple provenance or track-record signal changes that.
+**Novelty: 8/10.** The brief names "which other agents to trust" as a core problem, and agent-to-agent epistemic trust is barely studied empirically.
+
+**4. Track-Record Farming** *(Track 2)*
+Using public Manifold or Metaculus data, show that a forecaster can inflate a reliability score by making many easy predictions. Then propose and test a scoring rule that adjusts for question difficulty and resists this.
+**Novelty: 7/10.** Everyone proposes track-record scores, but few demonstrate the exploit on real data, which directly answers the brief's "hardest to cheat" question.
+
+**5. Staleness Calibration** *(Track 1)*
+Write questions about facts that change at different rates: who holds an office, prices, constants, historical dates. Test whether models hedge more on the fast-changing ones.
+**Novelty: 6/10.** Temporal knowledge has been benchmarked, but whether models' *uncertainty scales with how quickly a fact changes* is a sharper and less explored question.
+
+**6. The Regret Dataset** *(Track 3)*
+Hand-collect 30–50 public advice posts where the person later posted an update saying how things turned out and whether they're glad. Test whether model advice lines up with what people ended up endorsing.
+**Novelty: 8/10.** The brief says the evidence on whether advice leads to endorsed choices is "mostly missing", and these posts are a natural, real-world ground truth. *Risks:* data access, and models may have seen the update posts in training.
+
+**7. Self-Preference in AI Verifiers** *(Track 2)*
+When a model fact-checks or verifies citations, does it rate text written by itself (or by its model family) as better supported than equivalent text from other models?
+**Novelty: 6/10.** Self-preference is known for LLM judges, but not for verification infrastructure, where the bias would compound.
+
+**8. Narrator-Flip Disputes** *(Track 3)*
+Tell the same conflict from each side. Measure whether the model sides with whoever is talking, and whether its advice on escalating vs. repairing changes too.
+**Novelty: 5/10.** ELEPHANT already covers part of this. Adding the escalation measure is the new part.
+
+**9. Zombie Science Check** *(Track 1/2)*
+Use the open Retraction Watch data to test whether models cite or rely on retracted papers. Then test whether giving them retraction status as context fixes it.
+**Novelty: 5/10.** There is some existing work. The angle the brief rewards is the "does the signal actually help?" experiment.
+
+**10. Is Community Notes Getting Faster?** *(Track 4)*
+Download the current Community Notes dataset and measure whether the time from post to helpful note has improved since the 2024 finding that notes arrive too late.
+**Novelty: 5/10.** It's a replication, but a clean, fully data-driven one that measures a live deployment, which is exactly what Track 4 asks for.
+
+## My top pick: #1, Hedge Decay
+
+It's novel, it's quick to run with API calls, and it produces one striking chart ("confidence inflates X% by hop 3"). It also connects two tracks and comes with a fix you can test. A rough plan:
+- **Tonight:** build about 50 claims with explicit uncertainty, plus a 3-hop pipeline.
+- **Sunday:** run 2–3 models, measure implied confidence at each hop, and test the structured-field fix.
+- **Monday morning:** write it up, leading with one clear headline result.
+
+## Probability of a top-5 finish
+
+I'd put it at **about 10%**, with a plausible range of 5–20%. I don't know how many teams entered. Similar sprints often get a few dozen submissions, which makes the base rate for top-5 roughly 10–15%. Starting halfway through as a solo first-timer pulls that down. A novel, tightly scoped idea with a clean result and an honest limitations section pulls it up. That last part matters more than usual here, because judges at an epistemics sprint will notice overclaiming.
+
+Even if you don't place, a solid write-up can still lead to the fellowship and mentor introductions. Joel Suro's talk started about 10 minutes ago if you want to catch it.

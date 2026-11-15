@@ -1,0 +1,361 @@
+model,framing,run,idea_no,title,rank,pool_id,pool_title,tfidf_similarity
+chatgpt,neutral,1,1,Epistemic Stress Test,1,M01,Who Does Your AI Serve,0.048
+chatgpt,neutral,1,1,Epistemic Stress Test,2,E04,Detecting Fraudulent Research,0.043
+chatgpt,neutral,1,1,Epistemic Stress Test,3,M07,Manipulation tendencies in PR statements,0.039
+chatgpt,neutral,1,2,Confidence Half-Life,1,S02,Confidence Audit,0.11
+chatgpt,neutral,1,2,Confidence Half-Life,2,S03,FlipRate,0.031
+chatgpt,neutral,1,2,Confidence Half-Life,3,S06,Track-Record Ledger,0.025
+chatgpt,neutral,1,3,Evidence Debt Detector,1,S09,Provenance Study,0.066
+chatgpt,neutral,1,3,Evidence Debt Detector,2,M33,RiskLab,0.049
+chatgpt,neutral,1,3,Evidence Debt Detector,3,S16,Procurement Gap Report,0.046
+chatgpt,neutral,1,4,AI Regret Predictor,1,S18,Wish registry,0.058
+chatgpt,neutral,1,4,AI Regret Predictor,2,M08,Sycophancy in AI Health Advice,0.054
+chatgpt,neutral,1,4,AI Regret Predictor,3,M16,Emergent Deception in Negotiations,0.036
+chatgpt,neutral,1,5,Consensus Illusion Detector,1,S14,Fast facilitation for communities,0.073
+chatgpt,neutral,1,5,Consensus Illusion Detector,2,S12,Crux Mapper,0.051
+chatgpt,neutral,1,5,Consensus Illusion Detector,3,E05,Artificial Collective Intelligence,0.034
+chatgpt,neutral,1,6,Source Contagion Experiment,1,S09,Provenance Study,0.198
+chatgpt,neutral,1,6,Source Contagion Experiment,2,S08,Citation Binder,0.048
+chatgpt,neutral,1,6,Source Contagion Experiment,3,S06,Track-Record Ledger,0.025
+chatgpt,neutral,1,7,Epistemic Dark Pattern Detector,1,M59,D-GAMM,0.062
+chatgpt,neutral,1,7,Epistemic Dark Pattern Detector,2,M23,DEEB-learn,0.059
+chatgpt,neutral,1,7,Epistemic Dark Pattern Detector,3,M48,Dark Drift,0.039
+chatgpt,neutral,1,8,Prediction Accountability Machine,1,S07,Tamper-Evident Action Recorder,0.111
+chatgpt,neutral,1,8,Prediction Accountability Machine,2,S02,Confidence Audit,0.071
+chatgpt,neutral,1,8,Prediction Accountability Machine,3,S06,Track-Record Ledger,0.065
+chatgpt,neutral,1,9,Epistemic Inequality Index,1,M25,Playing Dumb,0.061
+chatgpt,neutral,1,9,Epistemic Inequality Index,2,E08,Non-sycophantic GPT-4.5 system prompt,0.041
+chatgpt,neutral,1,9,Epistemic Inequality Index,3,M51,CommitCheck,0.032
+chatgpt,neutral,1,10,Decision Autopsy,1,M08,Sycophancy in AI Health Advice,0.063
+chatgpt,neutral,1,10,Decision Autopsy,2,S15,QALY for epistemics,0.056
+chatgpt,neutral,1,10,Decision Autopsy,3,M06,AI Chat Analyzer,0.04
+chatgpt,neutral,2,1,Confidence Laundering Detector,1,S06,Track-Record Ledger,0.042
+chatgpt,neutral,2,1,Confidence Laundering Detector,2,S03,FlipRate,0.036
+chatgpt,neutral,2,1,Confidence Laundering Detector,3,S02,Confidence Audit,0.035
+chatgpt,neutral,2,2,Epistemic Expiration Date,1,M47,Universal Expert Registry,0.07
+chatgpt,neutral,2,2,Epistemic Expiration Date,2,S18,Wish registry,0.038
+chatgpt,neutral,2,2,Epistemic Expiration Date,3,S14,Fast facilitation for communities,0.037
+chatgpt,neutral,2,3,Counterfactual Advice Auditor,1,S03,FlipRate,0.115
+chatgpt,neutral,2,3,Counterfactual Advice Auditor,2,M57,Parasocial intimacy manipulation,0.054
+chatgpt,neutral,2,3,Counterfactual Advice Auditor,3,M08,Sycophancy in AI Health Advice,0.043
+chatgpt,neutral,2,4,Evidence Escape Room,1,M20,VeilBench,0.027
+chatgpt,neutral,2,4,Evidence Escape Room,2,M59,D-GAMM,0.025
+chatgpt,neutral,2,4,Evidence Escape Room,3,M23,DEEB-learn,0.025
+chatgpt,neutral,2,5,Belief Reversibility Test,1,S03,FlipRate,0.043
+chatgpt,neutral,2,5,Belief Reversibility Test,2,S02,Confidence Audit,0.043
+chatgpt,neutral,2,5,Belief Reversibility Test,3,M32,Adversarial MCTS for CoT manipulation,0.025
+chatgpt,neutral,2,6,Invisible Assumption Scanner,1,M08,Sycophancy in AI Health Advice,0.057
+chatgpt,neutral,2,6,Invisible Assumption Scanner,2,S03,FlipRate,0.035
+chatgpt,neutral,2,6,Invisible Assumption Scanner,3,M36,Persuasive Power of Personas,0.034
+chatgpt,neutral,2,7,Epistemic Echo Chamber Simulator,1,M19,AI Swarms Manipulation,0.093
+chatgpt,neutral,2,7,Epistemic Echo Chamber Simulator,2,M46,WHISPERS,0.081
+chatgpt,neutral,2,7,Epistemic Echo Chamber Simulator,3,M14,AgentRedline,0.08
+chatgpt,neutral,2,8,Decision Regret Observatory,1,M08,Sycophancy in AI Health Advice,0.056
+chatgpt,neutral,2,8,Decision Regret Observatory,2,S09,Provenance Study,0.048
+chatgpt,neutral,2,8,Decision Regret Observatory,3,M67,Effectiveness vs Legislative Practicality of AI Safety Frameworks,0.046
+chatgpt,neutral,2,9,Source Independence Detector,1,S08,Citation Binder,0.087
+chatgpt,neutral,2,9,Source Independence Detector,2,S16,Procurement Gap Report,0.04
+chatgpt,neutral,2,9,Source Independence Detector,3,E07,Double-cruxes in NYT The Conversation,0.0
+chatgpt,neutral,2,10,Epistemic Fire Drill,1,S09,Provenance Study,0.059
+chatgpt,neutral,2,10,Epistemic Fire Drill,2,M25,Playing Dumb,0.044
+chatgpt,neutral,2,10,Epistemic Fire Drill,3,M64,Mapping Escalation,0.043
+chatgpt,novice,1,1,Confidence-Action Consistency Gap,1,M51,CommitCheck,0.112
+chatgpt,novice,1,1,Confidence-Action Consistency Gap,2,S01,MisleadBench,0.079
+chatgpt,novice,1,1,Confidence-Action Consistency Gap,3,M69,SEED Framework,0.065
+chatgpt,novice,1,2,Confidence Decay Experiment,1,S03,FlipRate,0.064
+chatgpt,novice,1,2,Confidence Decay Experiment,2,S02,Confidence Audit,0.058
+chatgpt,novice,1,2,Confidence Decay Experiment,3,M30,The Alignment Gap medical sycophancy,0.044
+chatgpt,novice,1,3,Verification Budget Challenge,1,M01,Who Does Your AI Serve,0.04
+chatgpt,novice,1,3,Verification Budget Challenge,2,S02,Confidence Audit,0.04
+chatgpt,novice,1,3,Verification Budget Challenge,3,M32,Adversarial MCTS for CoT manipulation,0.024
+chatgpt,novice,1,4,Source Reputation Laundering,1,S08,Citation Binder,0.054
+chatgpt,novice,1,4,Source Reputation Laundering,2,M62,Reputation Hacking,0.04
+chatgpt,novice,1,4,Source Reputation Laundering,3,S09,Provenance Study,0.022
+chatgpt,novice,1,5,Provenance Blindness Test,1,S09,Provenance Study,0.176
+chatgpt,novice,1,5,Provenance Blindness Test,2,M62,Reputation Hacking,0.039
+chatgpt,novice,1,5,Provenance Blindness Test,3,M51,CommitCheck,0.035
+chatgpt,novice,1,6,Citation Chain Fragility Map,1,M12,ThoughtGuards,0.047
+chatgpt,novice,1,6,Citation Chain Fragility Map,2,S16,Procurement Gap Report,0.042
+chatgpt,novice,1,6,Citation Chain Fragility Map,3,M58,Hallucination Heatmap,0.035
+chatgpt,novice,1,7,Future-Self Approval Test,1,M08,Sycophancy in AI Health Advice,0.048
+chatgpt,novice,1,7,Future-Self Approval Test,2,S09,Provenance Study,0.041
+chatgpt,novice,1,7,Future-Self Approval Test,3,M67,Effectiveness vs Legislative Practicality of AI Safety Frameworks,0.039
+chatgpt,novice,1,8,Question Before the Answer,1,M08,Sycophancy in AI Health Advice,0.075
+chatgpt,novice,1,8,Question Before the Answer,2,M25,Playing Dumb,0.063
+chatgpt,novice,1,8,Question Before the Answer,3,M16,Emergent Deception in Negotiations,0.042
+chatgpt,novice,1,9,Invisible Adoption Barrier,1,S16,Procurement Gap Report,0.11
+chatgpt,novice,1,9,Invisible Adoption Barrier,2,S09,Provenance Study,0.036
+chatgpt,novice,1,9,Invisible Adoption Barrier,3,M29,AI-Enabled Voter Suppression,0.034
+chatgpt,novice,1,10,Consensus Illusion Detector,1,S12,Crux Mapper,0.1
+chatgpt,novice,1,10,Consensus Illusion Detector,2,M45,HatCat concept-based interpretability,0.055
+chatgpt,novice,1,10,Consensus Illusion Detector,3,E08,Non-sycophantic GPT-4.5 system prompt,0.043
+chatgpt,novice,2,1,Caveat Cascade,1,M26,Curvature-aware sycophancy reduction,0.043
+chatgpt,novice,2,1,Caveat Cascade,2,M18,Sandbagging Detection via Static Analysis,0.043
+chatgpt,novice,2,1,Caveat Cascade,3,S04,Epistemic virtue eval suite,0.019
+chatgpt,novice,2,2,Confidence Inheritance Problem,1,S02,Confidence Audit,0.082
+chatgpt,novice,2,2,Confidence Inheritance Problem,2,M63,Think Right Answer Wrong,0.038
+chatgpt,novice,2,2,Confidence Inheritance Problem,3,S03,FlipRate,0.037
+chatgpt,novice,2,3,Missing Evidence Test,1,M51,CommitCheck,0.045
+chatgpt,novice,2,3,Missing Evidence Test,2,M69,SEED Framework,0.043
+chatgpt,novice,2,3,Missing Evidence Test,3,S07,Tamper-Evident Action Recorder,0.031
+chatgpt,novice,2,4,Citation Costume,1,S08,Citation Binder,0.06
+chatgpt,novice,2,4,Citation Costume,2,M06,AI Chat Analyzer,0.048
+chatgpt,novice,2,4,Citation Costume,3,M14,AgentRedline,0.023
+chatgpt,novice,2,5,Provenance Blind Spot,1,S09,Provenance Study,0.109
+chatgpt,novice,2,5,Provenance Blind Spot,2,M07,Manipulation tendencies in PR statements,0.031
+chatgpt,novice,2,5,Provenance Blind Spot,3,M02,Eliciting Deception on Generative Search Engines,0.028
+chatgpt,novice,2,6,Regret Radar,1,M42,Manipulation Radar,0.109
+chatgpt,novice,2,6,Regret Radar,2,M30,The Alignment Gap medical sycophancy,0.046
+chatgpt,novice,2,6,Regret Radar,3,M06,AI Chat Analyzer,0.04
+chatgpt,novice,2,7,Belief Stress Test,1,M12,ThoughtGuards,0.03
+chatgpt,novice,2,7,Belief Stress Test,2,M51,CommitCheck,0.029
+chatgpt,novice,2,7,Belief Stress Test,3,M06,AI Chat Analyzer,0.023
+chatgpt,novice,2,8,Persuasion Aftertaste,1,M17,Adversarial Dialectics,0.062
+chatgpt,novice,2,8,Persuasion Aftertaste,2,M36,Persuasive Power of Personas,0.061
+chatgpt,novice,2,8,Persuasion Aftertaste,3,M46,WHISPERS,0.055
+chatgpt,novice,2,9,Epistemic Half-Life,1,S04,Epistemic virtue eval suite,0.035
+chatgpt,novice,2,9,Epistemic Half-Life,2,M14,AgentRedline,0.022
+chatgpt,novice,2,9,Epistemic Half-Life,3,M29,AI-Enabled Voter Suppression,0.016
+chatgpt,novice,2,10,Decision Quality Receipt,1,S15,QALY for epistemics,0.144
+chatgpt,novice,2,10,Decision Quality Receipt,2,S11,Decision-Brief Rubric,0.06
+chatgpt,novice,2,10,Decision Quality Receipt,3,E09,Squaretable,0.051
+claude,neutral,1,1,Coding agents self-report audit,1,M32,Adversarial MCTS for CoT manipulation,0.066
+claude,neutral,1,1,Coding agents self-report audit,2,S02,Confidence Audit,0.045
+claude,neutral,1,1,Coding agents self-report audit,3,M11,Social Sycophancy via Self-Play,0.044
+claude,neutral,1,2,Hedge decay in agent pipelines,1,M43,Emergent Strategic Behavior in Multi-Agent LLM,0.057
+claude,neutral,1,2,Hedge decay in agent pipelines,2,S13,Scenario planning on tap,0.047
+claude,neutral,1,2,Hedge decay in agent pipelines,3,M46,WHISPERS,0.043
+claude,neutral,1,3,Hedge-word exchange rate,1,M28,Language as a Manipulation Vector,0.043
+claude,neutral,1,3,Hedge-word exchange rate,2,S17,Do their numbers match,0.037
+claude,neutral,1,3,Hedge-word exchange rate,3,M06,AI Chat Analyzer,0.033
+claude,neutral,1,4,Counterfactual sensitivity of recommendations,1,S02,Confidence Audit,0.059
+claude,neutral,1,4,Counterfactual sensitivity of recommendations,2,M08,Sycophancy in AI Health Advice,0.037
+claude,neutral,1,4,Counterfactual sensitivity of recommendations,3,M02,Eliciting Deception on Generative Search Engines,0.03
+claude,neutral,1,5,Grok in Community Notes data,1,M19,AI Swarms Manipulation,0.066
+claude,neutral,1,5,Grok in Community Notes data,2,M30,The Alignment Gap medical sycophancy,0.058
+claude,neutral,1,5,Grok in Community Notes data,3,S03,FlipRate,0.043
+claude,neutral,1,6,Gaming the track-record ledger,1,S06,Track-Record Ledger,0.159
+claude,neutral,1,6,Gaming the track-record ledger,2,M43,Emergent Strategic Behavior in Multi-Agent LLM,0.039
+claude,neutral,1,6,Gaming the track-record ledger,3,S01,MisleadBench,0.035
+claude,neutral,1,7,Trust signals as an attack surface,1,S09,Provenance Study,0.081
+claude,neutral,1,7,Trust signals as an attack surface,2,M62,Reputation Hacking,0.036
+claude,neutral,1,7,Trust signals as an attack surface,3,M12,ThoughtGuards,0.021
+claude,neutral,1,8,Escalation in the drafted reply,1,S10,Dispute Escalation Benchmark,0.078
+claude,neutral,1,8,Escalation in the drafted reply,2,M64,Mapping Escalation,0.056
+claude,neutral,1,8,Escalation in the drafted reply,3,M42,Manipulation Radar,0.045
+claude,neutral,1,9,Epistemic tools graveyard,1,S16,Procurement Gap Report,0.054
+claude,neutral,1,9,Epistemic tools graveyard,2,M29,AI-Enabled Voter Suppression,0.047
+claude,neutral,1,9,Epistemic tools graveyard,3,E01,Question Generator,0.038
+claude,neutral,1,10,Benchmark vs real-world format calibration,1,M41,Mind the Gap,0.188
+claude,neutral,1,10,Benchmark vs real-world format calibration,2,M67,Effectiveness vs Legislative Practicality of AI Safety Frameworks,0.04
+claude,neutral,1,10,Benchmark vs real-world format calibration,3,M28,Language as a Manipulation Vector,0.036
+claude,neutral,2,1,Uncertainty Telephone,1,M48,Dark Drift,0.128
+claude,neutral,2,1,Uncertainty Telephone,2,M07,Manipulation tendencies in PR statements,0.059
+claude,neutral,2,1,Uncertainty Telephone,3,S14,Fast facilitation for communities,0.036
+claude,neutral,2,2,Credibility Cue Hacking,1,M62,Reputation Hacking,0.046
+claude,neutral,2,2,Credibility Cue Hacking,2,E01,Question Generator,0.044
+claude,neutral,2,2,Credibility Cue Hacking,3,S09,Provenance Study,0.043
+claude,neutral,2,3,Hindsight Advice Audit,1,S02,Confidence Audit,0.087
+claude,neutral,2,3,Hindsight Advice Audit,2,M08,Sycophancy in AI Health Advice,0.078
+claude,neutral,2,3,Hindsight Advice Audit,3,M45,HatCat concept-based interpretability,0.023
+claude,neutral,2,4,Hansard Calibration,1,M49,The Devil's Tongue,0.048
+claude,neutral,2,4,Hansard Calibration,2,E07,Double-cruxes in NYT The Conversation,0.038
+claude,neutral,2,4,Hansard Calibration,3,S04,Epistemic virtue eval suite,0.036
+claude,neutral,2,5,Staleness Calibration,1,S14,Fast facilitation for communities,0.046
+claude,neutral,2,5,Staleness Calibration,2,S04,Epistemic virtue eval suite,0.039
+claude,neutral,2,5,Staleness Calibration,3,M40,SandWatch,0.021
+claude,neutral,2,6,Sybil Stress-Test for Bridging,1,M18,Sandbagging Detection via Static Analysis,0.045
+claude,neutral,2,6,Sybil Stress-Test for Bridging,2,M19,AI Swarms Manipulation,0.033
+claude,neutral,2,6,Sybil Stress-Test for Bridging,3,M30,The Alignment Gap medical sycophancy,0.032
+claude,neutral,2,7,Paywall Skew,1,M56,TweetTracker,0.052
+claude,neutral,2,7,Paywall Skew,2,S03,FlipRate,0.046
+claude,neutral,2,7,Paywall Skew,3,M32,Adversarial MCTS for CoT manipulation,0.035
+claude,neutral,2,8,Ownership Bias,1,M20,VeilBench,0.053
+claude,neutral,2,8,Ownership Bias,2,M69,SEED Framework,0.049
+claude,neutral,2,8,Ownership Bias,3,M42,Manipulation Radar,0.037
+claude,neutral,2,9,Audience-Dependent Confidence,1,S03,FlipRate,0.115
+claude,neutral,2,9,Audience-Dependent Confidence,2,S02,Confidence Audit,0.058
+claude,neutral,2,9,Audience-Dependent Confidence,3,M23,DEEB-learn,0.053
+claude,neutral,2,10,Retraction Blindness,1,E04,Detecting Fraudulent Research,0.113
+claude,neutral,2,10,Retraction Blindness,2,M32,Adversarial MCTS for CoT manipulation,0.064
+claude,neutral,2,10,Retraction Blindness,3,M02,Eliciting Deception on Generative Search Engines,0.033
+claude,novice,1,1,Hedge Decay,1,S02,Confidence Audit,0.049
+claude,novice,1,1,Hedge Decay,2,S03,FlipRate,0.041
+claude,novice,1,1,Hedge Decay,3,M46,WHISPERS,0.02
+claude,novice,1,2,Stated vs revealed confidence,1,S03,FlipRate,0.125
+claude,novice,1,2,Stated vs revealed confidence,2,S02,Confidence Audit,0.06
+claude,novice,1,2,Stated vs revealed confidence,3,M51,CommitCheck,0.024
+claude,novice,1,3,Counterparty Credulity,1,S09,Provenance Study,0.078
+claude,novice,1,3,Counterparty Credulity,2,S03,FlipRate,0.051
+claude,novice,1,3,Counterparty Credulity,3,M12,ThoughtGuards,0.028
+claude,novice,1,4,Track-Record Farming,1,S06,Track-Record Ledger,0.107
+claude,novice,1,4,Track-Record Farming,2,M26,Curvature-aware sycophancy reduction,0.032
+claude,novice,1,4,Track-Record Farming,3,E06,Thought Logger and Cyborg Extension,0.03
+claude,novice,1,5,Staleness Calibration,1,M23,DEEB-learn,0.067
+claude,novice,1,5,Staleness Calibration,2,M21,Deception Scales,0.055
+claude,novice,1,5,Staleness Calibration,3,S04,Epistemic virtue eval suite,0.05
+claude,novice,1,6,The Regret Dataset,1,M08,Sycophancy in AI Health Advice,0.067
+claude,novice,1,6,The Regret Dataset,2,M36,Persuasive Power of Personas,0.053
+claude,novice,1,6,The Regret Dataset,3,S02,Confidence Audit,0.045
+claude,novice,1,7,Self-Preference in AI Verifiers,1,E02,Symphronesis,0.058
+claude,novice,1,7,Self-Preference in AI Verifiers,2,M32,Adversarial MCTS for CoT manipulation,0.033
+claude,novice,1,7,Self-Preference in AI Verifiers,3,M11,Social Sycophancy via Self-Play,0.033
+claude,novice,1,8,Narrator-Flip Disputes,1,E02,Symphronesis,0.05
+claude,novice,1,8,Narrator-Flip Disputes,2,M30,The Alignment Gap medical sycophancy,0.037
+claude,novice,1,8,Narrator-Flip Disputes,3,E08,Non-sycophantic GPT-4.5 system prompt,0.02
+claude,novice,1,9,Zombie Science Check,1,E04,Detecting Fraudulent Research,0.093
+claude,novice,1,9,Zombie Science Check,2,M37,Adversarial Prompts in Business Context,0.04
+claude,novice,1,9,Zombie Science Check,3,S02,Confidence Audit,0.029
+claude,novice,1,10,Is Community Notes Getting Faster,1,E02,Symphronesis,0.051
+claude,novice,1,10,Is Community Notes Getting Faster,2,M05,SycophantSee,0.039
+claude,novice,1,10,Is Community Notes Getting Faster,3,M54,Adversarial Span Annotation for Sycophancy,0.037
+claude,novice,2,1,Already-Decided Bias,1,M22,NeuroGuard Authority Bias Benchmark,0.033
+claude,novice,2,1,Already-Decided Bias,2,M51,CommitCheck,0.033
+claude,novice,2,1,Already-Decided Bias,3,M01,Who Does Your AI Serve,0.033
+claude,novice,2,2,Backstage Doubt,1,M65,CoT Manipulation Monitor,0.192
+claude,novice,2,2,Backstage Doubt,2,M30,The Alignment Gap medical sycophancy,0.043
+claude,novice,2,2,Backstage Doubt,3,S03,FlipRate,0.03
+claude,novice,2,3,Hedge Erosion,1,S04,Epistemic virtue eval suite,0.052
+claude,novice,2,3,Hedge Erosion,2,M26,Curvature-aware sycophancy reduction,0.043
+claude,novice,2,3,Hedge Erosion,3,M13,Conditional Alignment at Zero Capability Cost,0.038
+claude,novice,2,4,Bet On It,1,S02,Confidence Audit,0.054
+claude,novice,2,4,Bet On It,2,S17,Do their numbers match,0.051
+claude,novice,2,4,Bet On It,3,S03,FlipRate,0.038
+claude,novice,2,5,Zombie Findings,1,E04,Detecting Fraudulent Research,0.086
+claude,novice,2,5,Zombie Findings,2,M36,Persuasive Power of Personas,0.021
+claude,novice,2,5,Zombie Findings,3,M40,SandWatch,0.019
+claude,novice,2,6,Lost in Translation,1,S04,Epistemic virtue eval suite,0.059
+claude,novice,2,6,Lost in Translation,2,M28,Language as a Manipulation Vector,0.047
+claude,novice,2,6,Lost in Translation,3,M03,Cross-Linguistic Sycophancy in Frontier LLMs,0.044
+claude,novice,2,7,Bot Notes vs Human Notes,1,M06,AI Chat Analyzer,0.059
+claude,novice,2,7,Bot Notes vs Human Notes,2,M19,AI Swarms Manipulation,0.039
+claude,novice,2,7,Bot Notes vs Human Notes,3,M51,CommitCheck,0.032
+claude,novice,2,8,Did the Agent Keep Its Word,1,M19,AI Swarms Manipulation,0.046
+claude,novice,2,8,Did the Agent Keep Its Word,2,M16,Emergent Deception in Negotiations,0.044
+claude,novice,2,8,Did the Agent Keep Its Word,3,M21,Deception Scales,0.043
+claude,novice,2,9,Benchmark Half-Life,1,S04,Epistemic virtue eval suite,0.091
+claude,novice,2,9,Benchmark Half-Life,2,S05,Article 5 measurement protocol,0.086
+claude,novice,2,9,Benchmark Half-Life,3,M03,Cross-Linguistic Sycophancy in Frontier LLMs,0.059
+claude,novice,2,10,Authority Laundering,1,M22,NeuroGuard Authority Bias Benchmark,0.074
+claude,novice,2,10,Authority Laundering,2,S09,Provenance Study,0.05
+claude,novice,2,10,Authority Laundering,3,M10,DarkPatternMonitor,0.039
+gemini,neutral,1,1,Memory Gaslighting Evals,1,M11,Social Sycophancy via Self-Play,0.087
+gemini,neutral,1,1,Memory Gaslighting Evals,2,M59,D-GAMM,0.084
+gemini,neutral,1,1,Memory Gaslighting Evals,3,M52,SUP Sycophancy Under Pressure,0.072
+gemini,neutral,1,2,Cryptographic Citation Binders,1,S08,Citation Binder,0.055
+gemini,neutral,1,2,Cryptographic Citation Binders,2,S02,Confidence Audit,0.027
+gemini,neutral,1,2,Cryptographic Citation Binders,3,M12,ThoughtGuards,0.025
+gemini,neutral,1,3,Pre-Decision Regret Sandbox,1,M08,Sycophancy in AI Health Advice,0.05
+gemini,neutral,1,3,Pre-Decision Regret Sandbox,2,M37,Adversarial Prompts in Business Context,0.037
+gemini,neutral,1,3,Pre-Decision Regret Sandbox,3,E06,Thought Logger and Cyborg Extension,0.034
+gemini,neutral,1,4,Epistemic Gini Coefficient,1,E01,Question Generator,0.043
+gemini,neutral,1,4,Epistemic Gini Coefficient,2,S15,QALY for epistemics,0.038
+gemini,neutral,1,4,Epistemic Gini Coefficient,3,M36,Persuasive Power of Personas,0.037
+gemini,neutral,1,5,Multi-Peer Adversarial Collapse,1,M53,Terrain Gossip,0.067
+gemini,neutral,1,5,Multi-Peer Adversarial Collapse,2,M17,Adversarial Dialectics,0.051
+gemini,neutral,1,5,Multi-Peer Adversarial Collapse,3,M62,Reputation Hacking,0.046
+gemini,neutral,1,6,Automated C2PA Provenance Wrapper,1,M02,Eliciting Deception on Generative Search Engines,0.098
+gemini,neutral,1,6,Automated C2PA Provenance Wrapper,2,S09,Provenance Study,0.061
+gemini,neutral,1,6,Automated C2PA Provenance Wrapper,3,M56,TweetTracker,0.043
+gemini,neutral,1,7,Mediation Co-Pilot,1,S10,Dispute Escalation Benchmark,0.124
+gemini,neutral,1,7,Mediation Co-Pilot,2,M06,AI Chat Analyzer,0.075
+gemini,neutral,1,7,Mediation Co-Pilot,3,M45,HatCat concept-based interpretability,0.059
+gemini,neutral,1,8,Parliamentary Dissent-Suppression Audit,1,M29,AI-Enabled Voter Suppression,0.065
+gemini,neutral,1,8,Parliamentary Dissent-Suppression Audit,2,S17,Do their numbers match,0.062
+gemini,neutral,1,8,Parliamentary Dissent-Suppression Audit,3,M38,Manipulation Playground,0.042
+gemini,neutral,1,9,Implicit-Explicit Divergence,1,S01,MisleadBench,0.347
+gemini,neutral,1,9,Implicit-Explicit Divergence,2,M59,D-GAMM,0.097
+gemini,neutral,1,9,Implicit-Explicit Divergence,3,M11,Social Sycophancy via Self-Play,0.094
+gemini,neutral,1,10,Community Notes Vulnerability Mapper,1,M19,AI Swarms Manipulation,0.058
+gemini,neutral,1,10,Community Notes Vulnerability Mapper,2,M56,TweetTracker,0.051
+gemini,neutral,1,10,Community Notes Vulnerability Mapper,3,M37,Adversarial Prompts in Business Context,0.036
+gemini,neutral,2,1,Institutional Gaslighting Evals,1,M59,D-GAMM,0.166
+gemini,neutral,2,1,Institutional Gaslighting Evals,2,S01,MisleadBench,0.129
+gemini,neutral,2,1,Institutional Gaslighting Evals,3,M52,SUP Sycophancy Under Pressure,0.118
+gemini,neutral,2,2,Agentic C2PA Provenance Firewall,1,S09,Provenance Study,0.058
+gemini,neutral,2,2,Agentic C2PA Provenance Firewall,2,M31,Vector Forge,0.043
+gemini,neutral,2,2,Agentic C2PA Provenance Firewall,3,M12,ThoughtGuards,0.029
+gemini,neutral,2,3,Retroactive Decision Calibration Tracker,1,S02,Confidence Audit,0.066
+gemini,neutral,2,3,Retroactive Decision Calibration Tracker,2,S11,Decision-Brief Rubric,0.047
+gemini,neutral,2,3,Retroactive Decision Calibration Tracker,3,E09,Squaretable,0.039
+gemini,neutral,2,4,Habermas Crux-Mapper for Public Consultations,1,S12,Crux Mapper,0.159
+gemini,neutral,2,4,Habermas Crux-Mapper for Public Consultations,2,M36,Persuasive Power of Personas,0.055
+gemini,neutral,2,4,Habermas Crux-Mapper for Public Consultations,3,E02,Symphronesis,0.051
+gemini,neutral,2,5,Epistemic QALY Framework,1,S15,QALY for epistemics,0.239
+gemini,neutral,2,5,Epistemic QALY Framework,2,M69,SEED Framework,0.05
+gemini,neutral,2,5,Epistemic QALY Framework,3,S11,Decision-Brief Rubric,0.031
+gemini,neutral,2,6,Live Citation Integrity Extension,1,E01,Question Generator,0.143
+gemini,neutral,2,6,Live Citation Integrity Extension,2,S06,Track-Record Ledger,0.119
+gemini,neutral,2,6,Live Citation Integrity Extension,3,M56,TweetTracker,0.058
+gemini,neutral,2,7,EU AI Act Article 5 Compliance Scanner,1,S05,Article 5 measurement protocol,0.376
+gemini,neutral,2,7,EU AI Act Article 5 Compliance Scanner,2,M45,HatCat concept-based interpretability,0.155
+gemini,neutral,2,7,EU AI Act Article 5 Compliance Scanner,3,M06,AI Chat Analyzer,0.097
+gemini,neutral,2,8,Community-Notes Git Plugin,1,M19,AI Swarms Manipulation,0.057
+gemini,neutral,2,8,Community-Notes Git Plugin,2,M53,Terrain Gossip,0.036
+gemini,neutral,2,8,Community-Notes Git Plugin,3,S07,Tamper-Evident Action Recorder,0.031
+gemini,neutral,2,9,De-escalation Mediator Copilot,1,S10,Dispute Escalation Benchmark,0.09
+gemini,neutral,2,9,De-escalation Mediator Copilot,2,M42,Manipulation Radar,0.082
+gemini,neutral,2,9,De-escalation Mediator Copilot,3,M64,Mapping Escalation,0.064
+gemini,neutral,2,10,Epistemic Red-Teaming Swarm,1,M34,Sandbagging via Consistency Probing,0.046
+gemini,neutral,2,10,Epistemic Red-Teaming Swarm,2,M15,VexReinforce,0.045
+gemini,neutral,2,10,Epistemic Red-Teaming Swarm,3,M61,Persona-aware dialogue manipulation,0.038
+gemini,novice,1,1,Retreat Under Fire,1,M11,Social Sycophancy via Self-Play,0.138
+gemini,novice,1,1,Retreat Under Fire,2,M52,SUP Sycophancy Under Pressure,0.11
+gemini,novice,1,1,Retreat Under Fire,3,E08,Non-sycophantic GPT-4.5 system prompt,0.1
+gemini,novice,1,2,Breaking News Epistemic Drift Tracker,1,E01,Question Generator,0.081
+gemini,novice,1,2,Breaking News Epistemic Drift Tracker,2,S06,Track-Record Ledger,0.044
+gemini,novice,1,2,Breaking News Epistemic Drift Tracker,3,S02,Confidence Audit,0.043
+gemini,novice,1,3,C2PA Provenance Honey-Pot,1,M67,Effectiveness vs Legislative Practicality of AI Safety Frameworks,0.064
+gemini,novice,1,3,C2PA Provenance Honey-Pot,2,S09,Provenance Study,0.036
+gemini,novice,1,3,C2PA Provenance Honey-Pot,3,M46,WHISPERS,0.022
+gemini,novice,1,4,Bayesian Personal Debiaser,1,S11,Decision-Brief Rubric,0.104
+gemini,novice,1,4,Bayesian Personal Debiaser,2,S16,Procurement Gap Report,0.072
+gemini,novice,1,4,Bayesian Personal Debiaser,3,M22,NeuroGuard Authority Bias Benchmark,0.037
+gemini,novice,1,5,EU AI Act Article 5 Compliance Harvester,1,S05,Article 5 measurement protocol,0.249
+gemini,novice,1,5,EU AI Act Article 5 Compliance Harvester,2,M45,HatCat concept-based interpretability,0.147
+gemini,novice,1,5,EU AI Act Article 5 Compliance Harvester,3,M31,Vector Forge,0.04
+gemini,novice,1,6,Cost-per-Decision-Improvement Calculator,1,M13,Conditional Alignment at Zero Capability Cost,0.067
+gemini,novice,1,6,Cost-per-Decision-Improvement Calculator,2,S15,QALY for epistemics,0.048
+gemini,novice,1,6,Cost-per-Decision-Improvement Calculator,3,E01,Question Generator,0.04
+gemini,novice,1,7,Citation Ground-Truth Binder,1,S08,Citation Binder,0.177
+gemini,novice,1,7,Citation Ground-Truth Binder,2,S02,Confidence Audit,0.124
+gemini,novice,1,7,Citation Ground-Truth Binder,3,S17,Do their numbers match,0.067
+gemini,novice,1,8,Dispute De-escalation Stress-Test Suite,1,S10,Dispute Escalation Benchmark,0.209
+gemini,novice,1,8,Dispute De-escalation Stress-Test Suite,2,E02,Symphronesis,0.044
+gemini,novice,1,8,Dispute De-escalation Stress-Test Suite,3,M40,SandWatch,0.042
+gemini,novice,1,9,Hallucination Economic Impact Estimator,1,M15,VexReinforce,0.049
+gemini,novice,1,9,Hallucination Economic Impact Estimator,2,E03,Manifund Eval,0.047
+gemini,novice,1,9,Hallucination Economic Impact Estimator,3,M58,Hallucination Heatmap,0.043
+gemini,novice,1,10,Asynchronous Crux-Mapper Prototype,1,S12,Crux Mapper,0.141
+gemini,novice,1,10,Asynchronous Crux-Mapper Prototype,2,E07,Double-cruxes in NYT The Conversation,0.053
+gemini,novice,1,10,Asynchronous Crux-Mapper Prototype,3,M24,ConvoGraph,0.05
+gemini,novice,2,1,Retreat Curve Benchmarker,1,E08,Non-sycophantic GPT-4.5 system prompt,0.106
+gemini,novice,2,1,Retreat Curve Benchmarker,2,M47,Universal Expert Registry,0.036
+gemini,novice,2,1,Retreat Curve Benchmarker,3,M63,Think Right Answer Wrong,0.036
+gemini,novice,2,2,RAG Uncertainty Calibration Auditor,1,S03,FlipRate,0.085
+gemini,novice,2,2,RAG Uncertainty Calibration Auditor,2,M21,Deception Scales,0.043
+gemini,novice,2,2,RAG Uncertainty Calibration Auditor,3,S04,Epistemic virtue eval suite,0.039
+gemini,novice,2,3,Sycophancy Trap-Door Evals,1,M11,Social Sycophancy via Self-Play,0.053
+gemini,novice,2,3,Sycophancy Trap-Door Evals,2,M70,Sycophancy demo,0.047
+gemini,novice,2,3,Sycophancy Trap-Door Evals,3,M14,AgentRedline,0.041
+gemini,novice,2,4,Cross-Agent Provenance Handshake,1,S07,Tamper-Evident Action Recorder,0.094
+gemini,novice,2,4,Cross-Agent Provenance Handshake,2,S08,Citation Binder,0.073
+gemini,novice,2,4,Cross-Agent Provenance Handshake,3,M19,AI Swarms Manipulation,0.046
+gemini,novice,2,5,Claim-to-Source Verification Pipeline,1,S17,Do their numbers match,0.139
+gemini,novice,2,5,Claim-to-Source Verification Pipeline,2,S08,Citation Binder,0.085
+gemini,novice,2,5,Claim-to-Source Verification Pipeline,3,E01,Question Generator,0.043
+gemini,novice,2,6,Epistemic Regret Post-Mortem Extension,1,E09,Squaretable,0.082
+gemini,novice,2,6,Epistemic Regret Post-Mortem Extension,2,E01,Question Generator,0.071
+gemini,novice,2,6,Epistemic Regret Post-Mortem Extension,3,M01,Who Does Your AI Serve,0.05
+gemini,novice,2,7,Asynchronous Crux-Mapping Bot,1,S12,Crux Mapper,0.175
+gemini,novice,2,7,Asynchronous Crux-Mapping Bot,2,E07,Double-cruxes in NYT The Conversation,0.071
+gemini,novice,2,7,Asynchronous Crux-Mapping Bot,3,M38,Manipulation Playground,0.042
+gemini,novice,2,8,Decision-Quality Unit DQY Proxy Metric,1,S15,QALY for epistemics,0.3
+gemini,novice,2,8,Decision-Quality Unit DQY Proxy Metric,2,S11,Decision-Brief Rubric,0.047
+gemini,novice,2,8,Decision-Quality Unit DQY Proxy Metric,3,E09,Squaretable,0.039
+gemini,novice,2,9,Parliamentary Transcript Claim-Mismatch Dataset,1,S17,Do their numbers match,0.129
+gemini,novice,2,9,Parliamentary Transcript Claim-Mismatch Dataset,2,S08,Citation Binder,0.062
+gemini,novice,2,9,Parliamentary Transcript Claim-Mismatch Dataset,3,S02,Confidence Audit,0.026
+gemini,novice,2,10,Legislative AI Procurement Friction Audit,1,S16,Procurement Gap Report,0.093
+gemini,novice,2,10,Legislative AI Procurement Friction Audit,2,M67,Effectiveness vs Legislative Practicality of AI Safety Frameworks,0.065
+gemini,novice,2,10,Legislative AI Procurement Friction Audit,3,M52,SUP Sycophancy Under Pressure,0.039

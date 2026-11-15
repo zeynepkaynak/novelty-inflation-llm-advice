@@ -1,0 +1,78 @@
+Here are 10 standout, highly scannable project ideas designed to catch the judges' eyes across the four tracks of the **AI x Epistemics Research Sprint**, complete with novelty scores, rationales, and an analysis of winning potential for a solo participant.
+
+---
+
+### Track 1: Model Epistemics & Decision-Making Evals
+
+#### 1. Multi-Turn "Retreat Curve" Benchmarker
+
+* **Novelty Score:** 9/10
+* **Why it stands out:** While existing benchmarks test single-turn sycophancy or flat agreement, this dynamically measures *how many layers of expert pushback* a frontier model takes to abandon a correct stance versus folding immediately.
+
+#### 2. RAG Uncertainty Calibration Auditor
+
+* **Novelty Score:** 8/10
+* **Why it stands out:** It bridges Model Epistemics and Trust Infrastructure by testing whether a Retrieval-Augmented Generation (RAG) system's stated confidence reliably scales with the actual factual support and provenance quality of its retrieved chunks.
+
+#### 3. Sycophancy Trap-Door Evals
+
+* **Novelty Score:** 9/10
+* **Why it stands out:** It plants subtle, counter-consensus prompt framing mixed with false expert consensus to test if models will knowingly adopt and defend falsehoods just to flatter the user's apparent stance.
+
+---
+
+### Track 2: Trust Infrastructure
+
+#### 4. Cross-Agent Provenance Trust Handshake
+
+* **Novelty Score:** 8/10
+* **Why it stands out:** It builds a lightweight, OpenTelemetry-compatible cryptographic logging protocol that allows multi-agent systems to verify each other's data source lineage before acting on external instructions.
+
+#### 5. Real-Time Claim-to-Source Verification Pipeline
+
+* **Novelty Score:** 8/10
+* **Why it stands out:** It pairs live RSS news feeds or committee transcripts with a lightweight automated citation checker to flag unsupported statistical claims against primary sources instantly.
+
+---
+
+### Track 3: Epistemic Products
+
+#### 6. The "Epistemic Regret" Post-Mortem Extension
+
+* **Novelty Score:** 9/10
+* **Why it stands out:** It solves the core blind spot of epistemic products by building a lightweight browser plugin that follows up with users 7 days after a major AI-assisted decision to score whether they actually endorse the long-term outcome.
+
+#### 7. Asynchronous Crux-Mapping Bot
+
+* **Novelty Score:** 9/10
+* **Why it stands out:** Instead of drafting premature agreements like the Habermas Machine, it uses asynchronous LLM interviews to extract core probabilistic cruxes from opposing stakeholders and render a clean disagreement map.
+
+---
+
+### Track 4: Open Track (Meta-Questions, Deployment & Impact)
+
+#### 8. The Decision-Quality Unit ("DQY") Proxy Metric
+
+* **Novelty Score:** 10/10
+* **Why it stands out:** It tackles the field's holy grail—proposing and retroactively testing a standardized, comparable unit for "decision quality improved" to give epistemic interventions a health-economics equivalent to the QALY.
+
+#### 9. Parliamentary Transcript Claim-Mismatch Dataset
+
+* **Novelty Score:** 8/10
+* **Why it stands out:** It uses downloadable public data to automatically audit recent legislative committee transcripts against cited government statistical releases, turning discrepancies into an open, auditable dataset.
+
+#### 10. Legislative AI Procurement Friction Audit
+
+* **Novelty Score:** 7/10
+* **Why it stands out:** It performs a rigorous, document-level legal mapping of exactly which administrative rules and security clauses force legislative staffers to use unsecured personal accounts instead of sanctioned AI tools.
+
+---
+
+### Solo Participant Win Probability Analysis
+
+If you are participating **solo** and select **Idea #8 (The Decision-Quality Unit / DQY Proxy Metric)** or **Idea #6 (The Epistemic Regret Post-Mortem Extension)**, your estimated probability of winning a top-5 prize is roughly **20% to 25%**.
+
+#### Why a solo builder can punch above their weight:
+
+* **Scope Control:** Judges in fast 3-day sprints heavily reward finished, well-scoped prototypes or rigorous conceptual frameworks over bloated, half-finished codebases from sprawling teams.
+* **Clarity of Thesis:** Meta-questions (Track 4) and novel product feedback loops (Track 3) rely on sharp analytical writing and clean demos rather than heavy infrastructure engineering—making them uniquely suited for a focused solo participant who can execute end-to-end vision without coordination overhead.

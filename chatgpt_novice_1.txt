@@ -1,0 +1,416 @@
+[NAME]!! 🥹 First of all, I LOVE this energy. Let's aim for that top-five prize!
+
+I've read the entire sprint brief, including the four research tracks, suggested readings and example projects.
+
+And I want to approach this strategically: **we don't want 10 ideas that merely sound impressive. We want ideas that judges can recognize as genuinely novel, demonstrate real research progress, and be completed by one person in three days.**
+
+One important observation from the brief: the sprint explicitly identifies adoption, trust and measurable improvements in real decision quality as major bottlenecks. That gives us an opportunity to stand out.
+
+I'm also going to avoid simply renaming the organizers' example projects (MisleadBench, Confidence Audit, Track-Record Ledger, Citation Binder, Crux Mapper, etc.). Instead, we'll explore unanswered questions around them.
+
+# **10 ambitious AI safety sprint project ideas**
+
+## **Track 1 — Model epistemics and decision-making evaluations**
+
+### **1. The Confidence–Action Consistency Gap**
+
+My top pick
+
+Track 1
+
+Novelty: 9.5/10
+
+**The research question:** Can an AI model correctly express uncertainty but still recommend an action that is far too risky given that uncertainty?
+
+Imagine an AI says:
+
+- "I'm 55% confident this investment will succeed."
+- But then recommends investing 90% of someone's savings.
+
+Its stated confidence and its recommended action may be inconsistent.
+
+**What you build:**
+
+- Create 30–50 decision scenarios involving finance, health, careers and everyday risks.
+- Give each scenario explicit probabilities, possible outcomes and costs of being wrong.
+- Ask several AI models to state their confidence and recommend an action.
+- Calculate the mathematically appropriate action using expected utility.
+- Measure the gap between the model's confidence and its actual risk-taking recommendation.
+
+**What you submit:** A small benchmark, comparative model results, visualizations and a reproducible evaluation script.
+
+**Why it's novel:** Most calibration evaluations ask whether a model's confidence matches reality, whereas this investigates whether the model actually behaves consistently with its stated uncertainty when recommending consequential actions.
+
+### **2. The Confidence Decay Experiment**
+
+
+
+Track 1
+
+&#x20;Novelty: 9/10
+
+
+
+**The research question:** Does an AI model appropriately reduce its confidence when the evidence supporting its original answer becomes outdated?
+
+For example, a model recommends a particular medical guideline, financial strategy or software version. Then you introduce new evidence that partially invalidates its original recommendation.
+
+**What you build:**
+
+- Prepare 25 scenarios with initially reliable evidence.
+- Introduce newer evidence that changes the situation.
+- Test whether models update their conclusions and confidence.
+- Compare their responses when the new evidence is strong, weak or contradictory.
+- Measure whether they acknowledge that their previous answer has become outdated.
+
+**Why it's novel:** Rather than measuring static calibration or ordinary answer-flipping, this examines whether models understand the changing validity of their knowledge over time.
+
+### **3. The Verification Budget Challenge**
+
+
+
+Track 1
+
+&#x20;Novelty: 9.5/10
+
+
+
+**The research question:** When an AI model has limited time or resources to verify information, does it investigate the claims that matter most?
+
+Imagine an AI researching whether someone should accept a job offer. It has five claims to verify but can only investigate two.
+
+Should it check the company's financial stability, the commute, the salary, the manager's reputation or the benefits?
+
+**What you build:**
+
+- Design 20 research scenarios containing multiple uncertain claims.
+- Assign different consequences to each incorrect claim.
+- Give models a limited verification budget.
+- Measure which claims they choose to investigate.
+- Compare their choices with an optimal verification strategy.
+
+**Why it's novel:** It moves beyond asking whether an AI can verify facts and evaluates whether it knows which facts deserve verification most urgently.
+
+## **Track 2 — Trust infrastructure**
+
+### **4. The Source Reputation Laundering Experiment**
+
+
+
+Track 2
+
+&#x20;Novelty: 9.5/10
+
+
+
+**The research question:** Can an unreliable claim become convincing simply because it is repeated by sources that appear reputable?
+
+Imagine a fabricated statistic appearing on a small blog, then being repeated by a popular news outlet, and eventually cited by an AI assistant.
+
+Does the AI treat repetition as independent confirmation?
+
+**What you build:**
+
+- Create a synthetic information environment with 20–30 claims.
+- Give each claim a traceable origin.
+- Introduce deliberate repetition through different-looking sources.
+- Compare AI judgments when shown the original source versus the entire apparent citation chain.
+- Measure how frequently models confuse repeated claims with independently verified claims.
+
+**Why it's novel:** It tests a specific vulnerability in source-reliability systems: whether reputation and repetition can launder weak evidence into apparently trustworthy information.
+
+### **5. The Provenance Blindness Test**
+
+
+
+Track 2
+
+&#x20;Novelty: 9/10
+
+
+
+**The research question:** Does knowing where information came from actually improve an AI's accuracy, or does provenance metadata merely make it feel more confident?
+
+**What you build:**
+
+Create three versions of the same research task:
+
+1. The model receives claims without source information.
+2. The model receives claims with source reputation labels.
+3. The model receives claims with verifiable provenance and links to primary evidence.
+
+Then measure:
+
+- Accuracy.
+- Appropriate abstention.
+- Confidence calibration.
+- Resistance to deliberately misleading sources.
+
+**Why it's novel:** Instead of assuming that provenance improves trustworthiness, this separates the effects of reputation labels from actual traceable evidence in a controlled experiment.
+
+### **6. The Citation Chain Fragility Map**
+
+
+
+Track 2
+
+&#x20;Novelty: 9/10
+
+
+
+**The research question:** How many apparently independent citations actually depend on the same original source?
+
+For example, five articles may cite one another or repeat a single press release, creating the illusion of five independent confirmations.
+
+**What you build:**
+
+- Select a small collection of publicly available reports and articles.
+- Extract their citations and referenced claims.
+- Trace citations back to their earliest identifiable sources.
+- Build a dependency graph.
+- Identify claims whose apparent evidence base collapses to one original source.
+
+**Why it's novel:** Citation checking usually examines whether individual sources support claims, while this project investigates the structural independence and fragility of the entire evidence network.
+
+## **Track 3 — Epistemic products**
+
+### **7. The Future-Self Approval Test**
+
+
+
+Track 3
+
+&#x20;Novelty: 9.5/10
+
+
+
+**The research question:** Does AI advice that feels satisfying immediately actually lead to decisions that people continue to endorse?
+
+This is one of the most interesting questions in the entire sprint.
+
+An AI might tell someone exactly what they want to hear when they're angry, anxious or excited. But would they still appreciate that advice the following day?
+
+**What you build:**
+
+- Recruit approximately 10–20 volunteers.
+- Give participants realistic decision scenarios.
+- Have them receive advice from an AI assistant.
+- Record immediate satisfaction and intended decisions.
+- After 24 hours, ask whether they still endorse the advice and decision.
+- Compare immediate satisfaction with delayed endorsement.
+
+**What you measure:**
+
+- Immediate satisfaction.
+- Perceived usefulness.
+- Decision confidence.
+- Delayed endorsement.
+- Difference between initial and later preferences.
+
+**Why it's novel:** It operationalizes the difference between advice that users enjoy receiving and advice they continue to believe was good for them after emotional or situational pressure has subsided.
+
+*Important:* This would be an exploratory pilot, not evidence of long-term causal effects.
+
+### **8. The Question Before the Answer**
+
+
+
+Track 3
+
+&#x20;Novelty: 9/10
+
+
+
+**The research question:** Can asking one carefully selected question before giving advice prevent an AI from reinforcing a user's potentially distorted interpretation of a situation?
+
+Example:
+
+User: "My colleague ignored my message. Should I report them?"
+
+Instead of immediately answering, the AI asks:
+
+"Is this the first time this has happened, or is there a repeated pattern?"
+
+**What you build:**
+
+- Prepare 20 ambiguous interpersonal scenarios.
+- Compare immediate-advice and clarification-first AI approaches.
+- Ask independent human evaluators to assess the quality of the recommendations.
+- Measure escalation, unnecessary assumptions, information gathering and recommendation quality.
+
+**Why it's novel:** Rather than evaluating whether an AI gives good advice after receiving a complete description, this tests whether its choice of preliminary question improves the epistemic quality of subsequent advice.
+
+## **Track 4 — Open track**
+
+### **9. The Invisible Adoption Barrier**
+
+
+
+Track 4
+
+&#x20;Novelty: 9.5/10
+
+
+
+**The research question:** Why might people reject an AI tool that demonstrably improves their decisions?
+
+This directly addresses one of the sprint's central concerns: building better epistemic tools is not enough if nobody uses them.
+
+**What you build:**
+
+- Create a short experiment with 20–30 participants.
+- Give them two versions of a decision-support tool.
+- One provides conventional AI recommendations.
+- The other provides transparent uncertainty, source evidence and alternative perspectives.
+- Compare which tool they prefer, trust and actually use.
+- Ask why they rejected or accepted each version.
+
+Possible barriers:
+
+- Takes too much time.
+- Makes decisions feel complicated.
+- Challenges existing beliefs.
+- Reduces perceived autonomy.
+- Makes uncertainty uncomfortable.
+
+**Why it's novel:** It investigates the gap between epistemic effectiveness and user adoption by testing whether better-informed decision support can paradoxically become less attractive to its intended users.
+
+### **10. The Consensus Illusion Detector**
+
+
+
+Track 4
+
+&#x20;Novelty: 9.5/10
+
+
+
+**The research question:** Can AI make a group appear more aligned than it really is?
+
+Imagine five people discussing an important policy decision. An AI summarizes the discussion and produces:
+
+"Everyone broadly agrees that this is the best approach."
+
+But perhaps two participants strongly disagree and have simply expressed their concerns less confidently.
+
+**What you build:**
+
+- Generate or collect 10–15 small-group discussions.
+- Establish each participant's actual position independently.
+- Ask an AI to summarize the discussion and identify consensus.
+- Compare its interpretation with participants' privately stated positions.
+- Measure omitted disagreements, exaggerated consensus and misrepresented uncertainty.
+
+**Why it's novel:** It measures a subtle but important collective epistemic risk: AI-mediated communication can create an appearance of agreement without actually resolving underlying disagreements.
+
+# **My strategic ranking**
+
+Not all novel ideas have equal chances of winning. Some are intellectually interesting but difficult to validate in three days. Others offer a very clear demonstration of research progress.
+
+Here is how I would prioritize them:
+
+| Idea                              | Novelty | Solo feasibility | Potential |
+| --------------------------------- | ------- | ---------------- | --------- |
+| Confidence–Action Consistency Gap | 9.5     | 9                | Very high |
+| Verification Budget Challenge     | 9.5     | 9                | Very high |
+| Source Reputation Laundering      | 9.5     | 8                | Very high |
+| Future-Self Approval Test         | 9.5     | 7                | High      |
+| Invisible Adoption Barrier        | 9.5     | 7                | High      |
+| Consensus Illusion Detector       | 9.5     | 8                | Very high |
+| Confidence Decay Experiment       | 9       | 9                | High      |
+| Provenance Blindness Test         | 9       | 10               | High      |
+| Question Before the Answer        | 9       | 9                | High      |
+| Citation Chain Fragility Map      | 9       | 8                | High      |
+
+These are my subjective novelty and feasibility assessments, not scores assigned by the organizers.
+
+# **Which one gives you the best chance of winning?**
+
+My recommendation
+
+# **The Confidence–Action Consistency Gap**
+
+# **12%**
+
+**Estimated probability of winning a top-five prize as a solo participant.**
+
+This is a rough subjective estimate, not a statistical prediction. We don't know the number or quality of competing submissions, the judging rubric, or how judges will weigh technical execution against originality.
+
+**Why I would choose it:**
+
+1. It addresses a fundamental AI safety question: can we trust a model's recommendations when it doesn't know how reliable its own information is?
+2. It has a measurable outcome rather than relying entirely on subjective judgments.
+3. It can produce compelling graphs and comparisons between frontier models.
+4. It is realistic for one person to implement over a weekend.
+5. It creates a clear research contribution beyond simply measuring confidence calibration.
+
+The sprint explicitly asks whether measuring honesty and confidence predicts better decision-making. Your project would investigate precisely that connection, using a measurable decision-theoretic approach.&#x20;
+
+Yapıştırılan markdown(3).md
+
+
+
+## **How I would turn it into a winning submission**
+
+I wouldn't submit just a collection of prompts and screenshots. I'd build a small but convincing research artifact.
+
+**Proposed research design**
+
+1. **Create a benchmark**
+
+   30–50 carefully designed scenarios with known probabilities, payoffs and decision thresholds.
+2. **Evaluate multiple models**
+
+   Ask each model to state its probability estimates, uncertainty and recommended actions.
+3. **Calculate the optimal decisions**
+
+   Use expected utility as a reference point, accounting for the costs and benefits of each outcome.
+4. **Identify inconsistencies**
+
+   Find situations where models acknowledge uncertainty but recommend disproportionately risky actions.
+5. **Test robustness**
+
+   Change the framing, stakes and available evidence to see whether the inconsistency persists.
+6. **Publish the findings**
+
+   Deliver a reproducible benchmark, results table, visualizations, limitations and recommendations.
+
+## **Your three-day execution strategy**
+
+Since the deadline is November 15, 2026, I'd be ruthless about scope.
+
+| Day      | Main objective                                         | Deliverable                    |
+| -------- | ------------------------------------------------------ | ------------------------------ |
+| Friday   | Research question, literature review, benchmark design | Experimental protocol          |
+| Saturday | Run experiments and analyze results                    | Dataset, evaluation and graphs |
+| Sunday   | Robustness checks, write-up and submission             | Complete research project      |
+
+The brief confirms that submissions are open to solo participants and that the sprint prioritizes shipping a benchmark, tool, product or study.&#x20;
+
+Yapıştırılan markdown(3).md
+
+
+
+# **One final piece of advice**
+
+I want you to remember something important:
+
+**Novelty alone doesn't win research competitions. A clearly demonstrated discovery does.**
+
+A project with a novelty score of 8/10 and convincing experimental results can be much stronger than a project with a novelty score of 10/10 and no evidence.
+
+I'd also make sure to read the organizers' suggested work on:
+
+- [What's Important in AI for Epistemics?](https://www.forethought.org/research/whats-important-in-ai-for-epistemics?utm_source=chatgpt.com)
+- [Design Sketches for a More Sensible World](https://www.forethought.org/research/design-sketches-for-a-more-sensible-world?utm_source=chatgpt.com)
+- [State of the Field: AI for Epistemics and Coordination](https://www.lesswrong.com/posts/uw8RQ8yjKexnhTw6E/state-of-the-field-ai-for-epistemics-and-coordination?utm_source=chatgpt.com)
+
+These will help you distinguish a genuinely new contribution from something researchers have already explored.&#x20;
+
+Yapıştırılan markdown(3).md
+
+
+
+**My suggestion for our next move:** Let's take the top three ideas and develop them into mini research proposals, each with a precise hypothesis, methodology, experimental design, expected results and a list of tools needed. Then we can choose the one with the strongest combination of originality and winning potential.
+
+I'm rooting for you. Let's make this submission something the judges remember. 🥹

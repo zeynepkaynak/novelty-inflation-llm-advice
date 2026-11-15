@@ -1,0 +1,178 @@
+This is a really interesting research opportunity, especially if you're interested in AI, research, critical thinking, and improving your English through practical work.
+
+**My recommendation: You should consider participating, even if you're a beginner.** The sprint explicitly welcomes students and people without an AI safety background.
+
+However, I want to help you approach it strategically rather than just choose an interesting-sounding topic.
+
+## **1. What is this sprint actually asking you to do?**
+
+In simple terms:
+
+You have three days to identify a problem related to how AI understands, communicates, evaluates, or uses information.
+
+Then you:
+
+1. Choose a research question.
+2. Investigate the problem.
+3. Build a small prototype, benchmark, tool, or research study.
+4. Test your idea.
+5. Write a report explaining your findings.
+
+You can participate individually or in a team of up to five people.
+
+You don't necessarily need to build an AI model. Some projects require only research, careful analysis, and structured evaluation.
+
+## **2. Which track should you choose?**
+
+Here is how I would compare the four tracks.
+
+[What large language models know and what people think they know | Nature Machine Intelligence](https://images.openai.com/static-rsc-4/4pryth0JW7tE3wHsX2g5vvfy9yDhx4F_stFGn4lakIoelQfxVHJFLJE3_BtvFzLjfSyofG2lYwOQ0k4YHEqEe2GPeEVXkHvtrE8zl9hO5j2yDMxo5E7JwUcL4FD2TyQ5rMg2aE8PSTxlX8B-vDwPms-hNBpXqzpWJZq-WDjMzUU?purpose=inline)
+
+**Track 1: Model Epistemics & Decision-Making**
+
+Investigate whether AI knows when it is wrong, exaggerates confidence, or changes its answers under pressure.
+
+Good for research beginners
+
+Useful skills: critical thinking, experiment design, AI evaluation.
+
+[Xybern · Provenance Vault](https://images.openai.com/static-rsc-4/WR4m5k-Wqibyi6MYfvuQArxwnQBbVMxGVsAbmvOHSl3wVhFHRqJhF4XswkL3_ag_6TbQe7V_tKIv9s7uOlPiMHZudmh5SPYZgVW2SXpMcVsnsyvNm2vdYrrdOfEWWJOAi0XT50-9hTzyvKB3cs4Ac_RiZ_1UUBgfPgLqibccNg4?purpose=inline)
+
+**Track 2: Trust Infrastructure**
+
+Build ways to verify information, trace sources, and detect unreliable claims.
+
+Useful skills: research, data analysis, cybersecurity, software development.
+
+[Your AI interface is making decisions your users don’t know about | by Lena C | Bootcamp | Mar, 2026 | Medium](https://images.openai.com/static-rsc-4/sxCxbsjk0oZW4b0ShkGTtHUuEfg_5rweSGOjE3EDFoRwwmSmmJ8lWmHZg7LbCmEFsmbxbv3iRUNUoM2yloi0bgLOp-0dWSxgxtkzNcF92VbrltBX_Rr9MgWj45j0FTJntCvR3mOpdCSoDiHPo2gKA3vZkqgTNV-IntdEQLZfsJI?purpose=inline)
+
+**Track 3: Epistemic Products**
+
+Design AI tools that help people make better decisions rather than simply giving them answers.
+
+My strongest recommendation
+
+Useful skills: psychology, communication, product design, research.
+
+[About KYOBASE — The company behind Opportunity Intelligence™](https://images.openai.com/static-rsc-4/EiPAzZoJDji_VY8yACLmqV4D_xPDVFf5zzzUAjbK3-UyV7TWJWdPSJVkKOAZdnnXeZjzThJqcm-Y_M29ms5qsKzScFkm86LohQ0hhYzXiAJFdyLlNnV36CLX-DVTWeEetS0KE1yfGHVVVMqlfG9QiS3wmphgEHhWKBQEpWhWviI?purpose=inline)
+
+**Track 4: Open Track**
+
+Investigate bigger questions about AI adoption, institutions, social impact, and decision quality.
+
+Useful skills: interdisciplinary research, policy analysis, critical thinking.
+
+## **3. Three project ideas I would seriously consider**
+
+These are potential projects that can be scoped to three days.
+
+### **Idea 1: Does AI actually help us make better decisions?**
+
+My favourite for you to explore
+
+**Research question:** Does AI provide advice that genuinely improves people's decisions, or does it simply make people feel more confident?
+
+You could:
+
+- Create realistic scenarios involving career choices, education, or relationships.
+- Ask AI models to provide advice.
+- Evaluate their recommendations against a predefined decision-quality rubric.
+- Examine whether the advice considers uncertainty, alternatives, risks, and long-term consequences.
+
+**Why it matters:** An answer can sound intelligent and persuasive while being harmful to someone's decision-making.
+
+### **Idea 2: Can AI admit when it doesn't know something?**
+
+**Research question:** How accurately can AI recognize the limits of its own knowledge?
+
+You could:
+
+- Prepare questions with different levels of difficulty.
+- Ask AI models to answer and report their confidence.
+- Include questions with insufficient information.
+- Measure how frequently they confidently produce incorrect answers instead of acknowledging uncertainty.
+
+This would fit Track 1.
+
+### **Idea 3: Does AI make disagreements worse?**
+
+**Research question:** When people discuss conflicts with AI, does it encourage constructive solutions or reinforce their existing beliefs?
+
+You could:
+
+- Prepare realistic interpersonal conflict scenarios.
+- Give different perspectives of the same disagreement to an AI.
+- Evaluate whether its advice encourages understanding, compromise, and de-escalation.
+- Develop a scoring rubric for constructive advice.
+
+This would fit Track 3.
+
+## **4. What would make a project competitive?**
+
+The most important thing is not building something complicated.
+
+A strong project should have:
+
+| Element        | What judges should see                    |
+| -------------- | ----------------------------------------- |
+| Clear question | A specific problem worth investigating    |
+| Methodology    | A reproducible way to investigate it      |
+| Evidence       | Actual experiments or collected data      |
+| Findings       | Results, including unexpected ones        |
+| Impact         | Why the findings matter in the real world |
+
+A small experiment with convincing evidence can be more valuable than an impressive-looking prototype without meaningful evaluation.
+
+## **5. Important: The deadline**
+
+The sprint runs November 13–15, 2026.
+
+According to the schedule:
+
+- November 14: Saturday (today).
+- November 15: Sunday, final submission day.
+- Deadline: 11:59 PM AoE, equivalent to November 16 at 11:59 AM UTC.
+
+You still have time to participate.
+
+## **6. Let's find the right project for you**
+
+I want to help you develop an actual research proposal that you could submit, rather than leave you with general ideas.
+
+One question first:
+
+**Which area genuinely interests you most?**
+
+**1. What interests you most?**
+
+Psychology and human decision-making
+
+Artificial intelligence and how models think
+
+Misinformation, trust, and fact-checking
+
+Social impact, relationships, and communication
+
+Research, society, and public policy
+
+**2. How would you describe your technical experience?**
+
+Beginner – no programming experience
+
+Some Python or programming knowledge
+
+Comfortable with programming and AI tools
+
+**3. What is your main goal?**
+
+Develop a competitive project and aim for a prize
+
+Learn about AI research and gain experience
+
+Build a portfolio project for my future career
+
+Get selected for the Apart Fellowship
+
+Develop my research project&#x20;
+
+I can help you go from zero to a complete research proposal, including the research question, methodology, experiment, evaluation criteria, and final submission.

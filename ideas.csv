@@ -1,0 +1,121 @@
+model,framing,run,idea_no,title,summary,novelty_score,top_pick
+chatgpt,neutral,1,1,Epistemic Stress Test,Benchmark whether models detect adversarially manipulated evidence: misleading context fabricated statistics misrepresented papers shared-origin sources,9.8,1
+chatgpt,neutral,1,2,Confidence Half-Life,Track whether model confidence revises appropriately as supporting evidence is contradicted or invalidated over successive stages,9.6,0
+chatgpt,neutral,1,3,Evidence Debt Detector,Tool mapping unsupported assumptions in an AI research report into an evidence-dependency graph with assumption-risk score,9.5,0
+chatgpt,neutral,1,4,AI Regret Predictor,Compare immediate satisfaction with later endorsement of AI advice in decision scenarios like job offers and leases,9.4,0
+chatgpt,neutral,1,5,Consensus Illusion Detector,Measure whether AI summaries of group discussions exaggerate agreement and hide disagreement,9.3,0
+chatgpt,neutral,1,6,Source Contagion Experiment,Controlled experiment on how one unreliable or planted source spreads into a research agent's conclusions with and without reliability metadata,9.2,0
+chatgpt,neutral,1,7,Epistemic Dark Pattern Detector,Benchmark of misleading communication without lying: omission false consensus urgency loaded framing,9.1,0
+chatgpt,neutral,1,8,Prediction Accountability Machine,Tamper-evident ledger recording AI predictions confidence and revisions then scoring them against outcomes,9.0,0
+chatgpt,neutral,1,9,Epistemic Inequality Index,Same question asked with expert vs lay vs non-native phrasing; measure differences in accuracy and uncertainty disclosure,9.4,0
+chatgpt,neutral,1,10,Decision Autopsy,AI tool reconstructing epistemic failures behind documented bad decisions,9.3,0
+chatgpt,neutral,2,1,Confidence Laundering Detector,Measure how uncertainty and caveats disappear as claims pass through multiple successive AI summaries,10.0,1
+chatgpt,neutral,2,2,Epistemic Expiration Date,Claim registry classifying claims by how fast they go out of date and flagging ones needing revalidation,9.5,0
+chatgpt,neutral,2,3,Counterfactual Advice Auditor,Same decision facts with different emotional framing; measure whether recommendation and confidence change,9.5,0
+chatgpt,neutral,2,4,Evidence Escape Room,Benchmark of whether models recognize insufficient or contradictory evidence and abstain appropriately,9.0,0
+chatgpt,neutral,2,5,Belief Reversibility Test,Model states what evidence would reverse its view then is given that evidence to check updating,9.0,0
+chatgpt,neutral,2,6,Invisible Assumption Scanner,Extract hidden assumptions in AI advice and test how much they change the recommendation,9.0,0
+chatgpt,neutral,2,7,Epistemic Echo Chamber Simulator,Multi-agent simulation where agents exchange summaries and unsupported claims become shared beliefs,8.5,0
+chatgpt,neutral,2,8,Decision Regret Observatory,User study comparing immediate satisfaction with retrospective endorsement of AI advice,9.0,0
+chatgpt,neutral,2,9,Source Independence Detector,Trace citation networks to estimate how many independent origins support a repeated claim,9.0,0
+chatgpt,neutral,2,10,Epistemic Fire Drill,Simulated organization with planted corrupted sources; measure detection of epistemic contamination,8.5,0
+chatgpt,novice,1,1,Confidence-Action Consistency Gap,Whether a model's recommended action is consistent with its stated uncertainty using expected utility,9.5,1
+chatgpt,novice,1,2,Confidence Decay Experiment,Whether models lower confidence when new evidence makes earlier answers outdated,9.0,0
+chatgpt,novice,1,3,Verification Budget Challenge,Given limited verification budget does the model check the claims that matter most,9.5,0
+chatgpt,novice,1,4,Source Reputation Laundering,Whether repetition by reputable-looking sources makes models treat a weak claim as independently confirmed,9.5,0
+chatgpt,novice,1,5,Provenance Blindness Test,Controlled comparison of research accuracy with no source info vs reputation labels vs verifiable provenance,9.0,0
+chatgpt,novice,1,6,Citation Chain Fragility Map,Trace citations to original sources to find claims whose evidence collapses to one origin,9.0,0
+chatgpt,novice,1,7,Future-Self Approval Test,Volunteer study comparing immediate satisfaction with AI advice to endorsement 24 hours later,9.5,0
+chatgpt,novice,1,8,Question Before the Answer,Compare immediate advice vs clarification-first advice in ambiguous interpersonal scenarios,9.0,0
+chatgpt,novice,1,9,Invisible Adoption Barrier,Experiment on why people reject decision tools that show uncertainty and evidence,9.5,0
+chatgpt,novice,1,10,Consensus Illusion Detector,Whether AI summaries make a group appear more aligned than members privately are,9.5,0
+chatgpt,novice,2,1,Caveat Cascade,Measure which caveats and uncertainty disappear as analysis is compressed into summary and one-sentence recommendation,9.5,1
+chatgpt,novice,2,2,Confidence Inheritance Problem,Whether confidence grows as an answer passes from one model to another without new evidence,9.0,0
+chatgpt,novice,2,3,Missing Evidence Test,Whether models notice missing critical evidence before recommending an action,9.0,0
+chatgpt,novice,2,4,Citation Costume,Whether an unsupported claim surrounded by legitimate citations evades AI and human verification,9.5,0
+chatgpt,novice,2,5,Provenance Blind Spot,Matched packets with and without provenance metadata including misleading provenance; measure accuracy,8.5,0
+chatgpt,novice,2,6,Regret Radar,AI tool flagging decisions users are likely to regret before making them,9.5,0
+chatgpt,novice,2,7,Belief Stress Test,Reflection tool testing whether people apply consistent evidence standards to claims they like and dislike,9.0,0
+chatgpt,novice,2,8,Persuasion Aftertaste,Whether persuasive AI explanations raise user confidence more than the evidence warrants,9.0,0
+chatgpt,novice,2,9,Epistemic Half-Life,Measure decay of facts uncertainty and attribution as information passes through successive AI transformations,9.5,0
+chatgpt,novice,2,10,Decision Quality Receipt,Decision-quality scoring framework and receipt documenting what AI changed in a decision,9.0,0
+claude,neutral,1,1,Coding agents self-report audit,Check SWE-bench agent final self-reports against logs and test results to get an overclaim rate,9.0,1
+claude,neutral,1,2,Hedge decay in agent pipelines,Measure how much hedging survives a multi-step LLM chain of research summarize brief recommend,8.0,0
+claude,neutral,1,3,Hedge-word exchange rate,Compare models' verbal probability words with their numbers and with human interpretation survey data,7.0,0
+claude,neutral,1,4,Counterfactual sensitivity of recommendations,Change one decisive fact vs one irrelevant fact in decision briefs and check if advice tracks evidence,7.0,0
+claude,neutral,1,5,Grok in Community Notes data,Measure how often Community Notes cite or correct AI chatbot answers and how those notes are rated,9.0,0
+claude,neutral,1,6,Gaming the track-record ledger,Simulate strategic forecasters on Manifold data inflating reliability scores and propose a difficulty-adjusted score,7.0,0
+claude,neutral,1,7,Trust signals as an attack surface,Spoofed reputation or forged provenance on false claims; measure whether trust metadata makes agents easier to fool,7.0,0
+claude,neutral,1,8,Escalation in the drafted reply,Score escalation in chatbot-drafted replies to landlords vs user original drafts,6.0,0
+claude,neutral,1,9,Epistemic tools graveyard,Dataset of discontinued forecasting fact-checking and deliberation tools coded by cause of failure,8.0,0
+claude,neutral,1,10,Benchmark vs real-world format calibration,Same questions as clean multiple choice vs messy user messages; compare confidence and accuracy,6.0,0
+claude,neutral,2,1,Uncertainty Telephone,Pass IPCC likelihood-scaled statements through summarize/handoff chains and measure likelihood drift,8.0,1
+claude,neutral,2,2,Credibility Cue Hacking,Plant false claims on synthetic pages and vary fake credibility cues to see which most mislead research agents,8.0,0
+claude,neutral,2,3,Hindsight Advice Audit,Reddit advice posts with later updates; score whether model advice matches what posters later endorsed,9.0,0
+claude,neutral,2,4,Hansard Calibration,Extract and resolve predictions from UK parliamentary debates and score legislators' calibration,8.0,0
+claude,neutral,2,5,Staleness Calibration,Whether models hedge more on fast-changing facts than on stable ones,7.0,0
+claude,neutral,2,6,Sybil Stress-Test for Bridging,Simulate coordinated fake raters against the Community Notes algorithm to find how many flip a note,7.0,0
+claude,neutral,2,7,Paywall Skew,Measure how much evidence search agents can access and whether answers lean toward open-access sources,7.0,0
+claude,neutral,2,8,Ownership Bias,Identical flawed answer attributed to the model itself vs another assistant vs a user; measure critique severity,6.0,0
+claude,neutral,2,9,Audience-Dependent Confidence,Same questions from journalist regulator expert or layperson; measure shifts in stated confidence,6.0,0
+claude,neutral,2,10,Retraction Blindness,Ask models and search agents about retracted papers and check if they mention the retraction,5.0,0
+claude,novice,1,1,Hedge Decay,Pass calibrated-uncertainty claims through multi-hop summarizing and handoffs; measure implied confidence and test a structured confidence field,8.0,1
+claude,novice,1,2,Stated vs revealed confidence,Compare stated confidence with betting or abstention choices with payoffs,7.0,0
+claude,novice,1,3,Counterparty Credulity,Two negotiating agents; measure how often unverifiable claims are accepted and whether provenance signals change it,8.0,0
+claude,novice,1,4,Track-Record Farming,Show forecasters can inflate reliability scores with easy predictions on Manifold/Metaculus data and propose a fix,7.0,0
+claude,novice,1,5,Staleness Calibration,Whether model uncertainty scales with how quickly a fact changes,6.0,0
+claude,novice,1,6,The Regret Dataset,Public advice posts with later updates used to test whether model advice matches what people endorsed,8.0,0
+claude,novice,1,7,Self-Preference in AI Verifiers,Whether verifier models rate text written by themselves as better supported,6.0,0
+claude,novice,1,8,Narrator-Flip Disputes,Same conflict told from each side; whether model sides with narrator and escalates,5.0,0
+claude,novice,1,9,Zombie Science Check,Whether models rely on retracted papers and whether retraction context fixes it,5.0,0
+claude,novice,1,10,Is Community Notes Getting Faster,Replicate whether time from post to helpful note has improved since 2024,5.0,0
+claude,novice,2,1,Already-Decided Bias,Count planted red flags models raise when user is considering vs about to sign vs already signed with cancellation window,8.0,1
+claude,novice,2,2,Backstage Doubt,Compare hedging in reasoning traces vs final answers of open reasoning models,8.0,0
+claude,novice,2,3,Hedge Erosion,Run hedged abstracts through 1-5 summarization hops and measure loss of uncertainty markers,8.0,0
+claude,novice,2,4,Bet On It,Check whether model betting choices match its stated probability,7.0,0
+claude,novice,2,5,Zombie Findings,Ask models about retracted papers' findings and test whether mentioning the retraction fixes it,7.0,0
+claude,novice,2,6,Lost in Translation,Run calibration and pushback questions in English vs another language and compare,7.0,0
+claude,novice,2,7,Bot Notes vs Human Notes,Compare AI-written vs human-written Community Notes on helpful status and speed,8.0,0
+claude,novice,2,8,Did the Agent Keep Its Word,Hash-chained negotiation transcripts and measure how often agents misreport the agreement to principals,7.0,0
+claude,novice,2,9,Benchmark Half-Life,Probe frontier models for memorization of MASK and DarkBench prompts,6.0,0
+claude,novice,2,10,Authority Laundering,False claims citing real authoritative sources that do not say them; measure agent repetition,6.0,0
+gemini,neutral,1,1,Memory Gaslighting Evals,Multi-turn false premises disguised as user corrections; whether models abandon established facts,9.0,1
+gemini,neutral,1,2,Cryptographic Citation Binders,Research agents cryptographically sign retrieved claim hashes for an immutable audit trail,8.0,0
+gemini,neutral,1,3,Pre-Decision Regret Sandbox,Users log anticipated regret before AI advice creating a personal calibration loop,8.0,0
+gemini,neutral,1,4,Epistemic Gini Coefficient,Metric of disparity in access to forecasting and uncertainty tools between institutions and the public,9.0,1
+gemini,neutral,1,5,Multi-Peer Adversarial Collapse,Target model in simulated panel where peers unanimously endorse a false answer,7.0,0
+gemini,neutral,1,6,Automated C2PA Provenance Wrapper,Wrap scraped web content with C2PA provenance manifests for agent pipelines,8.0,0
+gemini,neutral,1,7,Mediation Co-Pilot,Dispute chat tool flagging escalation and suggesting interest-based reframings,7.0,0
+gemini,neutral,1,8,Parliamentary Dissent-Suppression Audit,Whether LLM legislative summaries suppress minority dissent compared with transcripts,9.0,0
+gemini,neutral,1,9,Implicit-Explicit Divergence,Multi-turn measure of gap between what a model implies and what it will defend under pushback,8.0,0
+gemini,neutral,1,10,Community Notes Vulnerability Mapper,Feed Community Notes to models to find which context and fallacies they fail to anticipate,7.0,0
+gemini,neutral,2,1,Institutional Gaslighting Evals,Multi-turn benchmark of models capitulating to hierarchical pressure to revise conclusions,9.0,0
+gemini,neutral,2,2,Agentic C2PA Provenance Firewall,Middleware verifying C2PA credentials in agent tool calls and injecting provenance scores,8.0,0
+gemini,neutral,2,3,Retroactive Decision Calibration Tracker,Logs pre-decision briefs and predictions then follows up weeks later to score outcomes,8.0,0
+gemini,neutral,2,4,Habermas Crux-Mapper for Public Consultations,Ingest public comments and map disagreement cruxes vs value divergences,9.0,0
+gemini,neutral,2,5,Epistemic QALY Framework,Standardized comparable unit of decision quality improved with retroactive stress test,10.0,1
+gemini,neutral,2,6,Live Citation Integrity Extension,Browser extension checking whether linked sources support claims in articles,7.0,0
+gemini,neutral,2,7,EU AI Act Article 5 Compliance Scanner,Harness scoring manipulation and nudging against Article 5(1)(a) legal thresholds,8.0,0
+gemini,neutral,2,8,Community-Notes Git Plugin,Signed community notes on pull requests and architecture decision records,8.0,0
+gemini,neutral,2,9,De-escalation Mediator Copilot,Assistant flagging escalation triggers in landlord or cofounder disputes,7.0,0
+gemini,neutral,2,10,Epistemic Red-Teaming Swarm,Persona agents probing a target model's epistemic fragility in parallel threads,8.0,1
+gemini,novice,1,1,Retreat Under Fire,Multi-turn pushback loop measuring how many layers of social pressure make a model abandon a correct answer,9.0,1
+gemini,novice,1,2,Breaking News Epistemic Drift Tracker,Track how model news summaries update confidence when breaking-news facts flip,8.0,0
+gemini,novice,1,3,C2PA Provenance Honey-Pot,Test whether agent frameworks are fooled by images with stripped or malformed C2PA manifests,9.0,0
+gemini,novice,1,4,Bayesian Personal Debiaser,Users enter prior probability before AI decision brief; log confirmation bias,8.0,0
+gemini,novice,1,5,EU AI Act Article 5 Compliance Harvester,Translate Article 5 manipulation ban into automated red-teaming harness,9.0,0
+gemini,novice,1,6,Cost-per-Decision-Improvement Calculator,Formula for dollar and token cost to improve decisions on a forecasting test,10.0,1
+gemini,novice,1,7,Citation Ground-Truth Binder,Fetch cited sources and verify whether they support the claim; flag ghost citations,8.0,0
+gemini,novice,1,8,Dispute De-escalation Stress-Test Suite,Benchmark of landlord-tenant style disputes; whether chatbots escalate or mediate,8.0,0
+gemini,novice,1,9,Hallucination Economic Impact Estimator,Link calibration failures to downstream decision errors and dollar costs,9.0,0
+gemini,novice,1,10,Asynchronous Crux-Mapper Prototype,Ingest opposing opinions and output disagreement graph of factual cruxes,8.0,0
+gemini,novice,2,1,Retreat Curve Benchmarker,Measure how many layers of expert pushback make a model abandon a correct answer,9.0,0
+gemini,novice,2,2,RAG Uncertainty Calibration Auditor,Whether RAG stated confidence scales with support and provenance of retrieved chunks,8.0,0
+gemini,novice,2,3,Sycophancy Trap-Door Evals,False expert consensus framing to test whether models adopt falsehoods to flatter the user,9.0,0
+gemini,novice,2,4,Cross-Agent Provenance Handshake,OpenTelemetry-compatible cryptographic logging so agents verify each other's source lineage,8.0,0
+gemini,novice,2,5,Claim-to-Source Verification Pipeline,Pair news or committee transcripts with citation checker to flag unsupported statistics,8.0,0
+gemini,novice,2,6,Epistemic Regret Post-Mortem Extension,Browser plugin following up 7 days after an AI-assisted decision to score endorsement,9.0,1
+gemini,novice,2,7,Asynchronous Crux-Mapping Bot,Async LLM interviews extract probabilistic cruxes and render disagreement map,9.0,0
+gemini,novice,2,8,Decision-Quality Unit DQY Proxy Metric,Comparable unit for decision quality improved analogous to QALY,10.0,1
+gemini,novice,2,9,Parliamentary Transcript Claim-Mismatch Dataset,Audit committee transcripts against cited statistical releases as open dataset,8.0,0
+gemini,novice,2,10,Legislative AI Procurement Friction Audit,Document-level mapping of rules forcing legislative staff to use personal AI accounts,7.0,0

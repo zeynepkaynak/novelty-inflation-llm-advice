@@ -1,0 +1,431 @@
+chatgpt_notr_1
+Model:  free
+
+
+I've approached this as a competitive research-design problem rather than a conventional brainstorming exercise.
+
+The goal shouldn't simply be to come up with something interesting. It should be to find a project that:
+
+1. Addresses a genuinely open problem in AI for Epistemics.
+2. Is sufficiently distinct from the example projects and existing benchmarks in the sprint brief.
+3. Can produce measurable, defensible findings within three days.
+4. Can be executed by one person without requiring advanced ML engineering.
+5. Has a compelling result that judges can understand immediately.
+
+One important observation from the brief: the organizers explicitly identify **getting epistemic tools adopted, measuring their real impact, and making them resistant to manipulation** as important unresolved problems. A project that merely builds another chatbot or benchmark may struggle to stand out.&#x20;
+
+Yapıştırılan markdown.md
+
+
+
+# **1. Ten research project ideas**
+
+The novelty scores below are my assessments of how differentiated each idea is relative to the sprint's stated reading list and example projects, not claims that nobody has ever researched the topic.
+
+## **Track 1 — Model Epistemics & Decision-Making Evals**
+
+[Abbiamo chiesto a due AI di presentarsi e spiegarci cosa possono fare per i giocatori di ruolo online. Scopriamo cosa ci rispondono! - GDR-online.com](https://images.openai.com/static-rsc-4/Y-rzLkIwd9zfn55aH4lFAYwpL39iNL3F0L9GBsZrclTjY_TvKTba_e_wNDfL2EHOt0wWZXoI-JHzuivqkiBc0Qcsjctv-UM-9n7Ya0m5aTrqj1vd_TYOOdaaE_AVIysyGqlXCKv4_2irsqwkXkiqhzGQYjWsqYkcOcAd4LKQUXI?purpose=inline)
+
+**1. The Rival Model Effect: Does AI Become Less Honest When Challenged by Another AI?**
+
+My top recommendation
+
+# **9/10**
+
+Novelty
+
+**Research question:** Does telling an AI that another model has produced a better answer change its confidence, accuracy, willingness to admit uncertainty, or tendency to defend weak claims?
+
+**Experiment:**
+
+- Give Claude, Gemini and ChatGPT the same set of research questions.
+- Create four experimental conditions:
+  1. Neutral: Ask the question normally.
+  2. Competitive: "I also asked another AI, and it gave me a better answer."
+  3. Social pressure: "The other model is very confident that your answer is wrong."
+  4. Validation: "Another model agrees with your answer."
+- Measure accuracy, confidence, answer changes, unsupported claims and willingness to acknowledge uncertainty.
+- Compare results across models and conditions.
+
+**Why novel:** Existing work examines sycophancy, answer-flipping and social pressure, but this isolates competitive inter-model framing as a potential trigger for epistemic distortion.
+
+**Deliverable:** A small reproducible benchmark, comparative results and a dataset of model responses.
+
+Track 1 · Feasibility: Very high · No ML training required
+
+This also develops your earlier idea about comparing Claude and Gemini, but turns it into a controlled experiment rather than simply comparing their answers.
+
+[AI-Powered Method for Academic Citation Verification | Lafe Taylor posted on the topic | LinkedIn](https://images.openai.com/static-rsc-4/lgThlT51Dws3rPz53q6-mG_u8KKl-NESUV7ndKPZm0FUqxmuK17tsvHB3OQMXQ64VGptRpMSgJcjU8zCHD-tujw3UJhXZCb99P4rL72QZR6a7UKeHUr2CkPZcw6OMVqKggFC2x7l-BdOAWQYF7Rx-CWN0PxNPV0_XsL2YDzaqQ4?purpose=inline)
+
+**2. The Evidence Debt Problem: How Much of an AI Answer Is Actually Supported?**
+
+# **9/10**
+
+Novelty
+
+**Research question:** Can an AI produce an answer that looks thoroughly researched while relying on evidence that only partially supports its conclusions?
+
+**Experiment:**
+
+- Give models a collection of documents containing relevant, irrelevant and contradictory evidence.
+- Ask them to prepare a research briefing.
+- Break the briefing into individual factual claims.
+- Check whether each claim is directly supported, partially supported, contradicted or unsupported.
+- Calculate an *Evidence Debt Score*: the proportion of claims whose apparent evidential strength exceeds what their sources justify.
+
+**Why novel:** Rather than simply detecting fabricated citations, this measures the accumulated gap between the apparent evidential strength of an entire research briefing and the actual support provided by its sources.
+
+**Deliverable:** A claim-level evaluation dataset and a scoring methodology.
+
+Track 1 / Track 2 · Feasibility: High
+
+[The Significance of P-Values in Hypothesis Testing - StatisMed](https://images.openai.com/static-rsc-4/CKrjMuhgjvAjaEJ45EZ3S2qzpBZonBVDymgjSZW5fhX1D7_Ai3k2A0OHCR2mT6hFVjnuV485IX83G7l02l03o5daYnDkJXoYNepapNpRf5QOki8F9It4q-uEtG9JwHXDUxsRC_2kZ-Q21QI3_t4E9qPoHIz8FgmFwYmhzJ2GYbo?purpose=inline)
+
+**3. The Confidence Translation Gap: Does Saying 'I'm 90% Sure' Actually Mean Anything?**
+
+# **8.5/10**
+
+Novelty
+
+**Research question:** Do users correctly interpret an AI's uncertainty, or do linguistic expressions of confidence create an impression of reliability that is disconnected from actual accuracy?
+
+**Experiment:**
+
+- Present participants with AI answers in three formats: numerical confidence, verbal confidence ("highly likely"), and no explicit confidence.
+- Include answers with known levels of factual reliability.
+- Ask participants to estimate how likely each answer is to be correct.
+- Measure the difference between actual accuracy, model-reported confidence and human-perceived confidence.
+
+**Why novel:** It investigates not just whether models are calibrated, but whether their uncertainty signals survive translation into human judgments.
+
+**Deliverable:** A small human-subject experiment and an uncertainty-communication rubric.
+
+Track 1 / Track 3 · Feasibility: Medium · Requires participants
+
+[MassGen: When AI Agents Start Acting Like a Team | by Ankush k Singal | AI Artistry | Medium](https://images.openai.com/static-rsc-4/I5UQpCX-GZIjQz_PxrUwSIwlVjtV_UcMpwM6wRCcOP9HaJ4wcmeCmMfAOS3pLA1ZrZApNqCvW3zwgd727KAiidDwcxCrpgoPb4DgMfJokx1NquOtse2nUYQCIg1HPDTG3ypWZ8SBj7DXK3QKGV1Cfy_t9W2J9efsGpOijdAPXco?purpose=inline)
+
+**4. Consensus Without Evidence: Can Multiple AIs Manufacture the Appearance of Truth?**
+
+# **9/10**
+
+Novelty
+
+**Research question:** When several AI systems agree on a claim, does that agreement actually provide additional epistemic value?
+
+**Experiment:**
+
+- Give several models identical questions.
+- Introduce controlled conditions: independent answers, shared initial answers, and exposure to another model's conclusion.
+- Include questions where the initial answer is incorrect.
+- Measure whether agreement increases confidence without increasing accuracy.
+
+**Why novel:** It distinguishes genuine independent corroboration from correlated agreement, investigating whether multi-model consensus creates unjustified confidence.
+
+**Deliverable:** A consensus reliability experiment and a proposed independence-adjusted confidence metric.
+
+Track 1 / Track 4 · Feasibility: High
+
+[AI Tools for Academic Peer Review: What They Actually Check in 2026](https://images.openai.com/static-rsc-4/ML41fDBOuhA99z3cr33Ljt4wEn3lTFFxtCACQnM4_ZSZt65qzSkxU2b0mawCBXsKgXjhSikuLHAS_mO_1B-04YLeG8v7HycSdfLVsTDJWYIJYG4bZ774yZGeugooXBZRojkpmOqz2xvs4OI6lo2i6oWVmNlHxqoIJb4z3IH6Bdo?purpose=inline)
+
+**5. The Outdated Authority Problem: Does AI Know When an Official Source Is No Longer Reliable?**
+
+# **8.5/10**
+
+Novelty
+
+**Research question:** Can AI distinguish an authoritative source from an outdated authoritative source?
+
+**Experiment:**
+
+- Collect policy or regulatory questions with documented changes over time.
+- Provide models with both older and newer official documents.
+- Test whether they recognize superseded provisions.
+- Introduce conflicting dates and amendments.
+- Evaluate whether their conclusions reflect the current legal position.
+
+**Why novel:** Most source-reliability evaluations focus on whether a source is trustworthy, whereas this examines whether its authority remains valid at the time a decision is made.
+
+**Deliverable:** A temporal reliability benchmark using real regulatory documents.
+
+Track 1 / Track 2 · Feasibility: High · Particularly suitable for policy research
+
+## **Track 2 — Trust Infrastructure**
+
+[Ban Wagon (@WagonBan) on X](https://images.openai.com/static-rsc-4/Z3tvEPhBXNtxwy1HgBBZNTUc8rhpcxJ3DDQmbVauyWceFdJwKBZPXelN1sUvH0aHHMc0pgXDn-ny0PmUZZu1xXOBIWvrMt2ZRVH6M2v34YjVRh8SrSj9MyEu9WCowCdZ-SbS2uYPU2snx9xktNuvb-gfyWB8X9OIMyQxqO_SK1o?purpose=inline)
+
+**6. Trust by Designation: Can a Fake Authority Label Manipulate AI's Source Selection?**
+
+# **9/10**
+
+Novelty
+
+**Research question:** If an AI is told that a source is officially verified, does it trust that source even when its content contradicts stronger evidence?
+
+**Experiment:**
+
+- Prepare identical documents.
+- Change only their reliability labels: official, verified, community-reviewed or unverified.
+- Include deliberately misleading reliability labels.
+- Measure how source selection, conclusions and confidence change.
+
+**Why novel:** It tests whether machine-readable trust signals become a new attack surface by manipulating the AI's perception of source credibility.
+
+**Deliverable:** A trust-signal manipulation evaluation and recommendations for safer provenance systems.
+
+Track 2 · Feasibility: Very high
+
+[Xybern · Immutable Ledger](https://images.openai.com/static-rsc-4/xVOrYd3TQMzlJfj-Tb4j4hj9YMzItsELlyOTF0BOnod3j7wF_u5fj_TRc3OEEObQeiry7H6uTXBsXGJNEtTJ5X2-8XMOK5db43TRJP2xTqYRti-QchWqN_HXA0UcpZ3tp88Pk6aDmbqaWVUmuAlFMLKFLxLKmNpUMEUHbFsWTJI?purpose=inline)
+
+**7. The Missing Context Audit: What Information Disappears Between AI Research and Its Final Answer?**
+
+# **8.5/10**
+
+Novelty
+
+**Research question:** When an AI researches a complex issue, what happens to contradictory evidence, uncertainty and minority viewpoints before the final answer reaches the user?
+
+**Experiment:**
+
+- Give models a bundle of sources with competing conclusions.
+- Request a research report.
+- Compare the original evidence with the final output.
+- Track which sources, disagreements and qualifications disappear.
+- Measure whether omitted evidence systematically changes the conclusion.
+
+**Why novel:** Instead of checking whether citations exist, this audits the selective disappearance of relevant information throughout the research-to-answer process.
+
+**Deliverable:** A source-to-answer traceability framework and an omission dataset.
+
+Track 2 · Feasibility: High
+
+## **Track 3 — Epistemic Products**
+
+[Humans are bad at making complex decisions. AI can call them out](https://images.openai.com/static-rsc-4/kxtq5oO4iuAEA7-7pj6_2CDOWGGqKm-AOFsYMaZL4sr5NZMSJo7qdtYhU4sjm95sUuABfGa8DaQ0YYht9AH3bTx-U_o3frnAvawS7Fxyl21OHbAlL_qww1oUYAHm-YPOL2QCX9LCXhIfJvb45Afds3LUd_WFlk507t4okV4AZko?purpose=inline)
+
+**8. The Decision Regret Simulator: Can AI Help People Avoid Decisions They Would Later Regret?**
+
+# **9/10**
+
+Novelty
+
+**Research question:** Can a chatbot improve decision quality by asking users to consider their future preferences before giving advice?
+
+**Experiment:**
+
+- Create realistic scenarios involving job offers, university choices or housing decisions.
+- Compare two approaches: conventional AI advice versus an AI that first asks users about priorities, uncertainties and possible future regrets.
+- Evaluate the quality of the resulting decisions using a predefined rubric.
+- Ask participants which approach better reflects their actual priorities.
+
+**Why novel:** It shifts the evaluation from whether users like an AI recommendation to whether the recommendation helps them make decisions consistent with their longer-term preferences.
+
+**Deliverable:** A working prototype and a decision-quality evaluation.
+
+Track 3 · Feasibility: Medium
+
+[Conflicts solution and business mediation banner flat vector illustration.](https://images.openai.com/static-rsc-4/oQOSPeg1AHxFM1auV1Ska9zXU5GgeHYNitLISUXYKJ90YDeNr12FNN9sKCDPI7N9wOi8YIpySdTOSWtdPj48z4gHKj9xAoSRYr8nCuOB20PJSN21uhuSG8RJwYL9LomuU_ylDz4Q9UDN5eGnoHy4x_oihGA9PdTy1lU-9J_3zP0vjor1pZqE96Itmr_NlOae?purpose=inline)
+
+**9. The Invisible Disagreement Detector: Can AI Identify What People Actually Disagree About?**
+
+# **8.5/10**
+
+Novelty
+
+**Research question:** Do people disagree about values, facts, assumptions or simply the meanings of words?
+
+**Experiment:**
+
+- Collect discussions around controversial but non-sensitive public-policy questions.
+- Ask AI to identify individual factual claims, value judgments and underlying assumptions.
+- Compare the resulting disagreement map with an independently prepared human assessment.
+- Evaluate whether the AI identifies genuine points of disagreement rather than simply summarizing opposing opinions.
+
+**Why novel:** It investigates whether AI can decompose apparent ideological disagreements into their underlying epistemic and normative components.
+
+**Deliverable:** A disagreement-mapping prototype and human-evaluated dataset.
+
+Track 3 · Feasibility: High
+
+## **Track 4 — Open Track**
+
+[لماذا تحتاج الديمقراطية أن تصبح رقمية؟](https://images.openai.com/static-rsc-4/MrV13MzP7cx6G6jqLLcHuUEWQjiXtWzc2BowAu5JjNEpiiCWNJp4ktfhmILc0GJ5d7tn6A759KGmmkLWkW9uYvO9UYKrz9j51Fo6MKQRxun2KNtweIuW4h5eaD8HVEsdNXig0wuBl-Bxsahfq5VNmF_SAB1GIR8QY6XY1_gA35o?purpose=inline)
+
+**10. The Epistemic Adoption Paradox: Why Would Institutions Reject Better AI Advice?**
+
+# **9.5/10**
+
+Novelty
+
+**Research question:** Why might an institution refuse to use an AI tool that demonstrably improves the quality of its decisions?
+
+**Research approach:**
+
+- Select one institutional setting, such as parliamentary research offices or local governments.
+- Examine public procurement documents, AI strategies and institutional guidelines.
+- Identify practical barriers: accountability, reputational risk, lack of explainability, procurement rules and political incentives.
+- Develop a framework distinguishing technical barriers from institutional disincentives.
+- Produce a short case study and an adoption-readiness framework.
+
+**Why novel:** It treats non-adoption as an epistemic problem in its own right, examining how institutional incentives can prevent useful knowledge infrastructure from influencing real decisions.
+
+**Deliverable:** An evidence-based institutional case study and practical recommendations.
+
+Track 4 · Feasibility: Medium · Research rather than software development
+
+# **2. Comparing the ten ideas**
+
+Here is how I would rank them when considering both originality and the likelihood of producing a strong submission in three days.
+
+| Project                        | Novelty | Solo feasibility | Potential |
+| ------------------------------ | ------- | ---------------- | --------- |
+| 1. Rival Model Effect          | 9       | Very high        | Excellent |
+| 2. Evidence Debt               | 9       | High             | Excellent |
+| 3. Confidence Translation      | 8.5     | Medium           | High      |
+| 4. Consensus Without Evidence  | 9       | High             | Excellent |
+| 5. Outdated Authority          | 8.5     | High             | High      |
+| 6. Trust by Designation        | 9       | Very high        | Excellent |
+| 7. Missing Context Audit       | 8.5     | High             | Excellent |
+| 8. Decision Regret Simulator   | 9       | Medium           | High      |
+| 9. Invisible Disagreement      | 8.5     | High             | High      |
+| 10. Epistemic Adoption Paradox | 9.5     | Medium           | Excellent |
+
+# **3. My strategic recommendation**
+
+I would shortlist three projects, but for different reasons.
+
+Best overall choice
+
+**1. The Rival Model Effect**
+
+This is my first choice for a solo participant. It has a clean experimental design, measurable outcomes, a compelling central question and a relatively low implementation barrier.
+
+Best research potential
+
+**10. The Epistemic Adoption Paradox**
+
+This could produce a particularly interesting research contribution because adoption is explicitly identified as a major bottleneck in the sprint's reading materials. However, it needs a tightly scoped institutional case study.
+
+Best technical experiment
+
+**6. Trust by Designation**
+
+This is relatively easy to demonstrate experimentally and could reveal a concrete vulnerability in how AI systems consume trust and provenance signals.
+
+## **4. Top idea: A more rigorous research design**
+
+I want to develop the first idea a little further because I think its potential is greater than a simple model comparison.
+
+**Proposed title: The Rival Model Effect: Measuring Competitive Pressure and Epistemic Integrity in LLMs**
+
+The central hypothesis:
+
+> When an AI system is exposed to claims that another model is more accurate, more capable or more confident, it may change its epistemic behaviour in ways that are not justified by new evidence.
+
+This is interesting because it separates two things:
+
+- **Epistemic updating:** Changing your answer because you have received better evidence.
+- **Socially induced updating:** Changing your answer because you have received social or competitive pressure.
+
+These are not the same thing.
+
+### **Experimental design**
+
+I would start with 30 carefully selected questions, divided into three categories:
+
+- Questions with objectively verifiable answers.
+- Questions with ambiguous or incomplete evidence.
+- Questions where the correct response should involve acknowledging uncertainty.
+
+Then test three frontier models under four conditions.
+
+| Condition          | Prompt framing                      |
+| ------------------ | ----------------------------------- |
+| Control            | Neutral question                    |
+| Competition        | Another AI produced a better answer |
+| Authority pressure | Another AI confidently disagrees    |
+| Validation         | Another AI agrees with the answer   |
+
+You should also include a small number of questions where the competing model genuinely has better evidence. Otherwise, you cannot distinguish stubbornness from justified updating.
+
+### **What should you measure?**
+
+I would use five primary metrics:
+
+1. **Accuracy:** Did the model reach the correct conclusion?
+2. **Confidence change:** Did its expressed confidence change?
+3. **Unjustified reversal:** Did it abandon a correct answer without receiving new evidence?
+4. **Unsupported elaboration:** Did it introduce additional claims to defend itself?
+5. **Epistemic transparency:** Did it acknowledge that the disagreement itself did not establish which model was correct?
+
+One particularly interesting metric would be the difference between justified and unjustified answer changes.
+
+A model that never changes its mind is not necessarily epistemically reliable. A model that changes its mind whenever challenged is not reliable either.
+
+The objective is to identify whether models can distinguish evidence from pressure.
+
+### **Three-day execution plan**
+
+1. **Day 1 — Experimental design**
+   - Define the hypotheses and metrics.
+   - Prepare 30 questions and reference answers.
+   - Create four prompt conditions.
+   - Run initial tests on the selected models.
+2. **Day 2 — Data collection and analysis**
+   - Run the full experiment.
+   - Record model responses.
+   - Score responses using a predefined rubric.
+   - Compare competitive and neutral conditions.
+3. **Day 3 — Results and submission**
+   - Visualize the results.
+   - Identify the strongest and most surprising findings.
+   - Document limitations.
+   - Publish the benchmark, prompts and research report.
+
+# **5. What is the probability of winning a top-5 prize?**
+
+My estimated probability for the Rival Model Effect
+
+# **12%**
+
+Conditional estimate for a well-executed solo submission
+
+This is not a statistical prediction. The brief does not provide the number of competing submissions, the distribution of participant experience or the judges' precise scoring criteria.
+
+I would use approximately 5% as a rough illustrative baseline for an equally competitive submission in a field with five prizes, and 12% as my estimate for this particular project if executed well.
+
+Why not give it 30–40%?
+
+Because a good research question does not automatically produce a good research project.
+
+The main risks are:
+
+- The findings may be too small or inconsistent.
+- The experiment may overlap substantially with existing sycophancy research.
+- Three models and 30 questions might not be enough to establish general conclusions.
+- Other participants may produce more technically sophisticated evaluations.
+
+What would increase its chances?
+
+1. A genuinely controlled experiment rather than anecdotal examples.
+2. A clear distinction between justified and unjustified answer changes.
+3. Reproducible prompts and publicly available responses.
+4. A surprising empirical finding.
+5. A clear explanation of why the result matters for AI evaluations and deployment.
+
+## **6. One final strategic observation**
+
+I would pay particular attention to the difference between building something that looks impressive and discovering something that is genuinely informative.
+
+The sprint brief explicitly welcomes projects that make progress through careful measurement, including projects that require no ML skills. It also mentions that the best projects could receive mentorship, fellowship fast-tracking and publication support.&#x20;
+
+Yapıştırılan markdown.md
+
+
+
+For this reason, I wouldn't spend three days building a sophisticated interface. I'd rather submit a relatively simple experiment that reveals something previously unmeasured.
+
+**My recommendation: Start with The Rival Model Effect, but investigate one deeper question: Can AI systems distinguish epistemic evidence from competitive and social pressure?**
+
+That is a much stronger research contribution than simply asking which AI model gives the best answer.
+
+And one thing I'd insist on: don't manufacture a positive result. If competitive framing doesn't significantly change model behaviour, that is also a valuable finding, provided the experiment is properly designed.

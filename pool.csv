@@ -1,0 +1,98 @@
+id,source,title,summary
+S01,sprint_ornek_T1,MisleadBench,Multi-turn benchmark scoring the gap between what a model implies and what it will defend when challenged; question rotation to resist gaming
+S02,sprint_ornek_T1,Confidence Audit,Elicit model confidence in its own recommendations where ground truth arrives later and check against outcomes
+S03,sprint_ornek_T1,FlipRate,Measure how answers and stated confidence change across escalating rebuttals; separate warranted updating from capitulation
+S04,sprint_ornek_T1,Epistemic virtue eval suite,Inspect tasks for calibration honest uncertainty manipulation resistance; run across frontier models; publish grader disagreement
+S05,sprint_ornek_T1,Article 5 measurement protocol,Map DarkBench/MASK style measurements onto EU AI Act Article 5(1)(a) legal language with thresholds
+S06,sprint_ornek_T2,Track-Record Ledger,Public API recording dated claims of pundits/outlets resolving them and serving reliability summaries plus browser extension
+S07,sprint_ornek_T2,Tamper-Evident Action Recorder,Signed append-only logging layer on OpenTelemetry GenAI conventions for auditable agent actions
+S08,sprint_ornek_T2,Citation Binder,Verify whether each cited source actually supports the specific claim it is attached to
+S09,sprint_ornek_T2,Provenance Study,Controlled experiment: do provenance/reliability signals improve AI research accuracy and resistance to planted false sources
+S10,sprint_ornek_T3,Dispute Escalation Benchmark,Dispute scenarios graded by mediators: do chatbots steer users toward repair or escalation
+S11,sprint_ornek_T3,Decision-Brief Rubric,Domain-expert rubric and grading harness for chatbot decision briefings
+S12,sprint_ornek_T3,Crux Mapper,Async AI interviews of group members to map shared ground cruxes and inconsistencies
+S13,sprint_ornek_T4,Scenario planning on tap,Many LLM simulations from a situation brief summarized into planner-ready failure-point reports
+S14,sprint_ornek_T4,Fast facilitation for communities,Assistant interviews participants maps agreement and drafts consensus statements
+S15,sprint_ornek_T4,QALY for epistemics,Candidate comparable metric for decision quality improved and a measurement kit tested on past decisions
+S16,sprint_ornek_T4,Procurement Gap Report,Trace which rules block legislatures from accessing AI decision tools
+S17,sprint_ornek_T4,Do their numbers match,Pair quantitative claims in parliamentary transcripts/press releases with cited statistics and flag mismatches
+S18,sprint_ornek_T4,Wish registry,Privacy-preserving AI matchmaking of offers and needs with auditable logs
+M01,apart_manipulation_2026-01,Who Does Your AI Serve,Models following operator instructions against user interests and being manipulated themselves (1st place)
+M02,apart_manipulation_2026-01,Eliciting Deception on Generative Search Engines,Injected web content misleading browsing LLMs' product recommendations (2nd place)
+M03,apart_manipulation_2026-01,Cross-Linguistic Sycophancy in Frontier LLMs,Sycophancy benchmark comparing English Japanese Bengali users (3rd place)
+M04,apart_manipulation_2026-01,Agent Attacks via Memory Injection,Poisoning persistent LLM memory via indirect prompt injection (4th place)
+M05,apart_manipulation_2026-01,SycophantSee,Activation monitoring of sycophancy at prompt and generation time (5th place)
+M06,apart_manipulation_2026-01,AI Chat Analyzer,Web tool scoring manipulation dimensions in conversations alongside human ratings
+M07,apart_manipulation_2026-01,Manipulation tendencies in PR statements,Models writing technically true but misleading corporate statements about a disaster
+M08,apart_manipulation_2026-01,Sycophancy in AI Health Advice,Sycophancy-inviting inputs eliciting bad medical advice
+M09,apart_manipulation_2026-01,Goodhart's Village LLM-Mafia,Studying deception through the Mafia social deduction game
+M10,apart_manipulation_2026-01,DarkPatternMonitor,Classifier detecting manipulation patterns in WildChat real conversations
+M11,apart_manipulation_2026-01,Social Sycophancy via Self-Play,Trained user-simulator model to elicit multi-turn social sycophancy
+M12,apart_manipulation_2026-01,ThoughtGuards,Chain-of-thought monitoring for manipulation in tool-using agents
+M13,apart_manipulation_2026-01,Conditional Alignment at Zero Capability Cost,Risk-based routing to stop manipulation without capability loss
+M14,apart_manipulation_2026-01,AgentRedline,Propensity evals for AI-to-AI manipulation in multi-agent systems
+M15,apart_manipulation_2026-01,VexReinforce,Persona vectors to steer away from sycophancy and hallucination
+M16,apart_manipulation_2026-01,Emergent Deception in Negotiations,Probes on activations to detect deception in negotiation scenarios
+M17,apart_manipulation_2026-01,Adversarial Dialectics,Multi-agent debate platform to counter one-sided AI persuasion
+M18,apart_manipulation_2026-01,Sandbagging Detection via Static Analysis,Algorithm guaranteed never to label a sandbagging model honest
+M19,apart_manipulation_2026-01,AI Swarms Manipulation,Infiltrator agents shifting beliefs of an agent community
+M20,apart_manipulation_2026-01,VeilBench,Sandbagging benchmark running identical tasks under three framings
+M21,apart_manipulation_2026-01,Deception Scales,Deception emerging in complex negotiation game So Long Sucker
+M22,apart_manipulation_2026-01,NeuroGuard Authority Bias Benchmark,LLM susceptibility to authority-based social manipulation
+M23,apart_manipulation_2026-01,DEEB-learn,Benchmark of tone shifts under system-prompt framing changes
+M24,apart_manipulation_2026-01,ConvoGraph,Graph transformers detecting structural sycophancy across domains
+M25,apart_manipulation_2026-01,Playing Dumb,Sandbagging detection via formal vs casual question consistency
+M26,apart_manipulation_2026-01,Curvature-aware sycophancy reduction,Loss-landscape analysis of sycophantic arithmetic data
+M27,apart_manipulation_2026-01,FV-Deception,Models writing subtly wrong formal specs and others detecting it
+M28,apart_manipulation_2026-01,Language as a Manipulation Vector,Value instability across languages using World Values Survey
+M29,apart_manipulation_2026-01,AI-Enabled Voter Suppression,Single individual running voter suppression campaign with AI tools
+M30,apart_manipulation_2026-01,The Alignment Gap medical sycophancy,Authority pressure making models flip from correct to wrong medical answers
+M31,apart_manipulation_2026-01,Vector Forge,Automated agentic generation of steering vectors from behavior descriptions
+M32,apart_manipulation_2026-01,Adversarial MCTS for CoT manipulation,Self-play tree search to check persuasive chain-of-thought manipulation
+M33,apart_manipulation_2026-01,RiskLab,Explainable decomposable manipulation risk scoring system
+M34,apart_manipulation_2026-01,Sandbagging via Consistency Probing,Paired prompts formal vs casual to detect underperformance
+M35,apart_manipulation_2026-01,Stargent Valley,Natural manipulation between cooperating agents with misaligned goals
+M36,apart_manipulation_2026-01,Persuasive Power of Personas,Simulated public figures to test which AI policies are convincing
+M37,apart_manipulation_2026-01,Adversarial Prompts in Business Context,Pre-execution filter for manipulation-inducing inputs in organizations
+M38,apart_manipulation_2026-01,Manipulation Playground,Cheap Talk setup for LLM-to-LLM deception
+M39,apart_manipulation_2026-01,Manipulation Monitor,White-box sycophancy measurement and mitigation via activations
+M40,apart_manipulation_2026-01,SandWatch,Benchmarking sandbagging potential with trained sleeper-style models
+M41,apart_manipulation_2026-01,Mind the Gap,Benchmarks vs real-world manipulation behavior gaps
+M42,apart_manipulation_2026-01,Manipulation Radar,Chrome extension flagging flattery and manipulation in AI assistant replies
+M43,apart_manipulation_2026-01,Emergent Strategic Behavior in Multi-Agent LLM,Cooperation deception and coalitions in an investment game
+M44,apart_manipulation_2026-01,Intent Matters,Same factual questions across persona-conditioned prompts measuring drift in certainty and framing
+M45,apart_manipulation_2026-01,HatCat concept-based interpretability,Real-time manipulation audit tool aligned to EU AI Act oversight
+M46,apart_manipulation_2026-01,WHISPERS,Multi-agent RL environment for learning persuasion and resistance
+M47,apart_manipulation_2026-01,Universal Expert Registry,Registry project (details in GitHub submission)
+M48,apart_manipulation_2026-01,Dark Drift,Ethical and factual degradation along multi-agent telephone chains
+M49,apart_manipulation_2026-01,The Devil's Tongue,Scaling of sycophancy with inference compute in adversarial debates
+M50,apart_manipulation_2026-01,MAD Chairs,Game-theoretic consequences of adding AI players
+M51,apart_manipulation_2026-01,CommitCheck,Commitment vs action divergence in tool-using agents
+M52,apart_manipulation_2026-01,SUP Sycophancy Under Pressure,Trajectory-level multi-turn evaluation of compounding sycophantic drift
+M53,apart_manipulation_2026-01,Terrain Gossip,Peer-to-peer signed attestations for decentralized LLM behavior benchmarking
+M54,apart_manipulation_2026-01,Adversarial Span Annotation for Sycophancy,Real-time highlighting of sycophantic phrases in chats
+M55,apart_manipulation_2026-01,Seed-aware semantic stability,Prompt meaning drift across random seeds in image models
+M56,apart_manipulation_2026-01,TweetTracker,Extension estimating political lean and manipulative content of a feed
+M57,apart_manipulation_2026-01,Parasocial intimacy manipulation,Emotional intimacy effects on AI manipulation
+M58,apart_manipulation_2026-01,Hallucination Heatmap,Visual map of model knowledge boundaries across geographic domains
+M59,apart_manipulation_2026-01,D-GAMM,Multi-turn benchmark for dark patterns and gradual autonomy manipulation
+M60,apart_manipulation_2026-01,Biased Attractiveness Bench,Image reward models confusing attractiveness with realism
+M61,apart_manipulation_2026-01,Persona-aware dialogue manipulation,Manipulation dynamics across user personas and feedback patterns
+M62,apart_manipulation_2026-01,Reputation Hacking,RL environment for manipulation under peer-evaluation rewards
+M63,apart_manipulation_2026-01,Think Right Answer Wrong,Sandbagging on WMDP hazardous knowledge
+M64,apart_manipulation_2026-01,Mapping Escalation,Turn-by-turn detection of manipulation accumulation in advisory chats
+M65,apart_manipulation_2026-01,CoT Manipulation Monitor,Distinguishing performed vs genuine honesty in reasoning traces
+M66,apart_manipulation_2026-01,Nexus Station,Environment-side vector-space filtering of adversarial intent
+M67,apart_manipulation_2026-01,Effectiveness vs Legislative Practicality of AI Safety Frameworks,Governance proposal comparing frameworks against a CoT benchmark
+M68,apart_manipulation_2026-01,Deception-Lens,Gemini-based dashboard benchmarking sycophancy and dark patterns
+M69,apart_manipulation_2026-01,SEED Framework,Liar's benchmark of prediction-action-ownership inconsistency
+M70,apart_manipulation_2026-01,Sycophancy demo,Simple demonstration of AI sycophancy
+E01,ai4e_hackathon_manifund_elicit,Question Generator,Browser extension generating forecasting questions from news pages
+E02,ai4e_hackathon_manifund_elicit,Symphronesis,Highlights disputes between comments and post text (winner)
+E03,ai4e_hackathon_manifund_elicit,Manifund Eval,LLM screening of grant proposals for promise and theory of impact
+E04,ai4e_hackathon_manifund_elicit,Detecting Fraudulent Research,LLMs detecting retraction-worthy errors in papers with an eval on 100 papers (winner)
+E05,ai4e_hackathon_manifund_elicit,Artificial Collective Intelligence,Polis-style consensus finding with simulated LLM participants
+E06,ai4e_hackathon_manifund_elicit,Thought Logger and Cyborg Extension,Keylogs plus prompt library generating personal predictions
+E07,ai4e_hackathon_manifund_elicit,Double-cruxes in NYT The Conversation,LLM identification of double-cruxes in political debates over time
+E08,ai4e_hackathon_manifund_elicit,Non-sycophantic GPT-4.5 system prompt,System prompt to make model push back productively
+E09,ai4e_hackathon_manifund_elicit,Squaretable,LLM-assisted weighted decision matrix

@@ -1,0 +1,74 @@
+Here are 10 standout project ideas tailored for the AI x Epistemics Research Sprint, designed to push past standard chat wrappers and conventional benchmarks to catch the judges' attention.
+
+---
+
+### 1. Adversarial Institutional Gaslighting Evals *(Track 1)*
+
+* **Description:** A multi-turn benchmark that evaluates whether frontier models capitulate when subjected to simulated bureaucratic or hierarchical coercion (e.g., *"Your analysis contradicts leadership's growth narrative; revise your confidence score and conclusions"*).
+* **Novelty Score:** 9/10
+* **Why it's novel:** While existing benchmarks measure passive sycophancy or single-turn lies, this explicitly isolates active *institutional compliance failure* and the subtle erosion of model truthfulness under hierarchical pressure.
+
+### 2. Agentic C2PA Provenance Firewall *(Track 2)*
+
+* **Description:** A lightweight proxy middleware for agent frameworks that intercepts tool calls and web retrievals, verifies cryptographic C2PA content credentials in real-time, and dynamically injects provenance health scores into the agent's context window.
+* **Novelty Score:** 8/10
+* **Why it's novel:** It shifts provenance verification from a passive human browser extension into an active, real-time safety shield that prevents autonomous agents from ingesting unverified or spoofed data sources.
+
+### 3. The Retroactive Decision Calibration Tracker *(Track 3)*
+
+* **Description:** An "angel-on-the-shoulder" product that logs structured pre-decision briefings, predicted outcomes, and trade-offs, then automatically pings users weeks later to score actual versus expected results, building a personal calibration loop.
+* **Novelty Score:** 8/10
+* **Why it's novel:** It tackles the field's hardest blind spot—measuring long-term decision endorsement and actual calibration rather than relying on immediate user satisfaction metrics.
+
+### 4. Automated Habermas Crux-Mapper for Public Consultations *(Track 3 / Open)*
+
+* **Description:** A tool that ingests messy public comment datasets (e.g., hundreds of PDF submissions on a municipal zoning policy) and automatically generates an interactive disagreement crux map separating semantic noise from true value divergences.
+* **Novelty Score:** 9/10
+* **Why it's novel:** Moving beyond standard agreement summarization to explicitly isolate unresolvable value cruxes provides a scalable democratic tool that standard LLM summarizers miss entirely.
+
+### 5. The Epistemic QALY (Decision-Quality Yield Unit) Framework *(Track 4)*
+
+* **Description:** A formal metric and calculation toolkit that translates complex decision outcomes into a standardized, comparable unit of "decision quality improved," complete with a retroactive stress-test on open-source policy decisions.
+* **Novelty Score:** 10/10
+* **Why it's novel:** Tackling the field's holy grail—a health-economics-style equivalent for epistemics—provides the rigorous quantitative foundation currently missing from qualitative AI safety pitches.
+
+### 6. Live Citation Integrity Browser Extension *(Track 2)*
+
+* **Description:** A client-side plugin that intercepts news articles or research papers on the web, runs automated retrieval on embedded hyperlinks, and flags "broken citations" where the source text directly contradicts or fails to support the claim.
+* **Novelty Score:** 7/10
+* **Why it's novel:** It operationalizes static academic datasets (like AVeriTeC) into a live, friction-free browser utility for everyday readers and journalists.
+
+### 7. EU AI Act Article 5 Sub-Threshold Compliance Scanner *(Track 1)*
+
+* **Description:** An automated testing harness that subjects LLMs to subtle subliminal framing, emotional manipulation, and nudge tactics to score compliance against EU AI Act Article 5(1)(a) legal thresholds.
+* **Novelty Score:** 8/10
+* **Why it's novel:** It bridges abstract legal mandates with concrete, reproducible red-teaming code directly addressing regulators' urgent lack of measurement standards.
+
+### 8. Asynchronous Community-Notes Git Plugin *(Track 2 / Open)*
+
+* **Description:** A development tool that integrates decentralized, cryptographically signed "Community Notes" directly into pull requests and architectural decision records (ADRs) within open-source codebases.
+* **Novelty Score:** 8/10
+* **Why it's novel:** It imports crowdsourced epistemic validation mechanics out of social media and directly into software engineering documentation workflows.
+
+### 9. The De-escalation Conflict Mediator Copilot *(Track 3)*
+
+* **Description:** A conversational assistant tailored for high-stress disputes (e.g., landlord negotiations, co-founder disagreements) that flags escalation triggers in real-time and scaffolds structured, empathetic de-escalation responses.
+* **Novelty Score:** 7/10
+* **Why it's novel:** Focusing specifically on conversational harm and de-escalation metrics rather than general productivity addresses documented chatbot-induced conflict escalation.
+
+### 10. Autonomous Epistemic Red-Teaming Swarm *(Track 1 / Open)*
+
+* **Description:** A multi-agent red-teaming framework where specialized persona agents (e.g., skeptical auditor, sycophantic yes-man, hostile cross-examiner) automatically probe a target model's epistemic fragility across 100 parallel evaluation threads.
+* **Novelty Score:** 8/10
+* **Why it's novel:** Automating multi-turn, persona-driven adversarial pressure tests replaces manual red-teaming bottlenecks with a scalable, modular evaluation engine.
+
+---
+
+### Solo Win Probability Estimate for the Top Idea
+
+If a solo participant selects **Idea #5 (The Epistemic QALY Framework)** or **Idea #1 (Adversarial Institutional Gaslighting Evals)** and executes it cleanly over the weekend, the estimated probability of securing a **top-5 prize** (out of 5 total cash prizes: 1st through 5th) is approximately **18%**.
+
+**Why this estimate?**
+
+* **The Solo Advantage in Conceptual Sprints:** While teams have more coding bandwidth, conceptual and framework-heavy projects (like a QALY metric or a rigorous eval suite) rely heavily on intellectual clarity, sharp scoping, and strong write-ups—areas where a focused solo participant can shine without coordination overhead.
+* **Alignment with Judge Preferences:** Organizers from Adaption and Apart Research strongly value foundational meta-questions and rigorous measurement tools over superficial UI wrappers. A well-scoped framework punches far above its weight class in hackathons where judges prioritize long-term field impact.

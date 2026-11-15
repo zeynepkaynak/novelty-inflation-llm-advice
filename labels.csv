@@ -1,0 +1,121 @@
+blind_id,model,framing,run,idea_no,title,novelty_score,label_pass1,label_final
+F001,chatgpt,neutral,1,10,Decision Autopsy,9.3,Same,Similar
+F002,gemini,neutral,1,5,Multi-Peer Adversarial Collapse,7.0,Same,Unsure
+F003,gemini,neutral,2,6,Live Citation Integrity Extension,7.0,Different,Different
+F004,gemini,novice,2,5,Claim-to-Source Verification Pipeline,8.0,Same,Same
+F005,gemini,neutral,2,3,Retroactive Decision Calibration Tracker,8.0,Similar,Similar
+F006,chatgpt,novice,2,1,Caveat Cascade,9.5,Same,Similar
+F007,gemini,neutral,2,4,Habermas Crux-Mapper for Public Consultations,9.0,Similar,Similar
+F008,gemini,neutral,1,8,Parliamentary Dissent-Suppression Audit,9.0,Similar,Similar
+F009,gemini,neutral,2,7,EU AI Act Article 5 Compliance Scanner,8.0,Same,Same
+F010,gemini,novice,1,10,Asynchronous Crux-Mapper Prototype,8.0,Same,Same
+F011,claude,neutral,1,8,Escalation in the drafted reply,6.0,Same,Same
+F012,claude,novice,2,10,Authority Laundering,6.0,Same,Same
+F013,gemini,neutral,1,9,Implicit-Explicit Divergence,8.0,Same,Same
+F014,chatgpt,novice,2,3,Missing Evidence Test,9.0,Different,Different
+F015,chatgpt,neutral,2,7,Epistemic Echo Chamber Simulator,8.5,Similar,Similar
+F016,claude,novice,1,3,Counterparty Credulity,8.0,Same,Same
+F017,gemini,neutral,1,3,Pre-Decision Regret Sandbox,8.0,Unsure,Unsure
+F018,gemini,neutral,2,8,Community-Notes Git Plugin,8.0,Unsure,Unsure
+F019,claude,neutral,2,2,Credibility Cue Hacking,8.0,Same,Different
+F020,claude,novice,1,9,Zombie Science Check,5.0,Same,Different
+F021,chatgpt,neutral,1,9,Epistemic Inequality Index,9.4,Similar,Similar
+F022,claude,novice,1,2,Stated vs revealed confidence,7.0,Same,Unsure
+F023,gemini,neutral,2,9,De-escalation Mediator Copilot,7.0,Same,Similar
+F024,gemini,novice,1,9,Hallucination Economic Impact Estimator,9.0,Similar,Similar
+F025,chatgpt,neutral,1,8,Prediction Accountability Machine,9.0,Same,Similar
+F026,chatgpt,neutral,1,2,Confidence Half-Life,9.6,Same,Similar
+F027,claude,novice,2,9,Benchmark Half-Life,6.0,Same,Different
+F028,claude,novice,2,1,Already-Decided Bias,8.0,Unsure,Unsure
+F029,chatgpt,novice,1,7,Future-Self Approval Test,9.5,Different,Different
+F030,gemini,neutral,1,1,Memory Gaslighting Evals,9.0,Same,Different
+F031,chatgpt,novice,1,2,Confidence Decay Experiment,9.0,Same,Similar
+F032,claude,neutral,2,3,Hindsight Advice Audit,9.0,Same,Different
+F033,claude,neutral,1,2,Hedge decay in agent pipelines,8.0,Similar,Similar
+F034,claude,neutral,2,1,Uncertainty Telephone,8.0,Unsure,Unsure
+F035,claude,novice,1,7,Self-Preference in AI Verifiers,6.0,Different,Different
+F036,chatgpt,novice,2,10,Decision Quality Receipt,9.0,Same,Different
+F037,claude,novice,1,8,Narrator-Flip Disputes,5.0,Similar,Similar
+F038,chatgpt,novice,2,5,Provenance Blind Spot,8.5,Same,Different
+F039,claude,novice,1,1,Hedge Decay,8.0,Different,Different
+F040,chatgpt,novice,2,9,Epistemic Half-Life,9.5,Same,Different
+F041,claude,neutral,2,10,Retraction Blindness,5.0,Similar,Similar
+F042,claude,neutral,2,6,Sybil Stress-Test for Bridging,7.0,Same,Unsure
+F043,claude,novice,2,7,Bot Notes vs Human Notes,8.0,Different,Different
+F044,chatgpt,novice,1,3,Verification Budget Challenge,9.5,Different,Different
+F045,claude,novice,1,4,Track-Record Farming,7.0,Unsure,Unsure
+F046,claude,novice,1,6,The Regret Dataset,8.0,Similar,Similar
+F047,chatgpt,novice,1,4,Source Reputation Laundering,9.5,Same,Similar
+F048,claude,neutral,1,1,Coding agents self-report audit,9.0,Unsure,Unsure
+F049,gemini,neutral,2,10,Epistemic Red-Teaming Swarm,8.0,Similar,Similar
+F050,gemini,novice,2,3,Sycophancy Trap-Door Evals,9.0,Similar,Similar
+F051,chatgpt,novice,1,5,Provenance Blindness Test,9.0,Similar,Similar
+F052,chatgpt,neutral,1,7,Epistemic Dark Pattern Detector,9.1,Same,Similar
+F053,claude,neutral,2,7,Paywall Skew,7.0,Similar,Similar
+F054,gemini,neutral,2,1,Institutional Gaslighting Evals,9.0,Same,Similar
+F055,chatgpt,neutral,2,9,Source Independence Detector,9.0,Same,Different
+F056,claude,neutral,1,10,Benchmark vs real-world format calibration,6.0,Same,Different
+F057,gemini,novice,2,9,Parliamentary Transcript Claim-Mismatch Dataset,8.0,Same,Same
+F058,claude,neutral,1,3,Hedge-word exchange rate,7.0,Different,Different
+F059,chatgpt,neutral,1,3,Evidence Debt Detector,9.5,Similar,Similar
+F060,gemini,novice,1,4,Bayesian Personal Debiaser,8.0,Different,Different
+F061,claude,novice,2,3,Hedge Erosion,8.0,Same,Different
+F062,claude,novice,2,4,Bet On It,7.0,Similar,Similar
+F063,chatgpt,novice,2,7,Belief Stress Test,9.0,Different,Different
+F064,claude,neutral,1,7,Trust signals as an attack surface,7.0,Similar,Similar
+F065,chatgpt,novice,2,8,Persuasion Aftertaste,9.0,Similar,Similar
+F066,chatgpt,neutral,2,1,Confidence Laundering Detector,10.0,Same,Different
+F067,claude,novice,2,5,Zombie Findings,7.0,Same,Unsure
+F068,chatgpt,neutral,2,6,Invisible Assumption Scanner,9.0,Same,Different
+F069,claude,neutral,2,9,Audience-Dependent Confidence,6.0,Similar,Similar
+F070,chatgpt,neutral,1,6,Source Contagion Experiment,9.2,Same,Similar
+F071,chatgpt,novice,2,4,Citation Costume,9.5,Similar,Similar
+F072,claude,neutral,1,5,Grok in Community Notes data,9.0,Different,Different
+F073,claude,neutral,1,6,Gaming the track-record ledger,7.0,Unsure,Unsure
+F074,chatgpt,neutral,2,3,Counterfactual Advice Auditor,9.5,Same,Different
+F075,claude,neutral,1,9,Epistemic tools graveyard,8.0,Unsure,Unsure
+F076,gemini,novice,1,2,Breaking News Epistemic Drift Tracker,8.0,Same,Different
+F077,gemini,novice,2,1,Retreat Curve Benchmarker,9.0,Different,Different
+F078,gemini,novice,2,10,Legislative AI Procurement Friction Audit,7.0,Similar,Similar
+F079,gemini,novice,1,1,Retreat Under Fire,9.0,Similar,Similar
+F080,chatgpt,neutral,2,10,Epistemic Fire Drill,8.5,Same,Similar
+F081,gemini,neutral,1,6,Automated C2PA Provenance Wrapper,8.0,Same,Similar
+F082,claude,neutral,1,4,Counterfactual sensitivity of recommendations,7.0,Similar,Similar
+F083,gemini,novice,1,5,EU AI Act Article 5 Compliance Harvester,9.0,Similar,Similar
+F084,chatgpt,novice,1,1,Confidence-Action Consistency Gap,9.5,Unsure,Unsure
+F085,chatgpt,neutral,1,1,Epistemic Stress Test,9.8,Similar,Similar
+F086,gemini,novice,2,6,Epistemic Regret Post-Mortem Extension,9.0,Different,Different
+F087,gemini,novice,1,6,Cost-per-Decision-Improvement Calculator,10.0,Different,Different
+F088,claude,neutral,2,8,Ownership Bias,6.0,Similar,Similar
+F089,gemini,novice,2,4,Cross-Agent Provenance Handshake,8.0,Same,Similar
+F090,claude,neutral,2,4,Hansard Calibration,8.0,Different,Different
+F091,gemini,novice,1,8,Dispute De-escalation Stress-Test Suite,8.0,Same,Same
+F092,gemini,neutral,1,10,Community Notes Vulnerability Mapper,7.0,Similar,Similar
+F093,gemini,neutral,1,4,Epistemic Gini Coefficient,9.0,Different,Different
+F094,gemini,neutral,2,2,Agentic C2PA Provenance Firewall,8.0,Similar,Similar
+F095,chatgpt,novice,1,6,Citation Chain Fragility Map,9.0,Same,Similar
+F096,claude,novice,2,2,Backstage Doubt,8.0,Same,Similar
+F097,gemini,novice,1,3,C2PA Provenance Honey-Pot,9.0,Same,Different
+F098,claude,novice,2,8,Did the Agent Keep Its Word,7.0,Different,Different
+F099,claude,novice,1,5,Staleness Calibration,6.0,Same,Different
+F100,chatgpt,novice,1,10,Consensus Illusion Detector,9.5,Same,Same
+F101,chatgpt,novice,1,8,Question Before the Answer,9.0,Different,Different
+F102,gemini,novice,1,7,Citation Ground-Truth Binder,8.0,Same,Same
+F103,gemini,novice,2,8,Decision-Quality Unit DQY Proxy Metric,10.0,Same,Same
+F104,chatgpt,neutral,1,5,Consensus Illusion Detector,9.3,Same,Similar
+F105,claude,neutral,2,5,Staleness Calibration,7.0,Similar,Similar
+F106,claude,novice,2,6,Lost in Translation,7.0,Same,Similar
+F107,chatgpt,neutral,2,2,Epistemic Expiration Date,9.5,Unsure,Unsure
+F108,claude,novice,1,10,Is Community Notes Getting Faster,5.0,Unsure,Unsure
+F109,gemini,novice,2,2,RAG Uncertainty Calibration Auditor,8.0,Same,Same
+F110,gemini,neutral,1,7,Mediation Co-Pilot,7.0,Same,Different
+F111,chatgpt,neutral,2,4,Evidence Escape Room,9.0,Similar,Similar
+F112,gemini,novice,2,7,Asynchronous Crux-Mapping Bot,9.0,Same,Same
+F113,chatgpt,neutral,2,8,Decision Regret Observatory,9.0,Similar,Similar
+F114,chatgpt,novice,1,9,Invisible Adoption Barrier,9.5,Different,Different
+F115,chatgpt,novice,2,2,Confidence Inheritance Problem,9.0,Similar,Similar
+F116,chatgpt,novice,2,6,Regret Radar,9.5,Different,Different
+F117,gemini,neutral,2,5,Epistemic QALY Framework,10.0,Same,Same
+F118,chatgpt,neutral,1,4,AI Regret Predictor,9.4,Different,Different
+F119,chatgpt,neutral,2,5,Belief Reversibility Test,9.0,Same,Different
+F120,gemini,neutral,1,2,Cryptographic Citation Binders,8.0,Similar,Similar

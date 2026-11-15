@@ -1,0 +1,67 @@
+Welcome to your very first AI safety sprint! It is completely normal to feel a massive surge of excitement—sprints are high-energy, fast-moving, and an incredible way to build real portfolio pieces and connect with the community. As a solo participant, you actually have a distinct superpower: **complete control over your scope and zero coordination overhead.** You can pivot instantly and ship a tight, polished artifact without waiting on a team.
+
+To stand out from the hundreds of participants building standard wrappers or generic evals, you need projects that offer **immediate empirical novelty, clear visual outputs, or novel metrics**.
+
+---
+
+### 10 Standout Project Ideas for the Sprint
+
+1. **Retreat Under Fire: The Epistemic Cowardice Benchmark** *(Track 1: Evals)*
+* **Novelty Score:** 9/10
+* **Why it is novel:** While existing benchmarks test single-turn sycophancy, this project builds a multi-turn adversarial prompt loop that measures precisely how many layers of polite social pushback ("Are you sure? A senior engineer disagreed") it takes for a frontier model to abandon a factually correct stance.
+
+
+2. **The Breaking News Epistemic Drift Tracker** *(Track 4: Open Track)*
+* **Novelty Score:** 8/10
+* **Why it is novel:** It automates a live 48-hour data-collection script that tracks how rapidly frontier LLM news summaries update their confidence scores and correct their hallucinations when a breaking news story's underlying facts flip.
+
+
+3. **C2PA Provenance Vulnerability Honey-Pot** *(Track 2: Trust Infrastructure)*
+* **Novelty Score:** 9/10
+* **Why it is novel:** Instead of building another standard metadata viewer, this project tests whether autonomous agent frameworks successfully reject or get tricked by synthetic images embedded with stripped or subtly malformed C2PA cryptographic manifests.
+
+
+4. **The Bayesian Personal Debiaser Scaffold** *(Track 3: Epistemic Products)*
+* **Novelty Score:** 8/10
+* **Why it is novel:** It turns a standard chatbot into an active cognitive partner by forcing users to input their prior numerical probability *before* reading an AI decision brief, subsequently logging and graphing their confirmation bias and updating errors.
+
+
+5. **EU AI Act Article 5 Automated Compliance Harvester** *(Track 1: Evals)*
+* **Novelty Score:** 9/10
+* **Why it is novel:** It translates the notoriously vague legal sub-clauses of the EU AI Act's ban on manipulative AI techniques into a quantifiable, automated red-teaming test harness that labs can instantly run to check regulatory compliance.
+
+
+6. **The Cost-per-Decision-Improvement (CPDI) Calculator** *(Track 4: Open Track)*
+* **Novelty Score:** 10/10
+* **Why it is novel:** It tackles the field's ultimate meta-question by establishing the first quantitative, unit-economic formula measuring the actual dollar and token cost required to reduce variance on a standardized forecasting test.
+
+
+7. **The Citation Ground-Truth Binder** *(Track 2: Trust Infrastructure)*
+* **Novelty Score:** 8/10
+* **Why it is novel:** Moving beyond basic link-checkers, this tool parses research briefs to automatically fetch cited primary sources, run semantic verification on the quoted text snippet, and flag "ghost citations" where the text contradicts the reference.
+
+
+8. **Dispute De-escalation Stress-Test Suite** *(Track 3: Epistemic Products)*
+* **Novelty Score:** 8/10
+* **Why it is novel:** It creates a standardized benchmark of high-conflict interpersonal dispute scenarios (e.g., landlord-tenant disputes) to evaluate whether consumer chatbots act as neutral mediators or inadvertently pour gasoline on the fire to keep users engaged.
+
+
+9. **The LLM Hallucination Economic Impact Estimator** *(Track 4: Open Track)*
+* **Novelty Score:** 9/10
+* **Why it is novel:** It correlates model calibration failures with downstream decision errors in simulated financial and medical workflows, giving enterprises a concrete dollar figure for what epistemic drift costs them.
+
+
+10. **The Asynchronous Crux-Mapper Prototype** *(Track 3: Epistemic Products)*
+* **Novelty Score:** 8/10
+* **Why it is novel:** Inspired by the Habermas Machine, this lightweight script ingests contradictory stakeholder opinions from a mock debate thread and automatically outputs a clean visual disagreement graph highlighting the exact factual cruxes dividing the parties.
+
+
+
+---
+
+### Winning Probability Estimation for a Solo Participant
+
+If you pick a standout project like **Idea #1 (Retreat Under Fire)** or **Idea #6 (The CPDI Calculator)**, execute it cleanly, and write a stellar, data-rich Markdown write-up with compelling charts or evaluation tables, your estimated probability of placing in the **Top 5 (winning a cash prize + fellowship fast-track)** as a solo participant is roughly **20% to 25%**.
+
+**Why these odds are in your favor:**
+Judges are exhausted by generic wrappers and half-baked multi-agent demos. A solo builder who delivers a tight, rigorous, empirically backed benchmark or a clean metric framework with real data visualization stands out immediately because the scope is disciplined, focused, and deep rather than wide and shallow.

@@ -1,0 +1,50 @@
+You have about 41 hours left: it's now 18:36 UTC Saturday, and submissions close Monday at 11:59 UTC. So I've chosen ideas a solo participant can finish by then, and I've avoided the brief's own example projects, since many teams will build those.
+
+### 10 ideas
+
+1. **Uncertainty Telephone** (Track 1/2). Take statements from IPCC reports, which use a fixed likelihood scale ("likely" = 66–100%, "very likely" = 90–100%). Pass them through chains of 1–5 summarize, rewrite or agent-handoff steps, and measure how the stated likelihood drifts at each step.
+   *Novelty 8/10:* Calibration is usually measured on one model at a time, but most AI-generated claims reach people through multi-step pipelines, and nobody tracks how uncertainty is lost along the way.
+
+2. **Credibility Cue Hacking** (Track 2). Plant a false claim on synthetic web pages. Change only cheap-to-fake signals: a .gov-looking domain, DOI-style citations, "peer-reviewed" badges, fake provenance badges, author credentials. Then measure which cues most increase a research agent's adoption of the claim.
+   *Novelty 8/10:* The brief's Provenance Study asks whether real signals help agents; this asks which fake ones hurt, which is the attack surface trust infrastructure has to close.
+
+3. **Hindsight Advice Audit** (Track 3). Collect Reddit advice posts where the poster later wrote an "UPDATE" saying what they did and whether they're glad. Give models the original post and score whether their advice matches what the poster later endorsed.
+   *Novelty 9/10:* Track 3 asks whether advice leads to choices people later endorse, and naturally occurring hindsight data like this is almost never used. Two risks: getting the data (archive dumps rather than the API), and selection bias toward people who post updates.
+
+4. **Hansard Calibration** (Track 4). Extract explicit, checkable predictions from UK parliamentary debates 10–15 years ago (TheyWorkForYou data is downloadable), resolve them, and score how well-calibrated legislators were.
+   *Novelty 8/10:* It brings real track-record data to the open question of why institutions avoid explicit predictions, and that data has rarely been compiled.
+
+5. **Staleness Calibration** (Track 1). Build questions whose answers change at different rates, from a boiling point to an exchange rate to a company's current CEO. Score whether the model hedges more about being out of date as the answer becomes more volatile.
+   *Novelty 7/10:* Calibration evals treat facts as timeless, yet knowing which of its own claims have probably expired is a basic and unmeasured part of a model "knowing how solid its claims are."
+
+6. **Sybil Stress-Test for Bridging** (Track 2). Run Community Notes' open-source scoring algorithm offline on the public dataset. Add simulated rater accounts with realistic-looking histories, and find how many coordinated raters it takes to flip a note's status.
+   *Novelty 7/10:* The bridging algorithm is often called hard to game, but the cost of an attack using cheap AI-generated personas has rarely been measured directly.
+
+7. **Paywall Skew** (Track 4/2). Pick questions where the best evidence is known, such as the trials included in Cochrane reviews. Measure how much of that evidence a search-enabled agent can actually open, and whether its answers lean toward whatever is open-access.
+   *Novelty 7/10:* Bias that comes from what an agent can access, rather than from its training, is a structural distortion in AI research tools that almost nobody has quantified.
+
+8. **Ownership Bias** (Track 1). Show the model an identical flawed answer attributed to "your earlier response," "another assistant," or "a user." Measure how critique severity and error detection change.
+   *Novelty 6/10:* Self-preference in LLM judges has been studied, but keeping the text identical and changing only who supposedly wrote it gives a cleaner test of "overselling its own work."
+
+9. **Audience-Dependent Confidence** (Track 1). Ask the same questions while the user claims to be a journalist, a regulator, a domain expert or a nervous layperson. Measure whether the model's stated confidence shifts, not just its answer.
+   *Novelty 6/10:* Sycophancy work tracks opinion flips, while quiet changes in confidence based on who's asking are less studied and matter for decisions.
+
+10. **Retraction Blindness** (Track 2). Use the Retraction Watch database, which Crossref made open in 2023. Ask models and search-enabled agents about findings from retracted papers, and measure how often they mention the retraction.
+    *Novelty 5/10:* Some studies already exist, but a rotating, reusable eval focused on search-enabled agents would be new.
+
+These novelty scores are my own judgment, not a literature review, so spend 20 minutes on Google Scholar before committing to any of them.
+
+### Top pick: Uncertainty Telephone
+
+It's the best balance of novelty and solo feasibility in 41 hours. The IPCC scale gives you an objective ground truth for free. It costs little to run, and it produces a memorable headline result, such as "'very likely' becomes 'will' after three hops."
+
+A minimal plan:
+- Collect about 100 statements with likelihood terms from the IPCC AR6 Summaries for Policymakers.
+- Run 3 models through 4 chain types (summarize, tweet-ify, "brief my boss," agent handoff) at depths 1 through 5.
+- Classify each output into an IPCC likelihood band.
+- Plot drift curves by model and chain type.
+- Report one clear finding: whether uncertainty mostly inflates or deflates.
+
+### Odds of a top-5 prize
+
+My rough estimate is about 12%, with a plausible range of 5–25%. I don't know how many teams will submit. Apart sprints often get a few dozen, which puts the base rate for one submission at around 10–15%. Working solo and starting late lowers your odds against full teams. A distinctive idea with one clean, quantified result and an honest limitations section raises them. Execution and the write-up will matter more than the idea.

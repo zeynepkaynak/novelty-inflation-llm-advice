@@ -1,0 +1,355 @@
+# **10 unconventional project ideas for the AI x Epistemics Research Sprint**
+
+My recommendation is to avoid building another generic hallucination detector, confidence benchmark, citation checker, or AI mediator. Those are already well represented in the sprint brief.
+
+The opportunity is to find an **undermeasured failure mode in how AI influences human beliefs and decisions**, demonstrate it with evidence, and build something judges can understand and test in under two minutes.
+
+I would optimise for five things:
+
+1. **Novelty:** Not a slightly modified version of an example project.
+2. **Research depth:** A surprising, measurable finding rather than just a working demo.
+3. **Solo feasibility:** Something one person can execute in the remaining sprint.
+4. **Demonstrability:** A judge can see the problem and your solution immediately.
+5. **Continuation potential:** A project that could become a paper, benchmark, open-source tool, or startup.
+
+The novelty scores below are my subjective estimates of differentiation against the supplied project ideas, not measured estimates of global research novelty.
+
+## **The 10 project ideas**
+
+**1. The Confidence Laundering Detector**
+
+My top pick
+
+# **10/10**
+
+Novelty
+
+Track 1
+
+**The question:** Can an AI gradually transform a weakly supported claim into something that sounds established simply by repeating, summarising, and rephrasing it?
+
+**The idea:** Build an evaluation that measures how uncertainty disappears as information passes through multiple AI-generated summaries.
+
+Example:
+
+- Original evidence: "A small observational study suggests a possible association."
+- First summary: "Research suggests a connection."
+- Second summary: "Studies show a connection."
+- Final recommendation: "This is an established relationship."
+
+Your benchmark would measure the loss of qualifications, uncertainty, caveats and source limitations at every transformation.
+
+**What you build:** A pipeline that generates multi-stage summaries, tracks individual claims, and calculates a confidence-laundering score. Compare several frontier models and different summarisation chains.
+
+**Why it is novel:** Existing honesty benchmarks tend to examine individual responses, whereas this investigates how epistemic distortion accumulates across chains of AI-mediated communication.
+
+**Why judges might like it:** It exposes a plausible systemic failure that ordinary hallucination benchmarks miss, and produces a measurable benchmark with a compelling visual demonstration.
+
+**2. The Epistemic Expiration Date**
+
+# **9.5/10**
+
+Novelty
+
+Track 2
+
+**The question:** When does an AI-generated answer stop being trustworthy?
+
+**The idea:** Build a system that attaches an epistemic expiration date to claims, rather than treating every answer as permanently valid.
+
+Examples:
+
+- A mathematical theorem: effectively no expiration.
+- A company's current CEO: potentially months.
+- A mortgage interest rate: potentially days.
+- A public-health recommendation: dependent on new evidence.
+
+Build a prototype that classifies claims by their expected rate of change, identifies the underlying evidence and flags claims that need refreshing.
+
+**What you build:** A claim registry with timestamps, source dependencies, volatility categories and automatic revalidation tests.
+
+**Why it is novel:** Most provenance systems record where information came from, but this makes the temporal durability of knowledge a first-class, machine-readable property.
+
+**3. The Counterfactual Advice Auditor**
+
+# **9.5/10**
+
+Novelty
+
+Track 3
+
+**The question:** Does an AI give different advice when the facts stay identical but the user's framing changes?
+
+Give a model identical decision scenarios with different emotional and rhetorical framing.
+
+For example:
+
+- "I have an amazing job offer. Should I accept?"
+- "I'm worried about accepting this job offer. Should I?"
+- "My parents think I should accept this job offer. Are they right?"
+
+The underlying salary, responsibilities, location, risks and alternatives remain identical.
+
+Measure whether the model's recommendation, confidence and identified trade-offs change.
+
+**What you build:** A counterfactual consistency benchmark with paired prompts, automated scoring and human-readable comparisons.
+
+**Why it is novel:** It isolates the influence of user framing on consequential recommendations rather than measuring generic sycophancy or answer-flipping.
+
+**4. The Evidence Escape Room**
+
+# **9/10**
+
+Novelty
+
+Track 1
+
+**The question:** Can a model recognise when the evidence available to it is fundamentally insufficient to answer a question?
+
+Give models research tasks containing:
+
+- Missing critical documents.
+- Contradictory primary sources.
+- Plausible but irrelevant evidence.
+- Unverifiable claims.
+- Evidence that supports multiple competing explanations.
+
+Reward models for identifying exactly what is missing and what evidence would resolve the uncertainty.
+
+**What you build:** A small adversarial benchmark measuring appropriate abstention, missing-evidence detection and the quality of proposed verification steps.
+
+**Why it is novel:** Rather than testing whether models can find correct answers, it tests whether they can diagnose why a correct answer cannot yet be established.
+
+**5. The Belief Reversibility Test**
+
+# **9/10**
+
+Novelty
+
+Track 1 / 3
+
+**The question:** Can an AI explain what evidence would actually change its mind?
+
+Ask models to make a recommendation and then specify:
+
+- Their strongest supporting evidence.
+- Their strongest counterargument.
+- What new evidence would reverse their conclusion.
+- How likely that reversal is.
+
+Then introduce the specified evidence and measure whether the model updates appropriately.
+
+**What you build:** A benchmark of precommitted belief-reversal conditions, with tests for whether subsequent updating is warranted.
+
+**Why it is novel:** It measures whether a model's uncertainty is operationally meaningful by testing its willingness to commit in advance to conditions under which it would change its position.
+
+**6. The Invisible Assumption Scanner**
+
+# **9/10**
+
+Novelty
+
+Track 3
+
+**The question:** How many important assumptions does AI advice quietly make without telling the user?
+
+Give models decision scenarios with missing information.
+
+For example, someone asks whether to accept a job offer. The model may implicitly assume:
+
+- They have financial savings.
+- They can relocate.
+- They prioritise career growth over stability.
+- Their current employer is unlikely to improve its offer.
+
+Build a system that extracts hidden assumptions, tests their importance and asks the user to verify the assumptions that could change the recommendation.
+
+**What you build:** An assumption-extraction tool and evaluation set measuring assumption coverage and decision sensitivity.
+
+**Why it is novel:** It focuses on unstated premises underlying advice, a different failure mode from factual hallucination and conventional recommendation quality.
+
+**7. The Epistemic Echo Chamber Simulator**
+
+# **8.5/10**
+
+Novelty
+
+Track 4
+
+**The question:** Can multiple individually reasonable AI agents collectively produce an increasingly distorted understanding of reality?
+
+Simulate a group of agents researching the same disputed topic. Each agent receives some overlapping and some unique information. They exchange summaries and revise their beliefs.
+
+Measure:
+
+- How quickly unsupported claims become shared beliefs.
+- Whether disagreement disappears without new evidence.
+- Whether minority evidence survives repeated summarisation.
+- Whether agents become more confident as independent evidence decreases.
+
+**What you build:** A small multi-agent simulation with configurable communication networks and belief tracking.
+
+**Why it is novel:** It studies emergent epistemic failure at the level of interacting information systems rather than the behaviour of one model.
+
+**8. The Decision Regret Observatory**
+
+# **9/10**
+
+Novelty
+
+Track 3
+
+**The question:** Can we identify advice that feels helpful today but people would regret following tomorrow?
+
+Build a small experiment using hypothetical but realistic decisions.
+
+Participants evaluate AI advice, rate their confidence and indicate what they would choose. Then expose them to carefully constructed subsequent information about consequences and ask whether they still endorse the decision.
+
+Measure the gap between immediate satisfaction and retrospective endorsement.
+
+**What you build:** A prototype decision-support interface and a small preregistered or transparently exploratory user study.
+
+**Why it is novel:** It evaluates advice using retrospective decision endorsement rather than treating immediate user satisfaction or answer quality as a proxy for actual benefit.
+
+**9. The Source Independence Detector**
+
+# **9/10**
+
+Novelty
+
+Track 2
+
+**The question:** When five sources report the same fact, are there actually five independent pieces of evidence?
+
+A common problem in AI research is that multiple websites repeat the same original reporting or dataset.
+
+Build a tool that traces claims through their citation networks and estimates how many genuinely independent evidence origins support them.
+
+**What you build:** A source-dependency graph, clustering repeated reporting, identifying common origins and distinguishing independent corroboration from repetition.
+
+**Why it is novel:** Conventional source counting rewards apparent agreement, whereas this evaluates the independence of evidence and exposes manufactured consensus.
+
+**10. The Epistemic Fire Drill**
+
+# **8.5/10**
+
+Novelty
+
+Track 4
+
+**The question:** Can an organisation detect when its AI-assisted decision-making infrastructure has become epistemically compromised?
+
+Create a simulation of a small organisation using AI for research and policy recommendations. Secretly introduce:
+
+- A corrupted primary source.
+- A misleading internal summary.
+- A false claim repeated by multiple agents.
+- An outdated policy document.
+- A compromised evidence citation.
+
+Measure how quickly the organisation detects the contamination and whether it can identify the original point of failure.
+
+**What you build:** An interactive red-team exercise with an auditable event log and a resilience score.
+
+**Why it is novel:** It treats epistemic integrity as an organisational resilience capability and tests whether a whole decision-making system can recover from compromised information.
+
+## **My ranking: which projects have the strongest competitive potential?**
+
+Novelty alone doesn't win. The best projects combine novelty with a convincing experiment and a deliverable judges can inspect.
+
+| Rank | Project                          | Novelty | Competitive potential             |
+| ---- | -------------------------------- | ------- | --------------------------------- |
+| 1    | Confidence Laundering Detector   | 10      | Very high                         |
+| 2    | Counterfactual Advice Auditor    | 9.5     | Very high                         |
+| 3    | Epistemic Expiration Date        | 9.5     | High                              |
+| 4    | Evidence Escape Room             | 9       | High                              |
+| 5    | Source Independence Detector     | 9       | High                              |
+| 6    | Belief Reversibility Test        | 9       | High                              |
+| 7    | Invisible Assumption Scanner     | 9       | High                              |
+| 8    | Decision Regret Observatory      | 9       | High, but research-dependent      |
+| 9    | Epistemic Echo Chamber Simulator | 8.5     | High, but technically riskier     |
+| 10   | Epistemic Fire Drill             | 8.5     | High, but needs careful execution |
+
+## **Prize probability estimate**
+
+My estimate for a solo participant choosing idea #1
+
+# **12%**
+
+Top-five prize
+
+Subjective estimate, conditional on executing a strong submission.
+
+**How I arrive at this estimate**
+
+- Five prizes are available.
+- The total number of competing submissions is unknown.
+- A solo participant has less implementation capacity than a coordinated team.
+- The project has a distinctive research question, a demonstrable failure mode and a plausible evaluation methodology.
+- A polished, reproducible experiment could outperform more ambitious but unfinished projects.
+
+My rough scenario estimates:
+
+| Execution quality                       | Top-five probability |
+| --------------------------------------- | -------------------- |
+| Basic prototype                         | 3–5%                 |
+| Good implementation                     | 8–12%                |
+| Strong experiment and polished write-up | 15–22%               |
+| Exceptional result and demonstration    | 25–35%               |
+
+These are judgement-based estimates, not statistically calibrated probabilities.
+
+## **What I would actually build in the remaining sprint**
+
+I would choose **Confidence Laundering Detector**.
+
+The key is to avoid building an overly ambitious system. Instead, produce one excellent experiment.
+
+**Research hypothesis**
+
+AI-generated summaries systematically remove uncertainty and qualifications from source material as information passes through multiple summarisation stages.
+
+**Experimental design**
+
+1. **Create 30 source documents.**
+
+   Use documents containing factual claims, qualifications, uncertainty, limitations and conflicting evidence.
+2. **Generate summary chains.**
+
+   Pass each document through one, three and five successive summarisation stages.
+3. **Extract and compare claims.**
+
+   Identify changes in confidence, attribution, certainty and evidential strength.
+4. **Measure epistemic degradation.**
+
+   Score whether important caveats disappear, claims become stronger or uncertainty is misrepresented.
+5. **Compare models.**
+
+   Test whether different models exhibit different rates of confidence laundering.
+6. **Publish a small benchmark.**
+
+   Release the original documents, generated summaries, scoring rubric, results and reproducible code.
+
+**Your final deliverables**
+
+- A working web demo.
+- A benchmark dataset.
+- A quantitative comparison of models.
+- A visualisation showing uncertainty degradation across stages.
+- A concise research paper explaining the findings.
+
+## **One important competitive advantage**
+
+Don't just show that summaries become more confident.
+
+Show that **the final summary can be misleading even when every individual summarisation step appears reasonable**.
+
+That is the potentially important research finding. It connects model honesty, trust infrastructure and real-world decision-making.
+
+It also creates a compelling story for the judges:
+
+> We have benchmarks for whether individual AI models hallucinate. But what happens when information travels through an ecosystem of AI systems? We discovered a measurable mechanism through which uncertainty disappears while apparent confidence increases.
+
+That is a stronger research contribution than simply building another chatbot with citations.
+
+**My final advice:** Aim for one unexpected empirical result, not ten features. A small, carefully controlled experiment with a compelling result is a much better solo submission than a sophisticated prototype without convincing evidence.

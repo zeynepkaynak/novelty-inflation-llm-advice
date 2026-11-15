@@ -1,0 +1,391 @@
+# **10 research project ideas for the AI x Epistemics Research Sprint**
+
+My recommendation is to optimize for **novelty + measurable evidence + feasibility within three days + judging appeal**, rather than simply building the most impressive-looking AI application.
+
+I've based these proposals on the sprint brief, including its four tracks, suggested readings, existing benchmarks, example projects and judging opportunities.
+
+One important observation: the organizers already provide examples such as MisleadBench, FlipRate, Citation Binder, Provenance Study and Crux Mapper. Submitting a slightly modified version of one of these is unlikely to stand out.
+
+The strongest strategy is to investigate an overlooked question, produce measurable findings, and build a small working demonstration.
+
+## **1. The 10 project ideas**
+
+### **Idea 1 — Epistemic Stress Test: Can AI Recognize When Evidence Is Being Manipulated?**
+
+My top pick
+
+Novelty: 9.8/10
+
+Track 1
+
+**Concept:** Build an evaluation benchmark that tests whether AI models can distinguish genuine evidence from strategically manipulated evidence.
+
+Rather than testing conventional hallucinations, expose models to situations involving:
+
+- Real sources presented with misleading context.
+- Fabricated statistics mixed with accurate facts.
+- Genuine research papers with misrepresented conclusions.
+- Multiple individually credible sources that all originate from the same unreliable source.
+- Evidence that is technically correct but deliberately selected to create a false conclusion.
+
+**What makes it novel?**
+
+Existing benchmarks test deception, sycophancy and hallucinations, but this project investigates whether models can recognize *adversarially constructed evidence environments* rather than merely identify false statements.
+
+**Three-day deliverable:** A dataset of 100 adversarial scenarios, evaluations of 3–5 models, and a leaderboard measuring evidence-manipulation resistance.
+
+### **Idea 2 — The Confidence Half-Life: How Quickly Does AI Forget Why It Was Confident?**
+
+
+
+Novelty: 9.6/10
+
+Track 1
+
+
+
+**Concept:** Investigate whether a model's confidence remains stable when its original evidence becomes outdated, contradicted or unavailable.
+
+Test models across successive stages:
+
+1. Present a question and supporting evidence.
+2. Ask for a confidence estimate.
+3. Introduce new contradictory evidence.
+4. Remove or invalidate the original source.
+5. Measure whether the model appropriately revises its confidence.
+
+**What makes it novel?**
+
+Instead of measuring confidence calibration at a single moment, it measures the temporal durability of a model's epistemic commitments and whether confidence decays appropriately as evidence deteriorates.
+
+**Three-day deliverable:** A confidence-decay benchmark, visualizations of confidence trajectories and comparative model results.
+
+### **Idea 3 — The Evidence Debt Detector: Measuring Unsupported Assumptions in AI Research**
+
+
+
+Novelty: 9.5/10
+
+Track 2
+
+
+
+**Concept:** Develop a tool that identifies hidden assumptions accumulating inside an AI-generated research report.
+
+For example, a report might contain 20 statements, of which:
+
+- 8 have directly supporting evidence.
+- 5 rely on indirect evidence.
+- 4 are plausible but unverified.
+- 3 depend on assumptions that were never disclosed.
+
+The tool constructs an evidence-dependency graph showing how conclusions depend on increasingly weak assumptions.
+
+**What makes it novel?**
+
+Citation verification typically asks whether a source supports a particular sentence; this project investigates how unsupported assumptions propagate across an entire chain of reasoning and contaminate downstream conclusions.
+
+**Three-day deliverable:** A prototype that accepts a research report and produces an evidence-dependency graph with an assumption-risk score.
+
+### **Idea 4 — The AI Regret Predictor: Can AI Predict Which Advice Users Will Regret Following?**
+
+
+
+Novelty: 9.4/10
+
+Track 3
+
+
+
+**Concept:** Investigate whether AI can distinguish advice that feels satisfying immediately from advice that people would endorse after reflecting on its consequences.
+
+Create simulated decision scenarios involving:
+
+- Accepting a job offer.
+- Ending a relationship.
+- Making a significant purchase.
+- Confronting a colleague.
+- Signing a rental agreement.
+
+Compare immediate satisfaction ratings with delayed, counterfactual endorsement judgments.
+
+**What makes it novel?**
+
+Most AI advice evaluations emphasize immediate helpfulness and user satisfaction, whereas this project makes the gap between immediate satisfaction and later decision endorsement its central measurement target.
+
+**Three-day deliverable:** A decision-evaluation framework, a small participant study or carefully labeled simulated study, and an initial regret-prediction model.
+
+### **Idea 5 — The Consensus Illusion Detector: When AI Makes Disagreement Disappear**
+
+
+
+Novelty: 9.3/10
+
+Track 3
+
+
+
+**Concept:** Investigate whether AI-generated summaries of group discussions systematically exaggerate agreement.
+
+Give models transcripts containing:
+
+- Genuine consensus.
+- Partial agreement.
+- Unresolved disagreements.
+- Politely expressed opposition.
+- Contradictory beliefs hidden behind shared terminology.
+
+Compare the original positions with the AI-generated summary.
+
+**What makes it novel?**
+
+Existing consensus-building approaches focus on finding common ground, while this project measures the potentially harmful phenomenon of AI manufacturing an appearance of agreement where substantive disagreement remains.
+
+**Three-day deliverable:** A benchmark of group-discussion transcripts, a consensus-distortion metric and model comparisons.
+
+### **Idea 6 — The Source Contagion Experiment: Can One Bad Source Poison an Entire AI Investigation?**
+
+
+
+Novelty: 9.2/10
+
+Track 2
+
+
+
+**Concept:** Measure how a single unreliable source affects the conclusions of an AI research agent.
+
+Run identical research tasks under different conditions:
+
+- All sources are reliable.
+- One source contains fabricated information.
+- One source is reliable but selectively misleading.
+- Several sources repeat the same original misinformation.
+- Source reliability metadata is available or hidden.
+
+Measure whether the AI detects the contamination and whether the false information spreads into its final conclusions.
+
+**What makes it novel?**
+
+Rather than simply scoring individual source reliability, this project measures the propagation of misinformation through an AI agent's entire research process, including the influence of apparently independent sources that share an origin.
+
+**Three-day deliverable:** A controlled experiment, a source-contamination score and a visualization of misinformation propagation.
+
+### **Idea 7 — The Epistemic Dark Pattern Detector: Does AI Manipulate Without Actually Lying?**
+
+
+
+Novelty: 9.1/10
+
+Track 1
+
+
+
+**Concept:** Build an evaluation system for subtle forms of misleading AI communication.
+
+Test whether models manipulate users through:
+
+- Selective omission.
+- Artificial urgency.
+- False impressions of expert consensus.
+- Emotionally loaded framing.
+- Unjustified certainty.
+- Strategic presentation of only favorable alternatives.
+
+The key is that individual statements can remain factually accurate while the overall message is misleading.
+
+**What makes it novel?**
+
+Instead of evaluating explicit deception, this project develops a measurable taxonomy of misleading communication patterns that can occur even when every individual factual claim is technically true.
+
+**Three-day deliverable:** A 100–150-prompt benchmark, a manipulation taxonomy and a comparative evaluation of frontier models.
+
+### **Idea 8 — The Prediction Accountability Machine: Does AI Remember What It Previously Claimed?**
+
+
+
+Novelty: 9.0/10
+
+Track 2
+
+
+
+**Concept:** Create an infrastructure prototype that records AI predictions before outcomes are known and evaluates them afterward.
+
+For every prediction, record:
+
+- Original timestamp.
+- Exact prediction.
+- Confidence level.
+- Supporting evidence.
+- Subsequent revisions.
+- Final outcome.
+
+The system should prevent silent retrospective editing and distinguish legitimate updates from attempts to rewrite previous claims.
+
+**What makes it novel?**
+
+While forecasting platforms score predictions and audit systems preserve logs, this project combines prediction accountability with tamper-evident records of how an AI's beliefs evolved.
+
+**Three-day deliverable:** A functioning prediction ledger, a simple interface and a demonstration with historical forecasting questions.
+
+### **Idea 9 — The Epistemic Inequality Index: Who Benefits From AI's Knowledge?**
+
+
+
+Novelty: 9.4/10
+
+Track 4
+
+
+
+**Concept:** Investigate whether AI epistemic tools provide equally reliable advice to people with different levels of education, expertise and communication ability.
+
+Create matched scenarios in which users ask the same substantive question using:
+
+- Expert terminology.
+- Everyday language.
+- Poorly structured questions.
+- Non-native English.
+- Incomplete information.
+
+Evaluate differences in accuracy, uncertainty disclosure, source quality and recommendation quality.
+
+**What makes it novel?**
+
+Instead of treating model accuracy as a universal property, this project measures whether epistemic reliability is unequally distributed according to how effectively different users can communicate with AI.
+
+**Three-day deliverable:** A matched-prompt evaluation dataset, an epistemic inequality score and a comparison across models.
+
+### **Idea 10 — The Decision Autopsy: Can AI Explain Why a Decision Went Wrong?**
+
+
+
+Novelty: 9.3/10
+
+Track 4
+
+
+
+**Concept:** Build an AI tool that reconstructs the epistemic failures behind documented bad decisions.
+
+Use publicly documented cases involving business failures, policy decisions or forecasting mistakes.
+
+The tool identifies:
+
+1. What decision-makers knew at the time.
+2. Which evidence they overlooked.
+3. Which assumptions proved incorrect.
+4. Which warnings were available.
+5. Whether the failure was predictable using information available at the time.
+
+**What makes it novel?**
+
+Most epistemic evaluation measures the quality of information or predictions before a decision, whereas this project develops a retrospective framework for identifying which specific information failures caused poor decisions.
+
+**Three-day deliverable:** Three to five documented case studies, an epistemic failure taxonomy and a prototype decision-autopsy report.
+
+## **2. Overall ranking**
+
+These scores are my assessments, not scores supplied by the organizers.
+
+| Rank | Project                           | Novelty |
+| ---- | --------------------------------- | ------- |
+| 1    | Epistemic Stress Test             | 9.8     |
+| 2    | Confidence Half-Life              | 9.6     |
+| 3    | Evidence Debt Detector            | 9.5     |
+| 4    | Epistemic Inequality Index        | 9.4     |
+| 5    | AI Regret Predictor               | 9.4     |
+| 6    | Decision Autopsy                  | 9.3     |
+| 7    | Consensus Illusion Detector       | 9.3     |
+| 8    | Source Contagion Experiment       | 9.2     |
+| 9    | Epistemic Dark Pattern Detector   | 9.1     |
+| 10   | Prediction Accountability Machine | 9.0     |
+
+## **3. Which idea gives a solo participant the best chance of winning?**
+
+My recommendation is **Idea 1: Epistemic Stress Test**.
+
+Here's why I would choose it over the others:
+
+| Judging consideration      | Assessment |
+| -------------------------- | ---------- |
+| Novelty                    | Very high  |
+| Feasibility for one person | High       |
+| Technical complexity       | Moderate   |
+| Measurable results         | Very high  |
+| Demonstration potential    | Very high  |
+| Research value             | High       |
+| Potential for continuation | High       |
+
+The most important advantage is that you can produce actual experimental results within three days, rather than spending the entire sprint building an ambitious application.
+
+You can also make a strong research contribution even if the models perform surprisingly well: identifying which manipulation techniques they resist and which ones they fail to detect is valuable in itself.
+
+## **4. Probability of winning a top-5 prize**
+
+My estimated probability for Idea 1
+
+# **15%**
+
+**Top-5 prize probability for a solo participant**
+
+Subjective estimate, not a statistically validated probability.
+
+| Scenario                              | Estimated probability |
+| ------------------------------------- | --------------------- |
+| Basic implementation                  | 5–8%                  |
+| Strong execution                      | 12–18%                |
+| Exceptional research and presentation | 20–30%                |
+
+Why 15%?
+
+- There are five prize positions, but the number and quality of competing submissions are unknown.
+- Your project would address a central question in the sprint rather than an unrelated AI application.
+- A reproducible experiment with quantitative results gives judges something concrete to evaluate.
+- A solo participant can realistically complete a tightly scoped version.
+- The project could produce findings that are useful beyond the sprint.
+
+I would not estimate a higher probability without knowing the competition size, judging rubric and quality of other submissions.
+
+## **5. My suggested execution strategy**
+
+If I were entering this sprint alone, I would use the following three-day plan.
+
+1. **Day 1 — Research design**
+   - Define five categories of evidence manipulation.
+   - Create 100 test scenarios.
+   - Establish objective scoring criteria.
+   - Select 3–5 AI models.
+2. **Day 2 — Experimentation**
+   - Run the benchmark.
+   - Record model responses.
+   - Evaluate evidence detection and confidence calibration.
+   - Identify systematic failure patterns.
+3. **Day 3 — Research contribution**
+   - Analyze the results.
+   - Build a simple interactive leaderboard.
+   - Publish the benchmark and methodology.
+   - Write a concise research report with limitations and future directions.
+
+## **6. One final strategic recommendation**
+
+Don't make the project simply another benchmark.
+
+Make it a benchmark that reveals something unexpected.
+
+For example, your central research question could be:
+
+> Can an AI model distinguish genuinely trustworthy evidence from evidence that is deliberately engineered to look trustworthy, even when every individual source appears credible?
+
+This is a much stronger research question than simply asking whether AI can detect misinformation.
+
+**My final verdict:** Choose Epistemic Stress Test, but make the research contribution the discovery of *which forms of evidence manipulation systematically defeat AI reasoning*. The benchmark is the instrument; the findings are the contribution.
+
+One important caveat: the sprint brief already mentions several related benchmarks, so your literature review must establish exactly what your manipulation taxonomy and experimental design add beyond existing work.&#x20;
+
+Yapıştırılan markdown(2).md
+
+
+
+I can also help turn the winning idea into a complete research proposal, including the hypothesis, experimental methodology, dataset design, scoring rubric and three-day implementation plan.

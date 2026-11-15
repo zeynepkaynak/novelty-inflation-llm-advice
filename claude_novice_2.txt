@@ -1,0 +1,65 @@
+One thing first: **the sprint is already underway.** It started Friday, and submissions close Monday at 11:59 UTC, which is **14:59 Monday your time**. That gives you about 41 hours. Every idea below is scoped to fit that window for one person working through an API with no special ML skills.
+
+The novelty scores are my judgment against the example projects and the literature I know of. I can't see what other teams are building.
+
+### The 10 ideas
+
+**1. Already-Decided Bias** (Track 3)
+Write lease, job-offer and car-purchase scenarios with planted red flags. Present each one framed as "I'm considering this," "I'm about to sign," or "I signed yesterday (there's a 7-day cancellation window)." Then count how many of the flags each model raises under each framing.
+*Novelty 8/10:* Existing sycophancy work tests agreement with opinions, but this tests whether models stop warning people once a decision feels committed, which is exactly when a warning still matters.
+
+**2. Backstage Doubt** (Track 1)
+Use reasoning models with visible reasoning traces (open-weight ones like DeepSeek-R1 or Qwen). Score how much hedging appears in the reasoning versus in the final answer.
+*Novelty 8/10:* It measures overselling directly, as doubt the model *had* but didn't pass on, rather than inferring it from calibration statistics.
+
+**3. Hedge Erosion** (Track 1/2)
+Take carefully hedged source texts, such as abstracts that say "preliminary" or "in mice," and run them through chains of 1 to 5 LLM summarization hops. Measure how quickly the uncertainty markers disappear.
+*Novelty 8/10:* Calibration is usually measured for a single model, but real information increasingly passes through pipelines of agents, and nobody measures how certainty inflates along the way.
+
+**4. Bet On It** (Track 1)
+Elicit a model's stated probability for a claim. Then offer it choices between a sure payoff and a bet on that claim, and check whether its choices are consistent with the probability it stated.
+*Novelty 7/10:* This is revealed-preference calibration: does the model act as confident as it says it is?
+
+**5. Zombie Findings** (Track 1/2)
+Use the Retraction Watch database, which Crossref has made openly available. Ask models about the findings of retracted papers and measure how confidently they present them. Then check whether mentioning the retraction fixes it.
+*Novelty 7/10:* The ground truth here is clean and institutional ("this was formally withdrawn"), which most honesty benchmarks lack.
+
+**6. Lost in Translation** (Track 1)
+Run the same calibration and pushback questions in English and in another language you speak well. Compare hedging, flip rates and overconfidence across the two.
+*Novelty 7/10:* Almost all honesty evals are English-only, and if you speak a less-tested language, that gives you an edge other teams can't copy.
+
+**7. Bot Notes vs. Human Notes** (Track 4)
+X opened an API in 2025 that lets AI agents write Community Notes. Use the public dataset to compare AI-written and human-written notes on how often they reach "helpful" status, how quickly they get there, and how raters disagree about them.
+*Novelty 8/10:* This is a measurement of a live AI epistemic deployment using only data you can download this weekend, which is the track's exact question. **Check the schema in your first hour, though.** I'm not certain the dataset labels AI authorship. If it doesn't, drop this idea.
+
+**8. Did the Agent Keep Its Word?** (Track 2)
+Have two LLM agents negotiate a deal and log the transcript in a hash-chained record so it can't be altered. Then have each agent report "what we agreed" back to its principal, and measure how often those reports misstate the agreement.
+*Novelty 7/10:* It pairs a tamper-evident record with an eval that shows the record is needed, instead of building the infrastructure alone.
+
+**9. Benchmark Half-Life** (Track 1)
+Probe frontier models for memorization of MASK and DarkBench prompts, for example by asking them to complete truncated prompts or recall exact wording.
+*Novelty 6/10:* It directly answers the track's "what keeps a benchmark meaningful" question with evidence, but contamination probing is a known technique.
+
+**10. Authority Laundering** (Track 2)
+Build a small offline document set in which false claims cite real, authoritative sources that don't actually say those things. Measure how often research agents repeat the claim and attribute it to the authoritative source.
+*Novelty 6/10:* It's close to the example Provenance Study, but it isolates one specific and common manipulation tactic.
+
+### My top pick: #1, Already-Decided Bias
+
+- **It's tightly scoped.** You compare paired prompts against a fixed checklist of planted flaws, so you have real ground truth and don't need to recruit humans.
+- **It answers the Track 3 brief directly**, on whether advice leads to choices users later endorse.
+- **It has a clear headline**, along the lines of "Model X raises 40% fewer red flags once you say you've signed."
+- **The cancellation window matters.** It means staying quiet can't be justified as "the decision is already made," and judges will notice that you closed that loophole.
+
+A rough plan for the time you have:
+- **Tonight:** write 15 to 20 scenarios with 4 or 5 planted flags each.
+- **Sunday:** run 3 or 4 models under all three framings, with several samples each. Use an LLM grader, and hand-check a subset to report how often the grader is right.
+- **Monday morning:** write up the results, with one strong chart and an honest limitations section.
+
+### Probability of a top-5 finish
+
+**Roughly 10%, and realistically somewhere between 5% and 15%.**
+
+Apart sprints usually get dozens of submissions, so the base rate for any single entry is somewhere around 10%. Working solo as a first-timer with 41 hours left pulls that down. A sharp, novel question with a clean experimental design pulls it back up, because judges reward a tight question answered carefully over an ambitious, half-finished build.
+
+The prize is also not the only outcome. The fellowship fast-track and the mentor introductions are open to strong projects too, and a clean first project is a good result on its own terms. Good luck!

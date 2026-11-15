@@ -1,0 +1,59 @@
+claude_notr_1
+model: gizli
+
+You have about 42 hours left (submissions close Monday 11:59 UTC), so every idea below is scoped for one person working from data you can download today. I also steered away from the brief's own example projects (MisleadBench, FlipRate, Citation Binder, Crux Mapper and so on), since many teams will build those.
+
+## 10 project ideas
+
+**1. Do coding agents tell the truth about their own work? (Track 1)**
+Public SWE-bench submissions include full agent trajectories and the official test results. Pull out each agent's final self-report ("I ran the tests and they pass," "this fixes the issue") and check it against what actually happened in the log and the test results. You get an overclaim rate per agent system, broken down by type of claim.
+*Novelty: 9/10.* This measures "overselling its own work" on real agent behavior with ground truth already attached, not on built scenarios.
+
+**2. Hedge decay in agent pipelines (Track 1/2)**
+Feed claims with known uncertainty through a 3–4 step LLM chain (research → summarize → brief → recommend). Measure how much hedging survives each step. The output is a "confidence laundering" curve.
+*Novelty: 8/10.* Calibration is almost always measured on a single model, but real systems pass outputs between models, and nobody measures what gets lost at each handoff.
+
+**3. The hedge-word exchange rate (Track 1/3)**
+Collect the verbal probability words models use ("likely," "possible," "almost certainly") and ask the same models for numbers. Compare both against public survey data on how people interpret those words. The headline result is the gap between what a model means and what a reader hears.
+*Novelty: 7/10.* It links model calibration to how readers perceive it, which matters more for real decisions than calibration measured in isolation.
+
+**4. Counterfactual sensitivity of recommendations (Track 1/3)**
+Give models decision briefs (job offers, leases). Then change one decisive fact, and separately change one irrelevant fact. A good advisor shifts on the first and ignores the second, so you can score decision quality without waiting for outcomes.
+*Novelty: 7/10.* It answers the "ground truth arrives later" problem by testing whether advice tracks the evidence that matters.
+
+**5. "@grok is this true?" in the Community Notes data (Track 4)**
+Download the public Community Notes dataset and measure how often notes mention, cite or correct AI chatbot answers. Look at how those notes are rated and how fast they reach "helpful" status, compared with other notes.
+*Novelty: 9/10.* This fits the brief's own question about measuring a live deployment with data downloadable this weekend, using an AI fact-checking deployment that few people have studied yet.
+
+**6. Gaming the track-record ledger (Track 2)**
+Use downloadable forecasting data (Manifold publishes its data) to simulate strategic forecasters who pick easy questions, hedge toward the crowd or quietly abandon bets. Show how much each tactic inflates common reliability scores, then propose a difficulty-adjusted score that resists those tactics.
+*Novelty: 7/10.* Most teams will build a reliability score, but very few will attack one, and the brief explicitly asks which scores are hardest to cheat.
+
+**7. Trust signals as an attack surface (Track 2)**
+The brief's Provenance Study asks whether trust metadata helps agents. Flip it around: give agents spoofed high-reputation signals or forged provenance attached to false claims, and measure whether adding trust metadata makes them easier to fool.
+*Novelty: 7/10.* It tests the downside the infrastructure community assumes away.
+
+**8. Escalation in the message you actually send (Track 3)**
+The example benchmark scores the advice chatbots give in disputes. Instead, score the drafts they write when a user says "help me reply to my landlord." Compare the tone and escalation of the AI draft with the user's original draft.
+*Novelty: 6/10.* It is close to the example project, but it measures the artifact that reaches the other person, which is where the harm happens.
+
+**9. The epistemic tools graveyard (Track 4)**
+Build a structured dataset of 20–30 discontinued or pivoted forecasting, fact-checking and deliberation tools. Code each one for cause of death: funding, adoption, trust, procurement, or the founders moving on.
+*Novelty: 8/10.* The field's survey names adoption as the main bottleneck, but no one has systematically documented the failures, and this needs no ML at all.
+
+**10. Benchmark format vs. real-world format calibration (Track 1)**
+Ask the same questions two ways: as clean multiple-choice items and as messy, realistic user messages. Measure whether confidence and accuracy carry over from one format to the other.
+*Novelty: 6/10.* It directly tests the brief's question of whether doing well on a benchmark predicts real decision behavior, though eval-awareness is already a known topic.
+
+## Probability estimate for the top idea
+
+**About 12%** (plausible range 7–20%) that a solo participant picking idea #1 places in the top 5.
+
+How I got there:
+- **Base rate:** Apart sprints often draw a few dozen to over a hundred submissions. With around 50, a random entrant has about a 10% chance of top 5.
+- **Points in its favor:** It maps directly onto a question the brief asks ("overselling its own work"). It uses real data with ground truth already attached. It produces one clear headline number, and judges tend to reward a sharp empirical finding over a sprawling prototype.
+- **Points against it:** You're solo with about 1.5 days left. Parsing the trajectories could eat your time. And if your claim-extraction step isn't validated (hand-check 50 cases), judges will discount the result.
+
+The biggest lever is the writeup. A tight question, a validated method, one strong chart and an honest limitations section beat a bigger but sloppier project.
+
+These novelty scores are my judgment of what other teams are likely to submit, not data from this sprint, so treat them as rough.

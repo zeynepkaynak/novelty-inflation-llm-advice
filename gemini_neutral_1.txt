@@ -1,0 +1,61 @@
+Here are 10 distinct, high-impact project ideas designed to stand out from typical sprint submissions by combining rigorous measurement, novel tooling, or cross-disciplinary depth across the four tracks.
+
+---
+
+### 1. Adversarial "Memory Gaslighting" Evals for Long-Context Agents *(Track 1)*
+
+* **Novelty Score:** 9/10
+* **Why it's novel:** While most benchmarks test single-turn sycophancy or static hallucinations, this evaluates whether extended context-window models dynamically corrupt their own established factual baseline when fed subtle, multi-turn false premises disguised as user corrections.
+
+### 2. Cryptographic Citation Binders with Local Keypair Signing *(Track 2)*
+
+* **Novelty Score:** 8/10
+* **Why it's novel:** It moves beyond simple text-matching citation checkers by implementing a lightweight, verifiable tool where research agents cryptographically sign every retrieved claim hash using local keys to create an immutable audit trail for policy briefs.
+
+### 3. The Pre-Decision Regret & Calibration Sandbox *(Track 3)*
+
+* **Novelty Score:** 8/10
+* **Why it's novel:** It tackles the gap between short-term user satisfaction and long-term decision quality by forcing users to log their anticipated post-decision regret before receiving AI advice, creating a built-in feedback loop for personal calibration.
+
+### 4. The Epistemic Gini Coefficient: Measuring Information Inequality *(Track 4)*
+
+* **Novelty Score:** 9/10
+* **Why it's novel:** It introduces a quantitative metric to the Open Track that measures the structural disparity between high-resourced institutional actors and the public in accessing structured uncertainty and rigorous forecasting tools.
+
+### 5. Multi-Peer Adversarial Collapse (The Echo-Chamber Stress Test) *(Track 1)*
+
+* **Novelty Score:** 7/10
+* **Why it's novel:** Instead of testing a model against a single human prompter, this benchmark forces a target model to maintain its confidence when placed in a simulated multi-agent panel where peers unanimously endorse a sophisticated false alternative.
+
+### 6. Automated C2PA Provenance Wrapper for Live Web Scraping *(Track 2)*
+
+* **Novelty Score:** 8/10
+* **Why it's novel:** It bridges trust infrastructure and everyday research workflows by instantly wrapping scraped web content with C2PA-compliant local provenance manifests to prevent unverified URLs from silently injecting hallucinations into downstream agent memory.
+
+### 7. Mediation Co-Pilot with Real-Time Escalation Vector Scoring *(Track 3)*
+
+* **Novelty Score:** 7/10
+* **Why it's novel:** It turns dispute-resolution chat interfaces into de-escalation tools by training or prompting models to explicitly flag toxic framing patterns and suggest interest-based reframings grounded in empirical mediation science.
+
+### 8. Parliamentary Dissent-Suppression Audit *(Track 4)*
+
+* **Novelty Score:** 9/10
+* **Why it's novel:** It applies empirical data science to political science by quantitatively testing whether LLM-generated legislative summaries systematically suppress minority dissent vectors and alternative policy arguments compared to raw parliamentary transcripts.
+
+### 9. Multi-Turn Implicit-Explicit Divergence Scraper *(Track 1)*
+
+* **Novelty Score:** 8/10
+* **Why it's novel:** It isolates the delta between what a model *implies* in its initial framing versus what it is willing to *defend* under mild, structured pushback across a multi-turn evaluation chain.
+
+### 10. Community Notes Semantic Vulnerability Mapper *(Track 2)*
+
+* **Novelty Score:** 7/10
+* **Why it's novel:** It feeds thousands of historical Twitter/X Community Notes into frontier models to map their blind spots, exposing precisely which types of logical fallacies or nuanced context models fail to anticipate on their own.
+
+---
+
+### Solo Win Probability Estimate
+
+If a solo participant picks a top-tier concept like **Idea #4 (The Epistemic Gini Coefficient)** or **Idea #1 (Adversarial Memory Gaslighting Evals)** and executes it cleanly with a tight write-up and reproducible code or data, the estimated probability of winning a top-5 prize is **18% to 22%**.
+
+While teams have more raw engineering bandwidth, solo participants frequently punch above their weight in research sprints by delivering deeply coherent conceptual framing, tight scopes, and pristine written outputs that judges can easily evaluate and champion.
